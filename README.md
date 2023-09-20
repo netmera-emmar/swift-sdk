@@ -34,11 +34,78 @@ import NetmeraNotificationInbox
 import NetmeraAdvertisingId
 ```
 
-2.  Add the following code to your `application(_:didFinishLaunchingWithOptions:)` method, replacing the  `API_KEY` placeholders with your actual API Key values:
+2. Initialize Netmera in your App.
+
+There are two ways to initialize Netmera.
+
+#### First Option: (Recommended)
+Configure with Plist. Add Netmera-Config.plist file to your project. Copy the following code into the Plist file and replacing the  `API_KEY` placeholders with your actual API Key value.
+
+```xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>sdk_params</key>
+	<dict>
+		<key>app_group_name</key>
+		<string>{AppGroupName}</string>
+		<key>use_ui_scene</key>
+		<false/>
+		<key>api_key</key>
+		<string>{API_KEY}</string>
+		<key>base_url</key>
+		<string>{BaseURL}</string>
+		<key>custom_events</key>
+		<array>
+			<string>{YourCustomEvent}</string>
+		</array>
+	</dict>
+	<key>location_max_active_region</key>
+	<string></string>
+	<key>in_app_message_settings</key>
+	<dict>
+		<key>TextColor</key>
+		<string>{hexcolor. For ex-&gt; 16777215}</string>
+		<key>TitleColor</key>
+		<string>{hexcolor. For ex-&gt; 16777215}</string>
+		<key>BackgroundColor</key>
+		<string>{hexcolor. For ex-&gt; 16777215}</string>
+		<key>CancelButtonBackgroundColor</key>
+		<string>{hexcolor. For ex-&gt; 16777215}</string>
+		<key>TitleFont</key>
+		<string>{font family name. ex -&gt; ariel}</string>
+		<key>TextFont</key>
+		<string>{font family name. ex -&gt; ariel}</string>
+		<key>CancelButtonRadius</key>
+		<string>{10 sd px}</string>
+		<key>ShadowOpacity</key>
+		<string>{0-1}</string>
+		<key>BottomPaddingRatio</key>
+		<string>{between 0.01 - 1}</string>
+		<key>CancelButtonImage</key>
+		<string>{imagename}</string>
+	</dict>
+	<key>blacklist_screen_names</key>
+	<array/>
+</dict>
+</plist>
+
+```
+
+Call Netmera initialize method in your `application(_:didFinishLaunchingWithOptions:)` method.
+
+```swift
+Netmera.initialize()
+```
+
+#### Second Option:
+Add the following code to your `application(_:didFinishLaunchingWithOptions:)` method, replacing the  `API_KEY` placeholders with your actual API Key value:
 
 ```swift
 let netmeraParams = NetmeraParams(
-  apiKey: "SDK_API_KEY",
+  apiKey: "API_KEY",
   baseUrl: "", // Optional; For On-premise setup
   appGroupName: "", // Optional; to use carousel&slider push
   customEvents: [CustomLoginEvent.self] // Optional; give list of all custom event class type
