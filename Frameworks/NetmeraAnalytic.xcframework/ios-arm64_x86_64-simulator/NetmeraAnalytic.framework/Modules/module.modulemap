@@ -1,0 +1,11 @@
+framework module NetmeraAnalytic {
+  umbrella header "NetmeraAnalytic.h"
+  export *
+
+  module * { export * }
+}
+
+module NetmeraAnalytic.Swift {
+  header "NetmeraAnalytic-Swift.h"
+  requires objc
+}

@@ -1,0 +1,11 @@
+framework module NetmeraNotificationCore {
+  umbrella header "NetmeraNotificationCore.h"
+  export *
+
+  module * { export * }
+}
+
+module NetmeraNotificationCore.Swift {
+  header "NetmeraNotificationCore-Swift.h"
+  requires objc
+}

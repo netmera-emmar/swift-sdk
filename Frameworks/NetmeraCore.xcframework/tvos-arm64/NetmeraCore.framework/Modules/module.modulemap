@@ -1,0 +1,11 @@
+framework module NetmeraCore {
+  umbrella header "NetmeraCore.h"
+  export *
+
+  module * { export * }
+}
+
+module NetmeraCore.Swift {
+  header "NetmeraCore-Swift.h"
+  requires objc
+}
