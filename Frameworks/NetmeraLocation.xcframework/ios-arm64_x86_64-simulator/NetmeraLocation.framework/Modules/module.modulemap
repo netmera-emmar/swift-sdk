@@ -1,0 +1,11 @@
+framework module NetmeraLocation {
+  umbrella header "NetmeraLocation.h"
+  export *
+
+  module * { export * }
+}
+
+module NetmeraLocation.Swift {
+  header "NetmeraLocation-Swift.h"
+  requires objc
+}

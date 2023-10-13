@@ -1,0 +1,11 @@
+framework module NetmeraAdvertisingId {
+  umbrella header "NetmeraAdvertisingId.h"
+  export *
+
+  module * { export * }
+}
+
+module NetmeraAdvertisingId.Swift {
+  header "NetmeraAdvertisingId-Swift.h"
+  requires objc
+}

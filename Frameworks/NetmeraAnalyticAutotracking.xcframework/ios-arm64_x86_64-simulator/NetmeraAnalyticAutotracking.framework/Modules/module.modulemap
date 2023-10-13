@@ -1,0 +1,11 @@
+framework module NetmeraAnalyticAutotracking {
+  umbrella header "NetmeraAnalyticAutotracking.h"
+  export *
+
+  module * { export * }
+}
+
+module NetmeraAnalyticAutotracking.Swift {
+  header "NetmeraAnalyticAutotracking-Swift.h"
+  requires objc
+}

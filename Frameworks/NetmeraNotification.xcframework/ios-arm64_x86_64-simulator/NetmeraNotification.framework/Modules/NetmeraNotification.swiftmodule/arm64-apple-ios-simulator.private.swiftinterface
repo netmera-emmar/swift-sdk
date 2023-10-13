@@ -1,0 +1,62 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name NetmeraNotification
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import CoreLocation
+import Foundation
+@_exported import NetmeraAnalytic
+import NetmeraCore
+@_exported import NetmeraNotification
+@_exported import NetmeraNotificationCore
+import StoreKit
+import Swift
+import Swinject
+import UIKit
+import UserNotifications
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public typealias NetmeraNotificationAuthorizationOptions = UserNotifications.UNAuthorizationOptions
+public protocol NetmeraPushDelegate : AnyObject {
+  func shouldHandleWebViewPresentation(for pushObject: NetmeraNotificationCore.NetmeraBasePush) -> Swift.Bool
+  func handleWebViewPresentation(for pushObject: NetmeraNotificationCore.NetmeraBasePush)
+  func shouldHandlePresentation(for pushObject: NetmeraNotificationCore.NetmeraBasePush) -> Swift.Bool
+  func handlePresentation(for pushObject: NetmeraNotificationCore.NetmeraBasePush)
+  func shouldHandleOpenURL(_ url: Foundation.URL, for pushObject: NetmeraNotificationCore.NetmeraBasePush) -> Swift.Bool
+  func handleOpenURL(_ url: Foundation.URL, for pushObject: NetmeraNotificationCore.NetmeraBasePush)
+}
+@_hasMissingDesignatedInitializers public class NetmeraNotificationSettingsEvent : NetmeraCore.NetmeraEvent {
+  override open class var key: Swift.String {
+    get
+  }
+  required public init(from decoder: any Swift.Decoder) throws
+  override public func encode(to encoder: any Swift.Encoder) throws
+  public static func == (lhs: NetmeraNotification.NetmeraNotificationSettingsEvent, rhs: NetmeraNotification.NetmeraNotificationSettingsEvent) -> Swift.Bool
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers open class NetmeraWebViewActionEvent : NetmeraCore.NetmeraEvent {
+  override open class var key: Swift.String {
+    get
+  }
+  required public init(from decoder: any Swift.Decoder) throws
+  override public func encode(to encoder: any Swift.Encoder) throws
+  public static func == (lhs: NetmeraNotification.NetmeraWebViewActionEvent, rhs: NetmeraNotification.NetmeraWebViewActionEvent) -> Swift.Bool
+  @objc deinit
+}
+extension UserNotifications.UNUserNotificationCenter {
+  public static func swizzle()
+}
+extension NetmeraCore.Netmera {
+  public static func setEnabledPopupPresentation(_ enabled: Swift.Bool)
+  public static func setEnabledInAppMessagePresentation(_ enabled: Swift.Bool)
+  public static func setEnabledReceivingPushNotifications(_ enabled: Swift.Bool)
+  public static func isEnabledReceivingPushNotifications(completion: @escaping (Swift.Bool) -> Swift.Void)
+  public static func requestPushNotificationAuthorization(for options: NetmeraNotification.NetmeraNotificationAuthorizationOptions)
+  public static func setPushDelegate(_ delegate: any NetmeraNotification.NetmeraPushDelegate)
+  public static var recentPushObject: NetmeraNotificationCore.NetmeraBasePush? {
+    get
+  }
+  public static func handlePushObject(_ pushObject: NetmeraNotificationCore.NetmeraInteractivePush)
+  public static func handleInteractiveAction(_ action: NetmeraNotificationCore.NetmeraPushAction, for pushObject: NetmeraNotificationCore.NetmeraInteractivePush)
+}

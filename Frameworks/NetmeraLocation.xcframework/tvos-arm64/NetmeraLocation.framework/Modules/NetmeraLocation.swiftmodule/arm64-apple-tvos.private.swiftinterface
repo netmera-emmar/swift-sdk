@@ -1,0 +1,58 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-tvos11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name NetmeraLocation
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import CoreLocation
+import CoreLocation
+import CoreLocation
+import CoreLocation
+import Foundation
+@_exported import NetmeraAnalytic
+import NetmeraCore
+@_exported import NetmeraLocation
+import Swift
+import Swinject
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+extension CoreLocation.CLLocation {
+  public func toSdkLocation() -> NetmeraCore.Location
+}
+public protocol NetmeraLocationDelegate : CoreLocation.CLLocationManagerDelegate {
+  func register(authorizationDelegate: any NetmeraLocation.NetmeraLocationAuthorizationDelegate)
+  func register(regionDelegate: any NetmeraLocation.NetmeraLocationRegionDelegate)
+}
+public protocol LocationUpdateDelegate {
+  func updateActiveLocation()
+}
+public protocol NetmeraLocationRegionDelegate {
+  func locationManager(didEnterRegion region: NetmeraLocation.NetmeraRegion)
+  func locationManager(didExitRegion region: NetmeraLocation.NetmeraRegion)
+}
+extension NetmeraCore.Netmera {
+  public static func requestLocationAuthorization()
+}
+public protocol NetmeraLocationAuthorizationDelegate {
+  func locationManagerDidChangeAuthorization(_ status: NetmeraLocation.NetmeraLocationAuthorizationStatus)
+}
+public typealias NetmeraLocationAuthorizationStatus = CoreLocation.CLAuthorizationStatus
+public typealias NetmeraCLLocation = CoreLocation.CLLocation
+public typealias NetmeraRegion = CoreLocation.CLRegion
+public typealias NetmeraLocationDistance = CoreLocation.CLLocationDistance
+public protocol NetmeraLocationManager : AnyObject {
+  func requestWhenInUseAuthorization()
+  func requestLocation()
+  var osLocation: NetmeraCore.Location { get }
+  var delegate: (any CoreLocation.CLLocationManagerDelegate)? { get set }
+  static func locationServicesEnabled() -> Swift.Bool
+  @available(tvOS 14.0, *)
+  var authorizationStatus: CoreLocation.CLAuthorizationStatus { get }
+  @available(tvOS, introduced: 4.2, deprecated: 14.0)
+  static func authorizationStatus() -> CoreLocation.CLAuthorizationStatus
+}
+extension CoreLocation.CLLocationManager : NetmeraLocation.NetmeraLocationManager {
+  public var osLocation: NetmeraCore.Location {
+    get
+  }
+}
