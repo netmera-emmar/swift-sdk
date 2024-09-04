@@ -21968,70 +21968,70 @@
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraCore\/NetmeraCore\/Model\/NetmeraParams.swift",
       "kind": "StringLiteral",
-      "offset": 2580,
+      "offset": 2471,
       "length": 9,
       "value": "\"api_key\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraCore\/NetmeraCore\/Model\/NetmeraParams.swift",
       "kind": "StringLiteral",
-      "offset": 2609,
+      "offset": 2500,
       "length": 10,
       "value": "\"base_url\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraCore\/NetmeraCore\/Model\/NetmeraParams.swift",
       "kind": "StringLiteral",
-      "offset": 2644,
+      "offset": 2535,
       "length": 16,
       "value": "\"app_group_name\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraCore\/NetmeraCore\/Model\/NetmeraParams.swift",
       "kind": "StringLiteral",
-      "offset": 2692,
+      "offset": 2583,
       "length": 14,
       "value": "\"use_ui_scene\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraCore\/NetmeraCore\/Model\/NetmeraParams.swift",
       "kind": "StringLiteral",
-      "offset": 2731,
+      "offset": 2622,
       "length": 15,
       "value": "\"custom_events\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraCore\/NetmeraCore\/Model\/NetmeraParams.swift",
       "kind": "StringLiteral",
-      "offset": 2580,
+      "offset": 2471,
       "length": 9,
       "value": "\"api_key\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraCore\/NetmeraCore\/Model\/NetmeraParams.swift",
       "kind": "StringLiteral",
-      "offset": 2609,
+      "offset": 2500,
       "length": 10,
       "value": "\"base_url\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraCore\/NetmeraCore\/Model\/NetmeraParams.swift",
       "kind": "StringLiteral",
-      "offset": 2644,
+      "offset": 2535,
       "length": 16,
       "value": "\"app_group_name\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraCore\/NetmeraCore\/Model\/NetmeraParams.swift",
       "kind": "StringLiteral",
-      "offset": 2692,
+      "offset": 2583,
       "length": 14,
       "value": "\"use_ui_scene\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraCore\/NetmeraCore\/Model\/NetmeraParams.swift",
       "kind": "StringLiteral",
-      "offset": 2731,
+      "offset": 2622,
       "length": 15,
       "value": "\"custom_events\""
     },
@@ -22866,7 +22866,7 @@
       "kind": "StringLiteral",
       "offset": 222,
       "length": 7,
-      "value": "\"4.0.7\""
+      "value": "\"4.0.8\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
@@ -24185,6 +24185,20 @@
       "value": "\"NetmeraCore.DeviceIdProvider\""
     },
     {
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraCore\/NetmeraCore\/DI\/NetmeraCacheInvokeImpl.swift",
+      "kind": "Dictionary",
+      "offset": 330,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraCore\/NetmeraCore\/DI\/NetmeraCacheInvokeImpl.swift",
+      "kind": "Dictionary",
+      "offset": 384,
+      "length": 3,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraCore\/NetmeraCore\/Network\/Model\/Request\/NetmeraDisablePushRequest.swift",
       "kind": "StringLiteral",
       "offset": 844,
@@ -24649,7 +24663,7 @@
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraCore\/NetmeraCore\/Common\/Migration\/DatabaseMigration.swift",
       "kind": "StringLiteral",
-      "offset": 225,
+      "offset": 142,
       "length": 17,
       "value": "\"NetmeraCore.DatabaseMigration\""
     },

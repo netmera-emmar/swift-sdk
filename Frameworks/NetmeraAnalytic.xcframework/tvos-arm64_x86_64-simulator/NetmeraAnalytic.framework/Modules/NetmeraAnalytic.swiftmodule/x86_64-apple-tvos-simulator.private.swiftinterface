@@ -9,6 +9,25 @@ import Swinject
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+open class NetmeraPurchaseEvent : NetmeraCore.NetmeraEvent {
+  override open class var key: Swift.String {
+    get
+  }
+  public var coupon: Swift.String?
+  public var utmSource: Swift.String?
+  public var discount: Swift.Double?
+  public var paymentMethod: Swift.String?
+  public var utmMedium: Swift.String?
+  public var utmCampaign: Swift.String?
+  public var shippingCost: Swift.Double?
+  public var subTotal: Swift.Double?
+  public var itemCount: Swift.Int?
+  public var grandTotal: Swift.Double?
+  public init(coupon: Swift.String? = nil, utmSource: Swift.String? = nil, discount: Swift.Double? = nil, paymentMethod: Swift.String? = nil, utmMedium: Swift.String? = nil, utmCampaign: Swift.String? = nil, shippingCost: Swift.Double? = nil, subTotal: Swift.Double? = nil, itemCount: Swift.Int? = nil, grandTotal: Swift.Double? = nil)
+  required public init(from decoder: any Swift.Decoder) throws
+  override open func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
+}
 open class NetmeraCartAddProductEvent : NetmeraAnalytic.NetmeraProductEvent {
   override open class var key: Swift.String {
     get
