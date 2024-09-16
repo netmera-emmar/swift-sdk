@@ -75,30 +75,21 @@
           },
           {
             "kind": "Var",
-            "name": "coupon",
-            "printedName": "coupon",
+            "name": "subTotal",
+            "printedName": "subTotal",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               }
             ],
             "declKind": "Var",
-            "usr": "s:15NetmeraAnalytic0A13PurchaseEventC6couponSSSgvp",
-            "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC6couponSSSgvp",
+            "usr": "s:15NetmeraAnalytic0A13PurchaseEventC8subTotalSdvp",
+            "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC8subTotalSdvp",
             "moduleName": "NetmeraAnalytic",
             "declAttributes": [
-              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
@@ -108,200 +99,6 @@
                 "kind": "Accessor",
                 "name": "Get",
                 "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A13PurchaseEventC6couponSSSgvg",
-                "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC6couponSSSgvg",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A13PurchaseEventC6couponSSSgvs",
-                "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC6couponSSSgvs",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A13PurchaseEventC6couponSSSgvM",
-                "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC6couponSSSgvM",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "utmSource",
-            "printedName": "utmSource",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15NetmeraAnalytic0A13PurchaseEventC9utmSourceSSSgvp",
-            "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC9utmSourceSSSgvp",
-            "moduleName": "NetmeraAnalytic",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A13PurchaseEventC9utmSourceSSSgvg",
-                "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC9utmSourceSSSgvg",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A13PurchaseEventC9utmSourceSSSgvs",
-                "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC9utmSourceSSSgvs",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A13PurchaseEventC9utmSourceSSSgvM",
-                "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC9utmSourceSSSgvM",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "discount",
-            "printedName": "discount",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Double?",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -310,43 +107,9 @@
                     "usr": "s:Sd"
                   }
                 ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15NetmeraAnalytic0A13PurchaseEventC8discountSdSgvp",
-            "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC8discountSdSgvp",
-            "moduleName": "NetmeraAnalytic",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Double?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Double",
-                        "printedName": "Swift.Double",
-                        "usr": "s:Sd"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
                 "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A13PurchaseEventC8discountSdSgvg",
-                "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC8discountSdSgvg",
+                "usr": "s:15NetmeraAnalytic0A13PurchaseEventC8subTotalSdvg",
+                "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC8subTotalSdvg",
                 "moduleName": "NetmeraAnalytic",
                 "implicit": true,
                 "accessorKind": "get"
@@ -363,22 +126,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Double?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Double",
-                        "printedName": "Swift.Double",
-                        "usr": "s:Sd"
-                      }
-                    ],
-                    "usr": "s:Sq"
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A13PurchaseEventC8discountSdSgvs",
-                "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC8discountSdSgvs",
+                "usr": "s:15NetmeraAnalytic0A13PurchaseEventC8subTotalSdvs",
+                "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC8subTotalSdvs",
                 "moduleName": "NetmeraAnalytic",
                 "implicit": true,
                 "accessorKind": "set"
@@ -395,8 +150,202 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A13PurchaseEventC8discountSdSgvM",
-                "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC8discountSdSgvM",
+                "usr": "s:15NetmeraAnalytic0A13PurchaseEventC8subTotalSdvM",
+                "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC8subTotalSdvM",
+                "moduleName": "NetmeraAnalytic",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "grandTotal",
+            "printedName": "grandTotal",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15NetmeraAnalytic0A13PurchaseEventC10grandTotalSdvp",
+            "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC10grandTotalSdvp",
+            "moduleName": "NetmeraAnalytic",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NetmeraAnalytic0A13PurchaseEventC10grandTotalSdvg",
+                "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC10grandTotalSdvg",
+                "moduleName": "NetmeraAnalytic",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NetmeraAnalytic0A13PurchaseEventC10grandTotalSdvs",
+                "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC10grandTotalSdvs",
+                "moduleName": "NetmeraAnalytic",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NetmeraAnalytic0A13PurchaseEventC10grandTotalSdvM",
+                "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC10grandTotalSdvM",
+                "moduleName": "NetmeraAnalytic",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lineItems",
+            "printedName": "lineItems",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[NetmeraAnalytic.NetmeraLineItem]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetmeraLineItem",
+                    "printedName": "NetmeraAnalytic.NetmeraLineItem",
+                    "usr": "s:15NetmeraAnalytic0A8LineItemC"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15NetmeraAnalytic0A13PurchaseEventC9lineItemsSayAA0A8LineItemCGvp",
+            "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC9lineItemsSayAA0A8LineItemCGvp",
+            "moduleName": "NetmeraAnalytic",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[NetmeraAnalytic.NetmeraLineItem]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetmeraLineItem",
+                        "printedName": "NetmeraAnalytic.NetmeraLineItem",
+                        "usr": "s:15NetmeraAnalytic0A8LineItemC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NetmeraAnalytic0A13PurchaseEventC9lineItemsSayAA0A8LineItemCGvg",
+                "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC9lineItemsSayAA0A8LineItemCGvg",
+                "moduleName": "NetmeraAnalytic",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[NetmeraAnalytic.NetmeraLineItem]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetmeraLineItem",
+                        "printedName": "NetmeraAnalytic.NetmeraLineItem",
+                        "usr": "s:15NetmeraAnalytic0A8LineItemC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NetmeraAnalytic0A13PurchaseEventC9lineItemsSayAA0A8LineItemCGvs",
+                "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC9lineItemsSayAA0A8LineItemCGvs",
+                "moduleName": "NetmeraAnalytic",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NetmeraAnalytic0A13PurchaseEventC9lineItemsSayAA0A8LineItemCGvM",
+                "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC9lineItemsSayAA0A8LineItemCGvM",
                 "moduleName": "NetmeraAnalytic",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -515,226 +464,6 @@
           },
           {
             "kind": "Var",
-            "name": "utmMedium",
-            "printedName": "utmMedium",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15NetmeraAnalytic0A13PurchaseEventC9utmMediumSSSgvp",
-            "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC9utmMediumSSSgvp",
-            "moduleName": "NetmeraAnalytic",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A13PurchaseEventC9utmMediumSSSgvg",
-                "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC9utmMediumSSSgvg",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A13PurchaseEventC9utmMediumSSSgvs",
-                "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC9utmMediumSSSgvs",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A13PurchaseEventC9utmMediumSSSgvM",
-                "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC9utmMediumSSSgvM",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "utmCampaign",
-            "printedName": "utmCampaign",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15NetmeraAnalytic0A13PurchaseEventC11utmCampaignSSSgvp",
-            "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC11utmCampaignSSSgvp",
-            "moduleName": "NetmeraAnalytic",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A13PurchaseEventC11utmCampaignSSSgvg",
-                "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC11utmCampaignSSSgvg",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A13PurchaseEventC11utmCampaignSSSgvs",
-                "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC11utmCampaignSSSgvs",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A13PurchaseEventC11utmCampaignSSSgvM",
-                "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC11utmCampaignSSSgvM",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "shippingCost",
             "printedName": "shippingCost",
             "children": [
@@ -845,8 +574,8 @@
           },
           {
             "kind": "Var",
-            "name": "subTotal",
-            "printedName": "subTotal",
+            "name": "discount",
+            "printedName": "discount",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -864,8 +593,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:15NetmeraAnalytic0A13PurchaseEventC8subTotalSdSgvp",
-            "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC8subTotalSdSgvp",
+            "usr": "s:15NetmeraAnalytic0A13PurchaseEventC8discountSdSgvp",
+            "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC8discountSdSgvp",
             "moduleName": "NetmeraAnalytic",
             "declAttributes": [
               "HasInitialValue",
@@ -895,8 +624,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A13PurchaseEventC8subTotalSdSgvg",
-                "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC8subTotalSdSgvg",
+                "usr": "s:15NetmeraAnalytic0A13PurchaseEventC8discountSdSgvg",
+                "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC8discountSdSgvg",
                 "moduleName": "NetmeraAnalytic",
                 "implicit": true,
                 "accessorKind": "get"
@@ -927,8 +656,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A13PurchaseEventC8subTotalSdSgvs",
-                "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC8subTotalSdSgvs",
+                "usr": "s:15NetmeraAnalytic0A13PurchaseEventC8discountSdSgvs",
+                "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC8discountSdSgvs",
                 "moduleName": "NetmeraAnalytic",
                 "implicit": true,
                 "accessorKind": "set"
@@ -945,8 +674,118 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A13PurchaseEventC8subTotalSdSgvM",
-                "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC8subTotalSdSgvM",
+                "usr": "s:15NetmeraAnalytic0A13PurchaseEventC8discountSdSgvM",
+                "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC8discountSdSgvM",
+                "moduleName": "NetmeraAnalytic",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "coupon",
+            "printedName": "coupon",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15NetmeraAnalytic0A13PurchaseEventC6couponSSSgvp",
+            "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC6couponSSSgvp",
+            "moduleName": "NetmeraAnalytic",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NetmeraAnalytic0A13PurchaseEventC6couponSSSgvg",
+                "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC6couponSSSgvg",
+                "moduleName": "NetmeraAnalytic",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NetmeraAnalytic0A13PurchaseEventC6couponSSSgvs",
+                "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC6couponSSSgvs",
+                "moduleName": "NetmeraAnalytic",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NetmeraAnalytic0A13PurchaseEventC6couponSSSgvM",
+                "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC6couponSSSgvM",
                 "moduleName": "NetmeraAnalytic",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -960,8 +799,23 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int?",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15NetmeraAnalytic0A13PurchaseEventC9itemCountSivp",
+            "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC9itemCountSivp",
+            "moduleName": "NetmeraAnalytic",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -970,129 +824,33 @@
                     "usr": "s:Si"
                   }
                 ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15NetmeraAnalytic0A13PurchaseEventC9itemCountSiSgvp",
-            "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC9itemCountSiSgvp",
-            "moduleName": "NetmeraAnalytic",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Int?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
                 "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A13PurchaseEventC9itemCountSiSgvg",
-                "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC9itemCountSiSgvg",
+                "usr": "s:15NetmeraAnalytic0A13PurchaseEventC9itemCountSivg",
+                "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC9itemCountSivg",
                 "moduleName": "NetmeraAnalytic",
-                "implicit": true,
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Int?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A13PurchaseEventC9itemCountSiSgvs",
-                "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC9itemCountSiSgvs",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A13PurchaseEventC9itemCountSiSgvM",
-                "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC9itemCountSiSgvM",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "_modify"
               }
             ]
           },
           {
             "kind": "Var",
-            "name": "grandTotal",
-            "printedName": "grandTotal",
+            "name": "productCount",
+            "printedName": "productCount",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Double?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Double",
-                    "printedName": "Swift.Double",
-                    "usr": "s:Sd"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
               }
             ],
             "declKind": "Var",
-            "usr": "s:15NetmeraAnalytic0A13PurchaseEventC10grandTotalSdSgvp",
-            "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC10grandTotalSdSgvp",
+            "usr": "s:15NetmeraAnalytic0A13PurchaseEventC12productCountSivp",
+            "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC12productCountSivp",
             "moduleName": "NetmeraAnalytic",
             "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
               "AccessControl"
             ],
-            "hasStorage": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -1101,82 +859,23 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Double?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Double",
-                        "printedName": "Swift.Double",
-                        "usr": "s:Sd"
-                      }
-                    ],
-                    "usr": "s:Sq"
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A13PurchaseEventC10grandTotalSdSgvg",
-                "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC10grandTotalSdSgvg",
+                "usr": "s:15NetmeraAnalytic0A13PurchaseEventC12productCountSivg",
+                "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC12productCountSivg",
                 "moduleName": "NetmeraAnalytic",
-                "implicit": true,
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Double?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Double",
-                        "printedName": "Swift.Double",
-                        "usr": "s:Sd"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A13PurchaseEventC10grandTotalSdSgvs",
-                "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC10grandTotalSdSgvs",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A13PurchaseEventC10grandTotalSdSgvM",
-                "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC10grandTotalSdSgvM",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "_modify"
               }
             ]
           },
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(coupon:utmSource:discount:paymentMethod:utmMedium:utmCampaign:shippingCost:subTotal:itemCount:grandTotal:)",
+            "printedName": "init(subTotal:grandTotal:lineItems:paymentMethod:shippingCost:discount:coupon:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1186,78 +885,29 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               },
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               },
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Double?",
+                "name": "Array",
+                "printedName": "[NetmeraAnalytic.NetmeraLineItem]",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Double",
-                    "printedName": "Swift.Double",
-                    "usr": "s:Sd"
+                    "name": "NetmeraLineItem",
+                    "printedName": "NetmeraAnalytic.NetmeraLineItem",
+                    "usr": "s:15NetmeraAnalytic0A8LineItemC"
                   }
                 ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
+                "usr": "s:Sa"
               },
               {
                 "kind": "TypeNominal",
@@ -1307,28 +957,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Int?",
+                "printedName": "Swift.String?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Double?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Double",
-                    "printedName": "Swift.Double",
-                    "usr": "s:Sd"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "hasDefaultArg": true,
@@ -1336,8 +971,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:15NetmeraAnalytic0A13PurchaseEventC6coupon9utmSource8discount13paymentMethod0F6Medium0F8Campaign12shippingCost8subTotal9itemCount05grandP0ACSSSg_ANSdSgA3n2OSiSgAOtcfc",
-            "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC6coupon9utmSource8discount13paymentMethod0F6Medium0F8Campaign12shippingCost8subTotal9itemCount05grandP0ACSSSg_ANSdSgA3n2OSiSgAOtcfc",
+            "usr": "s:15NetmeraAnalytic0A13PurchaseEventC8subTotal05grandF09lineItems13paymentMethod12shippingCost8discount6couponACSd_SdSayAA0A8LineItemCGSSSgSdSgAoNtcfc",
+            "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC8subTotal05grandF09lineItems13paymentMethod12shippingCost8discount6couponACSd_SdSayAA0A8LineItemCGSSSgSdSgAoNtcfc",
             "moduleName": "NetmeraAnalytic",
             "declAttributes": [
               "AccessControl"
@@ -1368,8 +1003,8 @@
             "moduleName": "NetmeraAnalytic",
             "overriding": true,
             "declAttributes": [
-              "AccessControl",
-              "Required"
+              "Required",
+              "AccessControl"
             ],
             "throwing": true,
             "init_kind": "Designated"
@@ -1396,7 +1031,6 @@
             "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC6encode2toys7Encoder_p_tKF",
             "moduleName": "NetmeraAnalytic",
             "overriding": true,
-            "isOpen": true,
             "declAttributes": [
               "Override",
               "AccessControl"
@@ -12700,6 +12334,715 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "NetmeraLineItem",
+        "printedName": "NetmeraLineItem",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "productId",
+            "printedName": "productId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15NetmeraAnalytic0A8LineItemC9productIdSSSgvp",
+            "mangledName": "$s15NetmeraAnalytic0A8LineItemC9productIdSSSgvp",
+            "moduleName": "NetmeraAnalytic",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NetmeraAnalytic0A8LineItemC9productIdSSSgvg",
+                "mangledName": "$s15NetmeraAnalytic0A8LineItemC9productIdSSSgvg",
+                "moduleName": "NetmeraAnalytic",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NetmeraAnalytic0A8LineItemC9productIdSSSgvs",
+                "mangledName": "$s15NetmeraAnalytic0A8LineItemC9productIdSSSgvs",
+                "moduleName": "NetmeraAnalytic",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NetmeraAnalytic0A8LineItemC9productIdSSSgvM",
+                "mangledName": "$s15NetmeraAnalytic0A8LineItemC9productIdSSSgvM",
+                "moduleName": "NetmeraAnalytic",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "productName",
+            "printedName": "productName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15NetmeraAnalytic0A8LineItemC11productNameSSSgvp",
+            "mangledName": "$s15NetmeraAnalytic0A8LineItemC11productNameSSSgvp",
+            "moduleName": "NetmeraAnalytic",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NetmeraAnalytic0A8LineItemC11productNameSSSgvg",
+                "mangledName": "$s15NetmeraAnalytic0A8LineItemC11productNameSSSgvg",
+                "moduleName": "NetmeraAnalytic",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NetmeraAnalytic0A8LineItemC11productNameSSSgvs",
+                "mangledName": "$s15NetmeraAnalytic0A8LineItemC11productNameSSSgvs",
+                "moduleName": "NetmeraAnalytic",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NetmeraAnalytic0A8LineItemC11productNameSSSgvM",
+                "mangledName": "$s15NetmeraAnalytic0A8LineItemC11productNameSSSgvM",
+                "moduleName": "NetmeraAnalytic",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "price",
+            "printedName": "price",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15NetmeraAnalytic0A8LineItemC5priceSdSgvp",
+            "mangledName": "$s15NetmeraAnalytic0A8LineItemC5priceSdSgvp",
+            "moduleName": "NetmeraAnalytic",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NetmeraAnalytic0A8LineItemC5priceSdSgvg",
+                "mangledName": "$s15NetmeraAnalytic0A8LineItemC5priceSdSgvg",
+                "moduleName": "NetmeraAnalytic",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NetmeraAnalytic0A8LineItemC5priceSdSgvs",
+                "mangledName": "$s15NetmeraAnalytic0A8LineItemC5priceSdSgvs",
+                "moduleName": "NetmeraAnalytic",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NetmeraAnalytic0A8LineItemC5priceSdSgvM",
+                "mangledName": "$s15NetmeraAnalytic0A8LineItemC5priceSdSgvM",
+                "moduleName": "NetmeraAnalytic",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "count",
+            "printedName": "count",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15NetmeraAnalytic0A8LineItemC5countSivp",
+            "mangledName": "$s15NetmeraAnalytic0A8LineItemC5countSivp",
+            "moduleName": "NetmeraAnalytic",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NetmeraAnalytic0A8LineItemC5countSivg",
+                "mangledName": "$s15NetmeraAnalytic0A8LineItemC5countSivg",
+                "moduleName": "NetmeraAnalytic",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NetmeraAnalytic0A8LineItemC5countSivs",
+                "mangledName": "$s15NetmeraAnalytic0A8LineItemC5countSivs",
+                "moduleName": "NetmeraAnalytic",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NetmeraAnalytic0A8LineItemC5countSivM",
+                "mangledName": "$s15NetmeraAnalytic0A8LineItemC5countSivM",
+                "moduleName": "NetmeraAnalytic",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "campaignId",
+            "printedName": "campaignId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15NetmeraAnalytic0A8LineItemC10campaignIdSSSgvp",
+            "mangledName": "$s15NetmeraAnalytic0A8LineItemC10campaignIdSSSgvp",
+            "moduleName": "NetmeraAnalytic",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NetmeraAnalytic0A8LineItemC10campaignIdSSSgvg",
+                "mangledName": "$s15NetmeraAnalytic0A8LineItemC10campaignIdSSSgvg",
+                "moduleName": "NetmeraAnalytic",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NetmeraAnalytic0A8LineItemC10campaignIdSSSgvs",
+                "mangledName": "$s15NetmeraAnalytic0A8LineItemC10campaignIdSSSgvs",
+                "moduleName": "NetmeraAnalytic",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NetmeraAnalytic0A8LineItemC10campaignIdSSSgvM",
+                "mangledName": "$s15NetmeraAnalytic0A8LineItemC10campaignIdSSSgvM",
+                "moduleName": "NetmeraAnalytic",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(productId:productName:price:count:campaignId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraLineItem",
+                "printedName": "NetmeraAnalytic.NetmeraLineItem",
+                "usr": "s:15NetmeraAnalytic0A8LineItemC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15NetmeraAnalytic0A8LineItemC9productId0E4Name5price5count08campaignF0ACSSSg_AISdSgSiAItcfc",
+            "mangledName": "$s15NetmeraAnalytic0A8LineItemC9productId0E4Name5price5count08campaignF0ACSSSg_AISdSgSiAItcfc",
+            "moduleName": "NetmeraAnalytic",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraLineItem",
+                "printedName": "NetmeraAnalytic.NetmeraLineItem",
+                "usr": "s:15NetmeraAnalytic0A8LineItemC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15NetmeraAnalytic0A8LineItemC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s15NetmeraAnalytic0A8LineItemC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "NetmeraAnalytic",
+            "declAttributes": [
+              "Required",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15NetmeraAnalytic0A8LineItemC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s15NetmeraAnalytic0A8LineItemC6encode2toys7Encoder_p_tKF",
+            "moduleName": "NetmeraAnalytic",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15NetmeraAnalytic0A8LineItemC",
+        "mangledName": "$s15NetmeraAnalytic0A8LineItemC",
+        "moduleName": "NetmeraAnalytic",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraAnalytic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "NetmeraContentRateEvent",
         "printedName": "NetmeraContentRateEvent",
         "children": [
@@ -20160,142 +20503,128 @@
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 3044,
-      "length": 4,
-      "value": "\"ek\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 3070,
-      "length": 4,
-      "value": "\"fl\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 3095,
-      "length": 4,
-      "value": "\"el\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 3125,
-      "length": 4,
-      "value": "\"em\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 3151,
-      "length": 4,
-      "value": "\"fo\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 3179,
-      "length": 4,
-      "value": "\"fp\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 3208,
-      "length": 4,
-      "value": "\"ep\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 3233,
+      "offset": 2658,
       "length": 4,
       "value": "\"er\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 3259,
-      "length": 4,
-      "value": "\"ec\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 3286,
+      "offset": 2685,
       "length": 4,
       "value": "\"es\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 3044,
+      "offset": 2711,
       "length": 4,
-      "value": "\"ek\""
+      "value": "\"ec\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 3070,
+      "offset": 2740,
       "length": 4,
-      "value": "\"fl\""
+      "value": "\"fz\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 3095,
-      "length": 4,
-      "value": "\"el\""
+      "offset": 2766,
+      "length": 7,
+      "value": "\"items\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 3125,
+      "offset": 2799,
       "length": 4,
       "value": "\"em\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 3151,
-      "length": 4,
-      "value": "\"fo\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 3179,
-      "length": 4,
-      "value": "\"fp\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 3208,
+      "offset": 2828,
       "length": 4,
       "value": "\"ep\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 3233,
+      "offset": 2853,
+      "length": 4,
+      "value": "\"el\""
+    },
+    {
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 2876,
+      "length": 4,
+      "value": "\"ek\""
+    },
+    {
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 2658,
       "length": 4,
       "value": "\"er\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 3259,
+      "offset": 2685,
+      "length": 4,
+      "value": "\"es\""
+    },
+    {
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 2711,
       "length": 4,
       "value": "\"ec\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 3286,
+      "offset": 2740,
       "length": 4,
-      "value": "\"es\""
+      "value": "\"fz\""
+    },
+    {
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 2766,
+      "length": 7,
+      "value": "\"items\""
+    },
+    {
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 2799,
+      "length": 4,
+      "value": "\"em\""
+    },
+    {
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 2828,
+      "length": 4,
+      "value": "\"ep\""
+    },
+    {
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 2853,
+      "length": 4,
+      "value": "\"el\""
+    },
+    {
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 2876,
+      "length": 4,
+      "value": "\"ek\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
@@ -21171,6 +21500,76 @@
       "offset": 167,
       "length": 23,
       "value": "\"NetmeraAnalytic.NetmeraBannerClickEvent\""
+    },
+    {
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraLineItem.swift",
+      "kind": "StringLiteral",
+      "offset": 1653,
+      "length": 4,
+      "value": "\"ea\""
+    },
+    {
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraLineItem.swift",
+      "kind": "StringLiteral",
+      "offset": 1681,
+      "length": 4,
+      "value": "\"eb\""
+    },
+    {
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraLineItem.swift",
+      "kind": "StringLiteral",
+      "offset": 1703,
+      "length": 4,
+      "value": "\"eq\""
+    },
+    {
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraLineItem.swift",
+      "kind": "StringLiteral",
+      "offset": 1725,
+      "length": 4,
+      "value": "\"ec\""
+    },
+    {
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraLineItem.swift",
+      "kind": "StringLiteral",
+      "offset": 1752,
+      "length": 4,
+      "value": "\"ge\""
+    },
+    {
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraLineItem.swift",
+      "kind": "StringLiteral",
+      "offset": 1653,
+      "length": 4,
+      "value": "\"ea\""
+    },
+    {
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraLineItem.swift",
+      "kind": "StringLiteral",
+      "offset": 1681,
+      "length": 4,
+      "value": "\"eb\""
+    },
+    {
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraLineItem.swift",
+      "kind": "StringLiteral",
+      "offset": 1703,
+      "length": 4,
+      "value": "\"eq\""
+    },
+    {
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraLineItem.swift",
+      "kind": "StringLiteral",
+      "offset": 1725,
+      "length": 4,
+      "value": "\"ec\""
+    },
+    {
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraLineItem.swift",
+      "kind": "StringLiteral",
+      "offset": 1752,
+      "length": 4,
+      "value": "\"ge\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentRateEvent.swift",
