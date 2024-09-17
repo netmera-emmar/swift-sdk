@@ -1031,6 +1031,7 @@
             "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC6encode2toys7Encoder_p_tKF",
             "moduleName": "NetmeraAnalytic",
             "overriding": true,
+            "isOpen": true,
             "declAttributes": [
               "Override",
               "AccessControl"
@@ -20503,126 +20504,126 @@
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2658,
+      "offset": 2656,
       "length": 4,
       "value": "\"er\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2685,
+      "offset": 2683,
       "length": 4,
       "value": "\"es\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2711,
+      "offset": 2709,
       "length": 4,
       "value": "\"ec\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2740,
+      "offset": 2738,
       "length": 4,
       "value": "\"fz\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2766,
+      "offset": 2764,
       "length": 7,
       "value": "\"items\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2799,
+      "offset": 2797,
       "length": 4,
       "value": "\"em\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2828,
+      "offset": 2826,
       "length": 4,
       "value": "\"ep\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2853,
+      "offset": 2851,
       "length": 4,
       "value": "\"el\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2876,
+      "offset": 2874,
       "length": 4,
       "value": "\"ek\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2658,
+      "offset": 2656,
       "length": 4,
       "value": "\"er\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2685,
+      "offset": 2683,
       "length": 4,
       "value": "\"es\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2711,
+      "offset": 2709,
       "length": 4,
       "value": "\"ec\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2740,
+      "offset": 2738,
       "length": 4,
       "value": "\"fz\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2766,
+      "offset": 2764,
       "length": 7,
       "value": "\"items\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2799,
+      "offset": 2797,
       "length": 4,
       "value": "\"em\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2828,
+      "offset": 2826,
       "length": 4,
       "value": "\"ep\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2853,
+      "offset": 2851,
       "length": 4,
       "value": "\"el\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2876,
+      "offset": 2874,
       "length": 4,
       "value": "\"ek\""
     },

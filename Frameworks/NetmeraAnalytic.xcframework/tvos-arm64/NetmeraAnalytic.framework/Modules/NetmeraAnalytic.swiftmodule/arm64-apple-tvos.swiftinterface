@@ -28,7 +28,7 @@ open class NetmeraPurchaseEvent : NetmeraCore.NetmeraEvent {
   }
   public init(subTotal: Swift.Double, grandTotal: Swift.Double, lineItems: [NetmeraAnalytic.NetmeraLineItem], paymentMethod: Swift.String? = nil, shippingCost: Swift.Double? = nil, discount: Swift.Double? = nil, coupon: Swift.String? = nil)
   required public init(from decoder: any Swift.Decoder) throws
-  override public func encode(to encoder: any Swift.Encoder) throws
+  override open func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
 }
 open class NetmeraCartAddProductEvent : NetmeraAnalytic.NetmeraProductEvent {
