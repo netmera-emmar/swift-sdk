@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "NetmeraAnalytic",
+    "printedName": "NetmeraAnalytic",
     "children": [
       {
         "kind": "Import",
@@ -1096,6 +1096,20 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -1562,6 +1576,20 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -1903,6 +1931,20 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -2712,6 +2754,20 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -3092,6 +3148,20 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -3552,6 +3622,20 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -3742,6 +3826,20 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -4816,6 +4914,22 @@
         "moduleName": "NetmeraAnalytic",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -5764,6 +5878,20 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -6259,6 +6387,20 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -6449,6 +6591,20 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -6491,8 +6647,8 @@
             "mangledName": "$s15NetmeraAnalytic0A12ProductEventC9productIdSSvp",
             "moduleName": "NetmeraAnalytic",
             "declAttributes": [
-              "HasStorage",
               "Final",
+              "HasStorage",
               "AccessControl"
             ],
             "isLet": true,
@@ -6539,8 +6695,8 @@
             "mangledName": "$s15NetmeraAnalytic0A12ProductEventC11productNameSSvp",
             "moduleName": "NetmeraAnalytic",
             "declAttributes": [
-              "HasStorage",
               "Final",
+              "HasStorage",
               "AccessControl"
             ],
             "isLet": true,
@@ -6587,8 +6743,8 @@
             "mangledName": "$s15NetmeraAnalytic0A12ProductEventC5priceSdvp",
             "moduleName": "NetmeraAnalytic",
             "declAttributes": [
-              "HasStorage",
               "Final",
+              "HasStorage",
               "AccessControl"
             ],
             "isLet": true,
@@ -7494,6 +7650,20 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -7684,6 +7854,20 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -8071,6 +8255,20 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -8261,6 +8459,20 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -8648,6 +8860,20 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -9487,6 +9713,20 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -9853,6 +10093,20 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -10554,6 +10808,20 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -11065,6 +11333,20 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -11270,6 +11552,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -11793,6 +12089,20 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -12320,6 +12630,20 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -13018,6 +13342,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -13370,6 +13708,20 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -13412,8 +13764,8 @@
             "mangledName": "$s15NetmeraAnalytic0A12ContentEventC9contentIdSSvp",
             "moduleName": "NetmeraAnalytic",
             "declAttributes": [
-              "HasStorage",
               "Final",
+              "HasStorage",
               "AccessControl"
             ],
             "isLet": true,
@@ -13460,8 +13812,8 @@
             "mangledName": "$s15NetmeraAnalytic0A12ContentEventC11contentNameSSvp",
             "moduleName": "NetmeraAnalytic",
             "declAttributes": [
-              "HasStorage",
               "Final",
+              "HasStorage",
               "AccessControl"
             ],
             "isLet": true,
@@ -13508,8 +13860,8 @@
             "mangledName": "$s15NetmeraAnalytic0A12ContentEventC11contentTypeAA0acdF0Ovp",
             "moduleName": "NetmeraAnalytic",
             "declAttributes": [
-              "HasStorage",
               "Final",
+              "HasStorage",
               "AccessControl"
             ],
             "isLet": true,
@@ -14195,6 +14547,20 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -14936,6 +15302,20 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -15961,6 +16341,20 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -16456,6 +16850,20 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -16797,6 +17205,20 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -17625,6 +18047,22 @@
         "moduleName": "NetmeraAnalytic",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -17936,6 +18374,20 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -18277,6 +18729,20 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -18562,6 +19028,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -19102,6 +19582,20 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -19288,6 +19782,20 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -19783,6 +20291,20 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -20403,6 +20925,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -20495,7 +21031,23 @@
         "mangledName": "$s11NetmeraCore0A0C",
         "moduleName": "NetmeraCore",
         "isExternal": true,
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
@@ -20504,135 +21056,65 @@
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2656,
+      "offset": 2651,
       "length": 4,
       "value": "\"er\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2683,
+      "offset": 2678,
       "length": 4,
       "value": "\"es\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2709,
+      "offset": 2704,
       "length": 4,
       "value": "\"ec\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2738,
+      "offset": 2733,
       "length": 4,
       "value": "\"fz\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2764,
+      "offset": 2759,
       "length": 7,
       "value": "\"items\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2797,
+      "offset": 2792,
       "length": 4,
       "value": "\"em\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2826,
+      "offset": 2821,
       "length": 4,
       "value": "\"ep\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2851,
+      "offset": 2846,
       "length": 4,
       "value": "\"el\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2874,
+      "offset": 2869,
       "length": 4,
       "value": "\"ek\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2656,
-      "length": 4,
-      "value": "\"er\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2683,
-      "length": 4,
-      "value": "\"es\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2709,
-      "length": 4,
-      "value": "\"ec\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2738,
-      "length": 4,
-      "value": "\"fz\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2764,
-      "length": 7,
-      "value": "\"items\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2797,
-      "length": 4,
-      "value": "\"em\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2826,
-      "length": 4,
-      "value": "\"ep\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2851,
-      "length": 4,
-      "value": "\"el\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2874,
-      "length": 4,
-      "value": "\"ek\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 164,
-      "length": 20,
-      "value": "\"NetmeraAnalytic.NetmeraPurchaseEvent\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraCartAddProductEvent.swift",
@@ -20649,46 +21131,11 @@
       "value": "\"er\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraCartAddProductEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1188,
-      "length": 4,
-      "value": "\"ec\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraCartAddProductEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1216,
-      "length": 4,
-      "value": "\"er\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraCartAddProductEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 151,
-      "length": 26,
-      "value": "\"NetmeraAnalytic.NetmeraCartAddProductEvent\""
-    },
-    {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraWishListEvent.swift",
       "kind": "StringLiteral",
       "offset": 968,
       "length": 4,
       "value": "\"ge\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraWishListEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 968,
-      "length": 4,
-      "value": "\"ge\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraWishListEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 145,
-      "length": 20,
-      "value": "\"NetmeraAnalytic.NetmeraWishListEvent\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraScreenOpenEvent.swift",
@@ -20719,72 +21166,9 @@
       "value": "\"eh\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraScreenOpenEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1667,
-      "length": 4,
-      "value": "\"ee\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraScreenOpenEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1694,
-      "length": 4,
-      "value": "\"ef\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraScreenOpenEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1719,
-      "length": 4,
-      "value": "\"eg\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraScreenOpenEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1748,
-      "length": 4,
-      "value": "\"eh\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraScreenOpenEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 166,
-      "length": 22,
-      "value": "\"NetmeraAnalytic.NetmeraScreenOpenEvent\""
-    },
-    {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraBatteryLevelEvent.swift",
       "kind": "StringLiteral",
       "offset": 954,
-      "length": 4,
-      "value": "\"ec\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraBatteryLevelEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 954,
-      "length": 4,
-      "value": "\"ec\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraBatteryLevelEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 168,
-      "length": 24,
-      "value": "\"NetmeraAnalytic.NetmeraBatteryLevelEvent\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraCartViewEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1136,
-      "length": 4,
-      "value": "\"er\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraCartViewEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1162,
       "length": 4,
       "value": "\"ec\""
     },
@@ -20801,13 +21185,6 @@
       "offset": 1162,
       "length": 4,
       "value": "\"ec\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraCartViewEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 164,
-      "length": 20,
-      "value": "\"NetmeraAnalytic.NetmeraCartViewEvent\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraInAppPurchaseEvent.swift",
@@ -20866,69 +21243,6 @@
       "value": "\"ej\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraInAppPurchaseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2508,
-      "length": 4,
-      "value": "\"ea\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraInAppPurchaseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2536,
-      "length": 4,
-      "value": "\"eb\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraInAppPurchaseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2558,
-      "length": 4,
-      "value": "\"eq\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraInAppPurchaseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2586,
-      "length": 4,
-      "value": "\"ga\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraInAppPurchaseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2616,
-      "length": 4,
-      "value": "\"ef\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraInAppPurchaseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2638,
-      "length": 4,
-      "value": "\"ec\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraInAppPurchaseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2663,
-      "length": 4,
-      "value": "\"eg\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraInAppPurchaseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2688,
-      "length": 4,
-      "value": "\"ej\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraInAppPurchaseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 115,
-      "length": 25,
-      "value": "\"NetmeraAnalytic.NetmeraInAppPurchaseEvent\""
-    },
-    {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraCategoryViewEvent.swift",
       "kind": "StringLiteral",
       "offset": 1210,
@@ -20941,27 +21255,6 @@
       "offset": 1239,
       "length": 4,
       "value": "\"ef\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraCategoryViewEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1210,
-      "length": 4,
-      "value": "\"ga\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraCategoryViewEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1239,
-      "length": 4,
-      "value": "\"ef\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraCategoryViewEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 168,
-      "length": 24,
-      "value": "\"NetmeraAnalytic.NetmeraCategoryViewEvent\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductEvent.swift",
@@ -21027,100 +21320,9 @@
       "value": "\"eg\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2634,
-      "length": 4,
-      "value": "\"ea\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2662,
-      "length": 4,
-      "value": "\"eb\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2684,
-      "length": 4,
-      "value": "\"eq\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2712,
-      "length": 4,
-      "value": "\"ga\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2742,
-      "length": 4,
-      "value": "\"ef\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2766,
-      "length": 4,
-      "value": "\"gd\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2792,
-      "length": 4,
-      "value": "\"eh\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2816,
-      "length": 4,
-      "value": "\"ei\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2841,
-      "length": 4,
-      "value": "\"eg\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 167,
-      "length": 19,
-      "value": "\"NetmeraAnalytic.NetmeraProductEvent\""
-    },
-    {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/User\/NetmeraLoginEvent.swift",
       "kind": "StringLiteral",
       "offset": 886,
-      "length": 5,
-      "value": "\"uid\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/User\/NetmeraLoginEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 886,
-      "length": 5,
-      "value": "\"uid\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/User\/NetmeraLoginEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 161,
-      "length": 17,
-      "value": "\"NetmeraAnalytic.NetmeraLoginEvent\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/User\/NetmeraRegisterEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 892,
       "length": 5,
       "value": "\"uid\""
     },
@@ -21130,13 +21332,6 @@
       "offset": 892,
       "length": 5,
       "value": "\"uid\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/User\/NetmeraRegisterEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 164,
-      "length": 20,
-      "value": "\"NetmeraAnalytic.NetmeraRegisterEvent\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraScreenViewEvent.swift",
@@ -21188,81 +21383,11 @@
       "value": "\"fi\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraScreenViewEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2446,
-      "length": 4,
-      "value": "\"ee\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraScreenViewEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2471,
-      "length": 4,
-      "value": "\"ea\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraScreenViewEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2502,
-      "length": 4,
-      "value": "\"ef\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraScreenViewEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2535,
-      "length": 4,
-      "value": "\"ej\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraScreenViewEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2562,
-      "length": 4,
-      "value": "\"el\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraScreenViewEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2587,
-      "length": 4,
-      "value": "\"eg\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraScreenViewEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2612,
-      "length": 4,
-      "value": "\"fi\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraScreenViewEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 166,
-      "length": 22,
-      "value": "\"NetmeraAnalytic.NetmeraScreenViewEvent\""
-    },
-    {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraLocationAuthorizationEvent.swift",
       "kind": "StringLiteral",
       "offset": 1015,
       "length": 4,
       "value": "\"fe\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraLocationAuthorizationEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1015,
-      "length": 4,
-      "value": "\"fe\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraLocationAuthorizationEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 179,
-      "length": 33,
-      "value": "\"NetmeraAnalytic.NetmeraLocationAuthorizationEvent\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraOrderCancelEvent.swift",
@@ -21293,41 +21418,6 @@
       "value": "\"em\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraOrderCancelEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1659,
-      "length": 4,
-      "value": "\"er\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraOrderCancelEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1686,
-      "length": 4,
-      "value": "\"es\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraOrderCancelEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1712,
-      "length": 4,
-      "value": "\"ec\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraOrderCancelEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1742,
-      "length": 4,
-      "value": "\"em\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraOrderCancelEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 167,
-      "length": 23,
-      "value": "\"NetmeraAnalytic.NetmeraOrderCancelEvent\""
-    },
-    {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionEvent.swift",
       "kind": "StringLiteral",
       "offset": 1511,
@@ -21354,69 +21444,6 @@
       "offset": 1583,
       "length": 4,
       "value": "\"ee\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1511,
-      "length": 4,
-      "value": "\"ea\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1533,
-      "length": 4,
-      "value": "\"eb\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1560,
-      "length": 4,
-      "value": "\"ed\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1583,
-      "length": 4,
-      "value": "\"ee\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 110,
-      "length": 20,
-      "value": "\"NetmeraAnalytic.NetmeraUIActionEvent\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraGeofenceEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 211,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraGeofenceEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 220,
-      "length": 6,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraGeofenceEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 211,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraGeofenceEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 220,
-      "length": 6,
-      "value": "1"
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraGeofenceEvent.swift",
@@ -21447,27 +21474,6 @@
       "value": "\"fy\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraGeofenceEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1240,
-      "length": 4,
-      "value": "\"ea\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraGeofenceEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1261,
-      "length": 4,
-      "value": "\"fy\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraGeofenceEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 243,
-      "length": 20,
-      "value": "\"NetmeraAnalytic.NetmeraGeofenceEvent\""
-    },
-    {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraBannerClickEvent.swift",
       "kind": "StringLiteral",
       "offset": 1164,
@@ -21480,62 +21486,6 @@
       "offset": 1189,
       "length": 4,
       "value": "\"eg\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraBannerClickEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1164,
-      "length": 4,
-      "value": "\"ea\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraBannerClickEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1189,
-      "length": 4,
-      "value": "\"eg\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraBannerClickEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 167,
-      "length": 23,
-      "value": "\"NetmeraAnalytic.NetmeraBannerClickEvent\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraLineItem.swift",
-      "kind": "StringLiteral",
-      "offset": 1653,
-      "length": 4,
-      "value": "\"ea\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraLineItem.swift",
-      "kind": "StringLiteral",
-      "offset": 1681,
-      "length": 4,
-      "value": "\"eb\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraLineItem.swift",
-      "kind": "StringLiteral",
-      "offset": 1703,
-      "length": 4,
-      "value": "\"eq\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraLineItem.swift",
-      "kind": "StringLiteral",
-      "offset": 1725,
-      "length": 4,
-      "value": "\"ec\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraLineItem.swift",
-      "kind": "StringLiteral",
-      "offset": 1752,
-      "length": 4,
-      "value": "\"ge\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraLineItem.swift",
@@ -21578,20 +21528,6 @@
       "offset": 932,
       "length": 4,
       "value": "\"eo\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentRateEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 932,
-      "length": 4,
-      "value": "\"eo\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentRateEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 148,
-      "length": 23,
-      "value": "\"NetmeraAnalytic.NetmeraContentRateEvent\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEvent.swift",
@@ -21643,62 +21579,6 @@
       "value": "\"eg\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2257,
-      "length": 4,
-      "value": "\"ea\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2285,
-      "length": 4,
-      "value": "\"eb\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2313,
-      "length": 4,
-      "value": "\"ed\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2341,
-      "length": 4,
-      "value": "\"ga\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2371,
-      "length": 4,
-      "value": "\"ef\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2396,
-      "length": 4,
-      "value": "\"ee\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2421,
-      "length": 4,
-      "value": "\"eg\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 161,
-      "length": 19,
-      "value": "\"NetmeraAnalytic.NetmeraContentEvent\""
-    },
-    {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraLinkClickEvent.swift",
       "kind": "StringLiteral",
       "offset": 1643,
@@ -21725,41 +21605,6 @@
       "offset": 1722,
       "length": 4,
       "value": "\"et\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraLinkClickEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1643,
-      "length": 4,
-      "value": "\"eg\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraLinkClickEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1670,
-      "length": 4,
-      "value": "\"ea\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraLinkClickEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1699,
-      "length": 4,
-      "value": "\"eb\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraLinkClickEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1722,
-      "length": 4,
-      "value": "\"et\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraLinkClickEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 167,
-      "length": 21,
-      "value": "\"NetmeraAnalytic.NetmeraLinkClickEvent\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraScreenCloseEvent.swift",
@@ -21804,55 +21649,6 @@
       "value": "\"eh\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraScreenCloseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2121,
-      "length": 4,
-      "value": "\"ee\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraScreenCloseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2148,
-      "length": 4,
-      "value": "\"ef\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraScreenCloseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2175,
-      "length": 4,
-      "value": "\"el\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraScreenCloseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2200,
-      "length": 4,
-      "value": "\"fg\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraScreenCloseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2225,
-      "length": 4,
-      "value": "\"eg\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraScreenCloseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2254,
-      "length": 4,
-      "value": "\"eh\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraScreenCloseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 167,
-      "length": 23,
-      "value": "\"NetmeraAnalytic.NetmeraScreenCloseEvent\""
-    },
-    {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraShareEvent.swift",
       "kind": "StringLiteral",
       "offset": 1129,
@@ -21867,46 +21663,11 @@
       "value": "\"ea\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraShareEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1129,
-      "length": 4,
-      "value": "\"ej\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraShareEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1153,
-      "length": 4,
-      "value": "\"ea\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraShareEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 161,
-      "length": 17,
-      "value": "\"NetmeraAnalytic.NetmeraShareEvent\""
-    },
-    {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductRateEvent.swift",
       "kind": "StringLiteral",
       "offset": 938,
       "length": 4,
       "value": "\"eo\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductRateEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 938,
-      "length": 4,
-      "value": "\"eo\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductRateEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 148,
-      "length": 23,
-      "value": "\"NetmeraAnalytic.NetmeraProductRateEvent\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraTimeInAppEvent.swift",
@@ -21916,109 +21677,11 @@
       "value": "\"ft\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraTimeInAppEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 966,
-      "length": 4,
-      "value": "\"ft\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraTimeInAppEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 167,
-      "length": 21,
-      "value": "\"NetmeraAnalytic.NetmeraTimeInAppEvent\""
-    },
-    {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraCartRemoveProductEvent.swift",
       "kind": "StringLiteral",
       "offset": 936,
       "length": 4,
       "value": "\"ec\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraCartRemoveProductEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 936,
-      "length": 4,
-      "value": "\"ec\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraCartRemoveProductEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 154,
-      "length": 29,
-      "value": "\"NetmeraAnalytic.NetmeraCartRemoveProductEvent\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEventType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 204,
-      "length": 4,
-      "value": "0x00"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEventType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 224,
-      "length": 4,
-      "value": "0x01"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEventType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 244,
-      "length": 4,
-      "value": "0x02"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEventType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 264,
-      "length": 4,
-      "value": "0x03"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEventType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 283,
-      "length": 4,
-      "value": "0x04"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEventType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 204,
-      "length": 4,
-      "value": "0x00"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEventType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 224,
-      "length": 4,
-      "value": "0x01"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEventType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 244,
-      "length": 4,
-      "value": "0x02"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEventType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 264,
-      "length": 4,
-      "value": "0x03"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEventType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 283,
-      "length": 4,
-      "value": "0x04"
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEventType.swift",
@@ -22070,27 +21733,6 @@
       "value": "\"fu\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraLocationUpdateEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1185,
-      "length": 4,
-      "value": "\"fw\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraLocationUpdateEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1214,
-      "length": 4,
-      "value": "\"fu\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraLocationUpdateEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 172,
-      "length": 26,
-      "value": "\"NetmeraAnalytic.NetmeraLocationUpdateEvent\""
-    },
-    {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraSearchEvent.swift",
       "kind": "StringLiteral",
       "offset": 1137,
@@ -22103,229 +21745,12 @@
       "offset": 1165,
       "length": 4,
       "value": "\"ec\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraSearchEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1137,
-      "length": 4,
-      "value": "\"en\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraSearchEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1165,
-      "length": 4,
-      "value": "\"ec\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraSearchEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 162,
-      "length": 18,
-      "value": "\"NetmeraAnalytic.NetmeraSearchEvent\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
       "kind": "IntegerLiteral",
       "offset": 210,
       "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 220,
-      "length": 6,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 234,
-      "length": 8,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 250,
-      "length": 6,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 264,
-      "length": 8,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 280,
-      "length": 4,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 292,
-      "length": 7,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 307,
-      "length": 4,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 319,
-      "length": 10,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 337,
-      "length": 6,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 351,
-      "length": 7,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 366,
-      "length": 11,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 385,
-      "length": 9,
-      "value": "11"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 402,
-      "length": 14,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 210,
-      "length": 1,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 220,
-      "length": 6,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 234,
-      "length": 8,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 250,
-      "length": 6,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 264,
-      "length": 8,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 280,
-      "length": 4,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 292,
-      "length": 7,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 307,
-      "length": 4,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 319,
-      "length": 10,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 337,
-      "length": 6,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 351,
-      "length": 7,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 366,
-      "length": 11,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 385,
-      "length": 9,
-      "value": "11"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 402,
-      "length": 14,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 210,
-      "length": 1,
       "value": "-1"
     },
     {

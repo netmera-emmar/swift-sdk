@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "NetmeraNotificationServiceExtension",
+    "printedName": "NetmeraNotificationServiceExtension",
     "children": [
       {
         "kind": "Import",
@@ -246,6 +246,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -421,20 +435,6 @@
       "offset": 946,
       "length": 4,
       "value": "\"mu\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationServiceExtension\/NetmeraNotificationServiceExtension\/Model\/NetmeraMediaPush.swift",
-      "kind": "StringLiteral",
-      "offset": 946,
-      "length": 4,
-      "value": "\"mu\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationServiceExtension\/NetmeraNotificationServiceExtension\/Model\/NetmeraMediaPush.swift",
-      "kind": "StringLiteral",
-      "offset": 130,
-      "length": 16,
-      "value": "\"NetmeraNotificationServiceExtension.NetmeraMediaPush\""
     }
   ]
 }

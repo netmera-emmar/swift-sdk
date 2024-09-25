@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "NetmeraAdvertisingId",
+    "printedName": "NetmeraAdvertisingId",
     "children": [
       {
         "kind": "Import",
@@ -513,7 +513,23 @@
         "mangledName": "$s11NetmeraCore0A0C",
         "moduleName": "NetmeraCore",
         "isExternal": true,
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -537,6 +553,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -600,25 +630,11 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAdvertisingId\/NetmeraAdvertisingId\/Provider\/AdIdProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 287,
-      "length": 12,
-      "value": "\"NetmeraAdvertisingId.AdIdProvider\""
-    },
-    {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAdvertisingId\/NetmeraAdvertisingId\/Utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 152,
       "length": 17,
       "value": "\"AdvertisingInfo\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAdvertisingId\/NetmeraAdvertisingId\/Manager\/TrackingManager\/Factory\/NetmeraTrackingManagerFactoryV14.swift",
-      "kind": "StringLiteral",
-      "offset": 184,
-      "length": 32,
-      "value": "\"NetmeraAdvertisingId.NetmeraTrackingManagerFactoryV14\""
     }
   ]
 }
