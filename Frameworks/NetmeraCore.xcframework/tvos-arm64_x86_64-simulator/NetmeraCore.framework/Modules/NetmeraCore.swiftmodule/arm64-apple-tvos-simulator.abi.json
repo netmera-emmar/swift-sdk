@@ -23424,7 +23424,7 @@
       "kind": "StringLiteral",
       "offset": 222,
       "length": 8,
-      "value": "\"4.0.11\""
+      "value": "\"4.0.12\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
@@ -23954,21 +23954,21 @@
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4481,
+      "offset": 4479,
       "length": 4,
       "value": "\"os\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4511,
+      "offset": 4515,
       "length": 6,
       "value": "\"sdkv\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4545,
+      "offset": 4555,
       "length": 8,
       "value": "\"apikey\""
     },
