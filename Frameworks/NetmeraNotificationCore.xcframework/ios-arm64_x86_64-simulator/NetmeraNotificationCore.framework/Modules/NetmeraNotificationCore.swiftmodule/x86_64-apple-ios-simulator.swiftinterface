@@ -108,6 +108,7 @@ public enum PushStyleType : Swift.Int, Swift.Codable {
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class NetmeraInteractivePush : NetmeraNotificationCore.NetmeraStandartPush {
   final public let interactiveAction: [NetmeraNotificationCore.NetmeraPushInteractiveAction]?
+  final public let mediaAttachmentURL: Swift.String?
   override public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
 }

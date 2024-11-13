@@ -2,11 +2,11 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/muhammedkilinc/Library/Developer/Xcode/DerivedData/Netmera-ekidnhpwpuujofcozjwmuhassdbm/Build/Intermediates.noindex/ArchiveIntermediates/NetmeraNotificationContentExtension/InstallationBuildProductsLocation/Library/Frameworks/NetmeraNotificationContentExtension.framework/NetmeraNotificationContentExtension'
 relocations:
-  - { offset: 0x5A0B6, size: 0x8, addend: 0x0, symName: _NetmeraNotificationContentExtensionVersionString, symObjAddr: 0x0, symBinAddr: 0x101C0, symSize: 0x0 }
-  - { offset: 0x5A0EB, size: 0x8, addend: 0x0, symName: _NetmeraNotificationContentExtensionVersionNumber, symObjAddr: 0x60, symBinAddr: 0x10220, symSize: 0x0 }
-  - { offset: 0x5A150, size: 0x8, addend: 0x0, symName: '_$s35NetmeraNotificationContentExtension12CarouselViewC0E4Size33_05AEFB78B00141D7DC974C6EE13893F9LLO5width12CoreGraphics7CGFloatVvpZ', symObjAddr: 0x448, symBinAddr: 0x1B768, symSize: 0x0 }
-  - { offset: 0x5A16A, size: 0x8, addend: 0x0, symName: '_$s35NetmeraNotificationContentExtension12CarouselViewC0E4Size33_05AEFB78B00141D7DC974C6EE13893F9LLO6height12CoreGraphics7CGFloatVvpZ', symObjAddr: 0x458, symBinAddr: 0x1B778, symSize: 0x0 }
-  - { offset: 0x5A184, size: 0x8, addend: 0x0, symName: '_$s35NetmeraNotificationContentExtension12CarouselViewC0E4Size33_05AEFB78B00141D7DC974C6EE13893F9LLO7spacing12CoreGraphics7CGFloatVvpZ', symObjAddr: 0x468, symBinAddr: 0x1B788, symSize: 0x0 }
+  - { offset: 0x5A0B6, size: 0x8, addend: 0x0, symName: _NetmeraNotificationContentExtensionVersionString, symObjAddr: 0x0, symBinAddr: 0x113A0, symSize: 0x0 }
+  - { offset: 0x5A0EB, size: 0x8, addend: 0x0, symName: _NetmeraNotificationContentExtensionVersionNumber, symObjAddr: 0x60, symBinAddr: 0x11400, symSize: 0x0 }
+  - { offset: 0x5A150, size: 0x8, addend: 0x0, symName: '_$s35NetmeraNotificationContentExtension12CarouselViewC0E4Size33_05AEFB78B00141D7DC974C6EE13893F9LLO5width12CoreGraphics7CGFloatVvpZ', symObjAddr: 0x448, symBinAddr: 0x1B7C8, symSize: 0x0 }
+  - { offset: 0x5A16A, size: 0x8, addend: 0x0, symName: '_$s35NetmeraNotificationContentExtension12CarouselViewC0E4Size33_05AEFB78B00141D7DC974C6EE13893F9LLO6height12CoreGraphics7CGFloatVvpZ', symObjAddr: 0x458, symBinAddr: 0x1B7D8, symSize: 0x0 }
+  - { offset: 0x5A184, size: 0x8, addend: 0x0, symName: '_$s35NetmeraNotificationContentExtension12CarouselViewC0E4Size33_05AEFB78B00141D7DC974C6EE13893F9LLO7spacing12CoreGraphics7CGFloatVvpZ', symObjAddr: 0x468, symBinAddr: 0x1B7E8, symSize: 0x0 }
   - { offset: 0x5A19E, size: 0x8, addend: 0x0, symName: '_$s35NetmeraNotificationContentExtension12CarouselViewC0E4Size33_05AEFB78B00141D7DC974C6EE13893F9LLO5width_WZ', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x14 }
   - { offset: 0x5A1B8, size: 0x8, addend: 0x0, symName: '_$s35NetmeraNotificationContentExtension12CarouselViewC0E4Size33_05AEFB78B00141D7DC974C6EE13893F9LLO6height_WZ', symObjAddr: 0x14, symBinAddr: 0x4014, symSize: 0x14 }
   - { offset: 0x5A1D2, size: 0x8, addend: 0x0, symName: '_$s35NetmeraNotificationContentExtension12CarouselViewC0E4Size33_05AEFB78B00141D7DC974C6EE13893F9LLO7spacing_WZ', symObjAddr: 0x28, symBinAddr: 0x4028, symSize: 0x10 }
@@ -206,7 +206,7 @@ relocations:
   - { offset: 0x63129, size: 0x8, addend: 0x0, symName: '_$s35NetmeraNotificationContentExtension04PushC6EntityVMr', symObjAddr: 0x72C, symBinAddr: 0xD6DC, symSize: 0x74 }
   - { offset: 0x6313D, size: 0x8, addend: 0x0, symName: '_$s10Foundation3URLVSgMa', symObjAddr: 0x7A0, symBinAddr: 0xD750, symSize: 0x54 }
   - { offset: 0x63279, size: 0x8, addend: 0x0, symName: '_$s35NetmeraNotificationContentExtension0abC22DependencyResolverImplC6shared8resolver0A4Core0eF0_pAfG_pSg_tFZ', symObjAddr: 0x0, symBinAddr: 0xD7A4, symSize: 0x1D0 }
-  - { offset: 0x6329D, size: 0x8, addend: 0x0, symName: '_$s35NetmeraNotificationContentExtension0abC22DependencyResolverImplC8instance33_2D468F82ED0E0621DF247C0996E885E4LL0A4Core0eF0_pSgvpZ', symObjAddr: 0x8A0, symBinAddr: 0x1BB88, symSize: 0x0 }
+  - { offset: 0x6329D, size: 0x8, addend: 0x0, symName: '_$s35NetmeraNotificationContentExtension0abC22DependencyResolverImplC8instance33_2D468F82ED0E0621DF247C0996E885E4LL0A4Core0eF0_pSgvpZ', symObjAddr: 0x8A0, symBinAddr: 0x1BBE8, symSize: 0x0 }
   - { offset: 0x6340F, size: 0x8, addend: 0x0, symName: '_$s35NetmeraNotificationContentExtension0abC22DependencyResolverImplC8instance33_2D468F82ED0E0621DF247C0996E885E4LL_WZ', symObjAddr: 0x1D0, symBinAddr: 0xD974, symSize: 0x18 }
   - { offset: 0x6344A, size: 0x8, addend: 0x0, symName: '_$s35NetmeraNotificationContentExtension0abC22DependencyResolverImplCMa', symObjAddr: 0x5EC, symBinAddr: 0xDD90, symSize: 0x20 }
   - { offset: 0x6345E, size: 0x8, addend: 0x0, symName: '_$s11NetmeraCore18DependencyResolver_pSgWOc', symObjAddr: 0x6F0, symBinAddr: 0xDE50, symSize: 0x48 }

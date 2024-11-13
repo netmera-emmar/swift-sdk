@@ -3820,14 +3820,14 @@
       "kind": "IntegerLiteral",
       "offset": 379,
       "length": 2,
-      "value": "60"
+      "value": "30"
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotification\/NetmeraNotification\/InAppMessage\/WebView\/Base\/PopupConstraintConfigurator.swift",
       "kind": "IntegerLiteral",
       "offset": 437,
       "length": 2,
-      "value": "30"
+      "value": "40"
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotification\/NetmeraNotification\/Action\/PassthroughActionManager\/PassthroughActionManager.swift",

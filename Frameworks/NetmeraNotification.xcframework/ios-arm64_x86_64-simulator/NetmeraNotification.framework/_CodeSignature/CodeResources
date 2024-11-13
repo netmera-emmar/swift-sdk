@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Crv/hqs3ICHcxRv5MNtswigApxY=
+		uZGHS4edEli5qNqlwhoRB69cE04=
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Fxt9KqevTGhAfT1z5OTPUma/MVQ=
+		yZLoQan7TSQD/wkAWjtORqU4MUM=
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Crv/hqs3ICHcxRv5MNtswigApxY=
+		uZGHS4edEli5qNqlwhoRB69cE04=
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		thN8mxFJv+tiWZZPtGKsRrWAxGg=
+		rHHzI0k11JqaupWEvQ4ZVDzAy+A=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			c1dWpYE0OnUlnQeog5arVSiTwobJ9Ffd7bpw3BUyyxo=
+			o3Zi6zVyuRqvfSOmU7E4Ja30fOtTmy3CGgL5t4C2TqM=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotification.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			16W7X5At9izOSiStxa7RKlOVOqJnExCbieD1oXSa/fk=
+			2GqxcSOtmIJ3pFrLDoDaez0ySq/COfGl4J3jsd0XoRw=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			c1dWpYE0OnUlnQeog5arVSiTwobJ9Ffd7bpw3BUyyxo=
+			o3Zi6zVyuRqvfSOmU7E4Ja30fOtTmy3CGgL5t4C2TqM=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TvQ+V2wUtZNMV5CZjW71a8+Sbl/+ymtZP/3/yXhpKas=
+			qVa0BadNmxia22VOriIjKYC4Dq1Lm3cTxdV34PhDh6M=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
