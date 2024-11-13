@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "Swinject",
+    "printedName": "Swinject",
     "children": [
       {
         "kind": "TypeDecl",
@@ -17,7 +17,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Resolver",
-                "printedName": "Swinject.Resolver",
+                "printedName": "any Swinject.Resolver",
                 "usr": "s:8Swinject8ResolverP"
               }
             ],
@@ -39,7 +39,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Resolver",
-                    "printedName": "Swinject.Resolver",
+                    "printedName": "any Swinject.Resolver",
                     "usr": "s:8Swinject8ResolverP"
                   }
                 ],
@@ -126,12 +126,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[Swinject.Behavior]",
+                "printedName": "[any Swinject.Behavior]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Behavior",
-                    "printedName": "Swinject.Behavior",
+                    "printedName": "any Swinject.Behavior",
                     "usr": "s:8Swinject8BehaviorP"
                   }
                 ],
@@ -163,12 +163,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[Swinject.Assembly]",
+                "printedName": "[any Swinject.Assembly]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Assembly",
-                    "printedName": "Swinject.Assembly",
+                    "printedName": "any Swinject.Assembly",
                     "usr": "s:8Swinject8AssemblyP"
                   }
                 ],
@@ -218,12 +218,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[Swinject.Assembly]",
+                "printedName": "[any Swinject.Assembly]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Assembly",
-                    "printedName": "Swinject.Assembly",
+                    "printedName": "any Swinject.Assembly",
                     "usr": "s:8Swinject8AssemblyP"
                   }
                 ],
@@ -261,12 +261,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[Swinject.Assembly]",
+                "printedName": "[any Swinject.Assembly]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Assembly",
-                    "printedName": "Swinject.Assembly",
+                    "printedName": "any Swinject.Assembly",
                     "usr": "s:8Swinject8AssemblyP"
                   }
                 ],
@@ -315,12 +315,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[Swinject.Assembly]",
+                "printedName": "[any Swinject.Assembly]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Assembly",
-                    "printedName": "Swinject.Assembly",
+                    "printedName": "any Swinject.Assembly",
                     "usr": "s:8Swinject8AssemblyP"
                   }
                 ],
@@ -350,12 +350,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[Swinject.Behavior]",
+                "printedName": "[any Swinject.Behavior]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Behavior",
-                    "printedName": "Swinject.Behavior",
+                    "printedName": "any Swinject.Behavior",
                     "usr": "s:8Swinject8BehaviorP"
                   }
                 ],
@@ -386,7 +386,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Assembly",
-                "printedName": "Swinject.Assembly",
+                "printedName": "any Swinject.Assembly",
                 "usr": "s:8Swinject8AssemblyP"
               }
             ],
@@ -414,12 +414,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[Swinject.Assembly]",
+                "printedName": "[any Swinject.Assembly]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Assembly",
-                    "printedName": "Swinject.Assembly",
+                    "printedName": "any Swinject.Assembly",
                     "usr": "s:8Swinject8AssemblyP"
                   }
                 ],
@@ -446,6 +446,22 @@
           "Final",
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -496,7 +512,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Resolver",
-                "printedName": "Swinject.Resolver",
+                "printedName": "any Swinject.Resolver",
                 "usr": "s:8Swinject8ResolverP"
               }
             ],
@@ -526,7 +542,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Resolver",
-                "printedName": "Swinject.Resolver",
+                "printedName": "any Swinject.Resolver",
                 "usr": "s:8Swinject8ResolverP"
               }
             ],
@@ -547,6 +563,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -631,6 +663,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -694,12 +742,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[Swinject.Behavior]",
+                "printedName": "[any Swinject.Behavior]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Behavior",
-                    "printedName": "Swinject.Behavior",
+                    "printedName": "any Swinject.Behavior",
                     "usr": "s:8Swinject8BehaviorP"
                   }
                 ],
@@ -775,7 +823,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ObjectScopeProtocol",
-                "printedName": "Swinject.ObjectScopeProtocol",
+                "printedName": "any Swinject.ObjectScopeProtocol",
                 "usr": "s:8Swinject19ObjectScopeProtocolP"
               }
             ],
@@ -866,7 +914,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swinject.Resolver) -> τ_0_0",
+                "printedName": "(any Swinject.Resolver) -> τ_0_0",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -876,7 +924,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Resolver",
-                    "printedName": "Swinject.Resolver",
+                    "printedName": "any Swinject.Resolver",
                     "usr": "s:8Swinject8ResolverP"
                   }
                 ]
@@ -961,12 +1009,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swinject.ServiceKeyOption?",
+                "printedName": "(any Swinject.ServiceKeyOption)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ServiceKeyOption",
-                    "printedName": "Swinject.ServiceKeyOption",
+                    "printedName": "any Swinject.ServiceKeyOption",
                     "usr": "s:8Swinject16ServiceKeyOptionP"
                   }
                 ],
@@ -996,7 +1044,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Resolver",
-                "printedName": "Swinject.Resolver",
+                "printedName": "any Swinject.Resolver",
                 "usr": "s:8Swinject8ResolverP"
               }
             ],
@@ -1024,7 +1072,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Behavior",
-                "printedName": "Swinject.Behavior",
+                "printedName": "any Swinject.Behavior",
                 "usr": "s:8Swinject8BehaviorP"
               }
             ],
@@ -1139,7 +1187,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swinject.Resolver, τ_0_1) -> τ_0_0",
+                "printedName": "(any Swinject.Resolver, τ_0_1) -> τ_0_0",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1149,12 +1197,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swinject.Resolver, τ_0_1)",
+                    "printedName": "(any Swinject.Resolver, τ_0_1)",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Resolver",
-                        "printedName": "Swinject.Resolver",
+                        "printedName": "any Swinject.Resolver",
                         "usr": "s:8Swinject8ResolverP"
                       },
                       {
@@ -1230,7 +1278,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swinject.Resolver, τ_0_1, τ_0_2) -> τ_0_0",
+                "printedName": "(any Swinject.Resolver, τ_0_1, τ_0_2) -> τ_0_0",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1240,12 +1288,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swinject.Resolver, τ_0_1, τ_0_2)",
+                    "printedName": "(any Swinject.Resolver, τ_0_1, τ_0_2)",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Resolver",
-                        "printedName": "Swinject.Resolver",
+                        "printedName": "any Swinject.Resolver",
                         "usr": "s:8Swinject8ResolverP"
                       },
                       {
@@ -1326,7 +1374,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swinject.Resolver, τ_0_1, τ_0_2, τ_0_3) -> τ_0_0",
+                "printedName": "(any Swinject.Resolver, τ_0_1, τ_0_2, τ_0_3) -> τ_0_0",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1336,12 +1384,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swinject.Resolver, τ_0_1, τ_0_2, τ_0_3)",
+                    "printedName": "(any Swinject.Resolver, τ_0_1, τ_0_2, τ_0_3)",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Resolver",
-                        "printedName": "Swinject.Resolver",
+                        "printedName": "any Swinject.Resolver",
                         "usr": "s:8Swinject8ResolverP"
                       },
                       {
@@ -1427,7 +1475,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swinject.Resolver, τ_0_1, τ_0_2, τ_0_3, τ_0_4) -> τ_0_0",
+                "printedName": "(any Swinject.Resolver, τ_0_1, τ_0_2, τ_0_3, τ_0_4) -> τ_0_0",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1437,12 +1485,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swinject.Resolver, τ_0_1, τ_0_2, τ_0_3, τ_0_4)",
+                    "printedName": "(any Swinject.Resolver, τ_0_1, τ_0_2, τ_0_3, τ_0_4)",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Resolver",
-                        "printedName": "Swinject.Resolver",
+                        "printedName": "any Swinject.Resolver",
                         "usr": "s:8Swinject8ResolverP"
                       },
                       {
@@ -1533,7 +1581,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swinject.Resolver, τ_0_1, τ_0_2, τ_0_3, τ_0_4, τ_0_5) -> τ_0_0",
+                "printedName": "(any Swinject.Resolver, τ_0_1, τ_0_2, τ_0_3, τ_0_4, τ_0_5) -> τ_0_0",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1543,12 +1591,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swinject.Resolver, τ_0_1, τ_0_2, τ_0_3, τ_0_4, τ_0_5)",
+                    "printedName": "(any Swinject.Resolver, τ_0_1, τ_0_2, τ_0_3, τ_0_4, τ_0_5)",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Resolver",
-                        "printedName": "Swinject.Resolver",
+                        "printedName": "any Swinject.Resolver",
                         "usr": "s:8Swinject8ResolverP"
                       },
                       {
@@ -1644,7 +1692,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swinject.Resolver, τ_0_1, τ_0_2, τ_0_3, τ_0_4, τ_0_5, τ_0_6) -> τ_0_0",
+                "printedName": "(any Swinject.Resolver, τ_0_1, τ_0_2, τ_0_3, τ_0_4, τ_0_5, τ_0_6) -> τ_0_0",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1654,12 +1702,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swinject.Resolver, τ_0_1, τ_0_2, τ_0_3, τ_0_4, τ_0_5, τ_0_6)",
+                    "printedName": "(any Swinject.Resolver, τ_0_1, τ_0_2, τ_0_3, τ_0_4, τ_0_5, τ_0_6)",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Resolver",
-                        "printedName": "Swinject.Resolver",
+                        "printedName": "any Swinject.Resolver",
                         "usr": "s:8Swinject8ResolverP"
                       },
                       {
@@ -1760,7 +1808,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swinject.Resolver, τ_0_1, τ_0_2, τ_0_3, τ_0_4, τ_0_5, τ_0_6, τ_0_7) -> τ_0_0",
+                "printedName": "(any Swinject.Resolver, τ_0_1, τ_0_2, τ_0_3, τ_0_4, τ_0_5, τ_0_6, τ_0_7) -> τ_0_0",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1770,12 +1818,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swinject.Resolver, τ_0_1, τ_0_2, τ_0_3, τ_0_4, τ_0_5, τ_0_6, τ_0_7)",
+                    "printedName": "(any Swinject.Resolver, τ_0_1, τ_0_2, τ_0_3, τ_0_4, τ_0_5, τ_0_6, τ_0_7)",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Resolver",
-                        "printedName": "Swinject.Resolver",
+                        "printedName": "any Swinject.Resolver",
                         "usr": "s:8Swinject8ResolverP"
                       },
                       {
@@ -1881,7 +1929,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swinject.Resolver, τ_0_1, τ_0_2, τ_0_3, τ_0_4, τ_0_5, τ_0_6, τ_0_7, τ_0_8) -> τ_0_0",
+                "printedName": "(any Swinject.Resolver, τ_0_1, τ_0_2, τ_0_3, τ_0_4, τ_0_5, τ_0_6, τ_0_7, τ_0_8) -> τ_0_0",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1891,12 +1939,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swinject.Resolver, τ_0_1, τ_0_2, τ_0_3, τ_0_4, τ_0_5, τ_0_6, τ_0_7, τ_0_8)",
+                    "printedName": "(any Swinject.Resolver, τ_0_1, τ_0_2, τ_0_3, τ_0_4, τ_0_5, τ_0_6, τ_0_7, τ_0_8)",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Resolver",
-                        "printedName": "Swinject.Resolver",
+                        "printedName": "any Swinject.Resolver",
                         "usr": "s:8Swinject8ResolverP"
                       },
                       {
@@ -2007,7 +2055,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swinject.Resolver, τ_0_1, τ_0_2, τ_0_3, τ_0_4, τ_0_5, τ_0_6, τ_0_7, τ_0_8, τ_0_9) -> τ_0_0",
+                "printedName": "(any Swinject.Resolver, τ_0_1, τ_0_2, τ_0_3, τ_0_4, τ_0_5, τ_0_6, τ_0_7, τ_0_8, τ_0_9) -> τ_0_0",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -2017,12 +2065,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swinject.Resolver, τ_0_1, τ_0_2, τ_0_3, τ_0_4, τ_0_5, τ_0_6, τ_0_7, τ_0_8, τ_0_9)",
+                    "printedName": "(any Swinject.Resolver, τ_0_1, τ_0_2, τ_0_3, τ_0_4, τ_0_5, τ_0_6, τ_0_7, τ_0_8, τ_0_9)",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Resolver",
-                        "printedName": "Swinject.Resolver",
+                        "printedName": "any Swinject.Resolver",
                         "usr": "s:8Swinject8ResolverP"
                       },
                       {
@@ -3735,12 +3783,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swinject.ServiceKeyOption?",
+                "printedName": "(any Swinject.ServiceKeyOption)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ServiceKeyOption",
-                    "printedName": "Swinject.ServiceKeyOption",
+                    "printedName": "any Swinject.ServiceKeyOption",
                     "usr": "s:8Swinject16ServiceKeyOptionP"
                   }
                 ],
@@ -3958,6 +4006,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_Resolver",
             "printedName": "_Resolver",
             "usr": "s:8Swinject9_ResolverP",
@@ -4146,6 +4208,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Identifiable",
@@ -4509,6 +4585,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -4763,6 +4855,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "InstanceStorage",
             "printedName": "InstanceStorage",
             "usr": "s:8Swinject15InstanceStorageP",
@@ -4926,6 +5032,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "InstanceStorage",
             "printedName": "InstanceStorage",
             "usr": "s:8Swinject15InstanceStorageP",
@@ -5082,6 +5202,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "InstanceStorage",
@@ -5242,6 +5376,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "InstanceStorage",
             "printedName": "InstanceStorage",
             "usr": "s:8Swinject15InstanceStorageP",
@@ -5380,12 +5528,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[Swinject.InstanceStorage]",
+                "printedName": "[any Swinject.InstanceStorage]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "InstanceStorage",
-                    "printedName": "Swinject.InstanceStorage",
+                    "printedName": "any Swinject.InstanceStorage",
                     "usr": "s:8Swinject15InstanceStorageP"
                   }
                 ],
@@ -5510,6 +5658,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "InstanceStorage",
             "printedName": "InstanceStorage",
             "usr": "s:8Swinject15InstanceStorageP",
@@ -5579,7 +5741,23 @@
           "AccessControl",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -5643,7 +5821,23 @@
           "AccessControl",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -5658,7 +5852,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "InstanceStorage",
-                "printedName": "Swinject.InstanceStorage",
+                "printedName": "any Swinject.InstanceStorage",
                 "usr": "s:8Swinject15InstanceStorageP"
               }
             ],
@@ -5685,6 +5879,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -5750,12 +5960,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "() -> Swinject.InstanceStorage",
+                "printedName": "() -> any Swinject.InstanceStorage",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "InstanceStorage",
-                    "printedName": "Swinject.InstanceStorage",
+                    "printedName": "any Swinject.InstanceStorage",
                     "usr": "s:8Swinject15InstanceStorageP"
                   },
                   {
@@ -5775,12 +5985,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swinject.ObjectScopeProtocol?",
+                "printedName": "(any Swinject.ObjectScopeProtocol)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ObjectScopeProtocol",
-                    "printedName": "Swinject.ObjectScopeProtocol",
+                    "printedName": "any Swinject.ObjectScopeProtocol",
                     "usr": "s:8Swinject19ObjectScopeProtocolP"
                   }
                 ],
@@ -5806,7 +6016,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "InstanceStorage",
-                "printedName": "Swinject.InstanceStorage",
+                "printedName": "any Swinject.InstanceStorage",
                 "usr": "s:8Swinject15InstanceStorageP"
               }
             ],
@@ -6046,6 +6256,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "ObjectScopeProtocol",
@@ -7555,6 +7779,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -7585,7 +7825,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ObjectScopeProtocol",
-                "printedName": "Swinject.ObjectScopeProtocol",
+                "printedName": "any Swinject.ObjectScopeProtocol",
                 "usr": "s:8Swinject19ObjectScopeProtocolP"
               }
             ],
@@ -7647,7 +7887,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swinject.Resolver, τ_0_0) -> ()",
+                "printedName": "(any Swinject.Resolver, τ_0_0) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -7657,12 +7897,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Swinject.Resolver, τ_0_0)",
+                    "printedName": "(any Swinject.Resolver, τ_0_0)",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Resolver",
-                        "printedName": "Swinject.Resolver",
+                        "printedName": "any Swinject.Resolver",
                         "usr": "s:8Swinject8ResolverP"
                       },
                       {
@@ -8562,7 +8802,23 @@
           "AccessControl",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -8593,7 +8849,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ServiceKeyOption",
-                "printedName": "Swinject.ServiceKeyOption",
+                "printedName": "any Swinject.ServiceKeyOption",
                 "usr": "s:8Swinject16ServiceKeyOptionP"
               }
             ],
@@ -8649,6 +8905,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -8696,12 +8966,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swinject.ServiceKeyOption?",
+                "printedName": "(any Swinject.ServiceKeyOption)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ServiceKeyOption",
-                    "printedName": "Swinject.ServiceKeyOption",
+                    "printedName": "any Swinject.ServiceKeyOption",
                     "usr": "s:8Swinject16ServiceKeyOptionP"
                   }
                 ],
@@ -8761,6 +9031,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -8771,8 +9057,8 @@
         "usr": "s:Sq",
         "mangledName": "$sSq",
         "moduleName": "Swift",
-        "genericSig": "<τ_0_0>",
-        "sugared_genericSig": "<Wrapped>",
+        "genericSig": "<τ_0_0 where τ_0_0 : ~Copyable>",
+        "sugared_genericSig": "<Wrapped where Wrapped : ~Copyable>",
         "declAttributes": [
           "Frozen"
         ],
@@ -8781,10 +9067,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "ExpressibleByNilLiteral",
-            "printedName": "ExpressibleByNilLiteral",
-            "usr": "s:s23ExpressibleByNilLiteralP",
-            "mangledName": "$ss23ExpressibleByNilLiteralP"
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -8799,6 +9085,34 @@
             "printedName": "Decodable",
             "usr": "s:Se",
             "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByNilLiteral",
+            "printedName": "ExpressibleByNilLiteral",
+            "usr": "s:s23ExpressibleByNilLiteralP",
+            "mangledName": "$ss23ExpressibleByNilLiteralP"
           },
           {
             "kind": "Conformance",
@@ -8848,13 +9162,6 @@
             ],
             "usr": "s:s21_ObjectiveCBridgeableP",
             "mangledName": "$ss21_ObjectiveCBridgeableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
           },
           {
             "kind": "Conformance",
@@ -8940,305 +9247,11 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/Container.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7334,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/Container.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10554,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/Container.swift",
-      "kind": "Dictionary",
-      "offset": 11067,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/Container.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11230,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/Container.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11360,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/Container.swift",
-      "kind": "StringLiteral",
-      "offset": 11533,
-      "length": 69,
-      "value": "\"Infinite recursive call for circular dependency has been detected. \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/Container.swift",
-      "kind": "StringLiteral",
-      "offset": 11621,
-      "length": 99,
-      "value": "\"To avoid the infinite call, 'initCompleted' handler should be used to inject circular dependency.\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/Container.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11759,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/Container.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11894,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/Container.swift",
-      "kind": "StringLiteral",
-      "offset": 11897,
-      "length": 31,
-      "value": "\"The depth cannot be negative.\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/Container.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11958,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/Container.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11990,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/Container.swift",
-      "kind": "StringLiteral",
-      "offset": 13969,
-      "length": 89,
-      "value": "\"If accessing container from multiple threads, make sure to use a synchronized resolver.\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/Container.swift",
-      "kind": "StringLiteral",
-      "offset": 15582,
-      "length": 3,
-      "value": "\"[\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/Container.swift",
-      "kind": "StringLiteral",
-      "offset": 15615,
-      "length": 37,
-      "value": "\"\n    { \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/Container.swift",
-      "kind": "StringLiteral",
-      "offset": 15649,
-      "length": 1,
-      "value": "\" }\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/Container.swift",
-      "kind": "StringLiteral",
-      "offset": 15682,
-      "length": 3,
-      "value": "\",\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/Container.swift",
-      "kind": "StringLiteral",
-      "offset": 15701,
-      "length": 5,
-      "value": "\"\n]\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 538,
-      "length": 53,
-      "value": "\"Swinject: Resolution failed. Expected registration:\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 605,
-      "length": 65,
-      "value": "\"\t{ \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 667,
-      "length": 1,
-      "value": "\" }\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 684,
-      "length": 26,
-      "value": "\"Available registrations:\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 836,
-      "length": 6,
-      "value": "\"\t{ \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 874,
-      "length": 4,
-      "value": "\" }\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 929,
-      "length": 4,
-      "value": "\"\n\""
-    },
-    {
       "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
       "kind": "Array",
       "offset": 1099,
       "length": 2,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 1228,
-      "length": 19,
-      "value": "\", Name: \"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 1244,
-      "length": 1,
-      "value": "\"\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 1253,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 1308,
-      "length": 9,
-      "value": "\", \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 1316,
-      "length": 8,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 1323,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 1393,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 1398,
-      "length": 60,
-      "value": "\", InitCompleted: Specified \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 1448,
-      "length": 8,
-      "value": "\" closures\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 1510,
-      "length": 22,
-      "value": "\", ObjectScope: \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 1531,
-      "length": 8,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 1538,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 1552,
-      "length": 25,
-      "value": "\"Service: \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 1576,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 1642,
-      "length": 69,
-      "value": "\", Factory: \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 1681,
-      "length": 2,
-      "value": "\" -> \""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/DebugHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 1710,
-      "length": 1,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/ObjectScope.Standard.swift",
@@ -9281,20 +9294,6 @@
       "offset": 816,
       "length": 2,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/ServiceKey.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1596,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/Swinject-master\/Sources\/ServiceKey.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1621,
-      "length": 5,
-      "value": "false"
     }
   ]
 }
