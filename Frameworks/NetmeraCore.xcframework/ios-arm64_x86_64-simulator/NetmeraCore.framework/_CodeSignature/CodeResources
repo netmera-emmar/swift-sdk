@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/NetmeraCore.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		aygwRMMONYc3iujDLJHaP3ckGlk=
+		QHLFwwSoh6Hc0KBkokaYeBMyZlU=
 		</data>
 		<key>Modules/NetmeraCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/NetmeraCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		tj0VNpEuhN/79G79cg8XFsjxG1Y=
+		LiOJiBvf2ivrrdXIUMHROeaQAnM=
 		</data>
 		<key>Modules/NetmeraCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		aygwRMMONYc3iujDLJHaP3ckGlk=
+		QHLFwwSoh6Hc0KBkokaYeBMyZlU=
 		</data>
 		<key>Modules/NetmeraCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/NetmeraCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		aZk7T07So6yz7iPvoNnKR4O12kw=
+		a2Wan50pUg4WVe/IzJBI2FUo8Yg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -85,7 +85,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mFqxSH4mdjRyo31y0iYFVGYJwdgxmwiGyPKsBt1P3E0=
+			DNn6IyG+ZR85dClmUz3M/KLMN72EqwWBYVc7inLAtQ0=
 			</data>
 		</dict>
 		<key>Modules/NetmeraCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -113,14 +113,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5gjLPML2vRK3gYLEk0D3ggHFjLubLyRhdj2G6y+7Dmw=
+			vpqGCxksn5bAf6SKOL9KdAg8C4cgklRkh+ZuMvJd3Gw=
 			</data>
 		</dict>
 		<key>Modules/NetmeraCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mFqxSH4mdjRyo31y0iYFVGYJwdgxmwiGyPKsBt1P3E0=
+			DNn6IyG+ZR85dClmUz3M/KLMN72EqwWBYVc7inLAtQ0=
 			</data>
 		</dict>
 		<key>Modules/NetmeraCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -148,7 +148,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LY/8Lh7bOxj6VvlWMNn87pyDQy9rAb5tSqKRRAl9Kvs=
+			JoNRteGtpvOCWTOqEUrHilvMLUqBV12pmhVOVWZXc6c=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

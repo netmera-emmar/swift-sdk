@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		uZGHS4edEli5qNqlwhoRB69cE04=
+		o8el3WL+Mej7CLf/0aPENmrtMyc=
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		yZLoQan7TSQD/wkAWjtORqU4MUM=
+		JXk4m69mALAPkwApgZWKsEiEalQ=
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		uZGHS4edEli5qNqlwhoRB69cE04=
+		o8el3WL+Mej7CLf/0aPENmrtMyc=
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		rHHzI0k11JqaupWEvQ4ZVDzAy+A=
+		knh6qI4ntjbyVrb/bQ8wlns3Z2U=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			o3Zi6zVyuRqvfSOmU7E4Ja30fOtTmy3CGgL5t4C2TqM=
+			LkQYHNL9tMkwI6H4Opwd67QPm9D66kRqzGGd/Fxe+Hw=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotification.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2GqxcSOtmIJ3pFrLDoDaez0ySq/COfGl4J3jsd0XoRw=
+			FfBU0qczlf0k3MCV4pdwpN8tyd0P6fCpBgRdzM7lSpM=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			o3Zi6zVyuRqvfSOmU7E4Ja30fOtTmy3CGgL5t4C2TqM=
+			LkQYHNL9tMkwI6H4Opwd67QPm9D66kRqzGGd/Fxe+Hw=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qVa0BadNmxia22VOriIjKYC4Dq1Lm3cTxdV34PhDh6M=
+			7aR/EkfFMke0h+xI4OBCTcLKzNj5IIHzyeD7FuGFZ2U=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
