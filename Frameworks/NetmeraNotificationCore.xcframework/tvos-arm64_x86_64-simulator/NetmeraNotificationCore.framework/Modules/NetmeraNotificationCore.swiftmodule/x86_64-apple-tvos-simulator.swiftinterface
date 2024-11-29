@@ -292,6 +292,9 @@ open class NetmeraBasePush : NetmeraCore.NetmeraPush, Swift.Equatable {
   final public let action: NetmeraNotificationCore.NetmeraPushAction?
   final public let expirationDate: Foundation.Date?
   final public let sendDate: Foundation.Date?
+  public var isExpired: Swift.Bool {
+    get
+  }
   public init()
   required public init(from decoder: any Swift.Decoder) throws
   override open func encode(to encoder: any Swift.Encoder) throws

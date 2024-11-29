@@ -23605,7 +23605,7 @@
       "kind": "StringLiteral",
       "offset": 222,
       "length": 8,
-      "value": "\"4.0.14\""
+      "value": "\"4.0.15\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
