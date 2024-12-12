@@ -23605,7 +23605,7 @@
       "kind": "StringLiteral",
       "offset": 222,
       "length": 8,
-      "value": "\"4.0.15\""
+      "value": "\"4.0.16\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
@@ -24555,7 +24555,7 @@
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraCore\/NetmeraCore\/Common\/Proxy\/UIApplicationDelegateProxy.swift",
       "kind": "Dictionary",
-      "offset": 2717,
+      "offset": 2807,
       "length": 3,
       "value": "[]"
     },
