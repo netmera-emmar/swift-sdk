@@ -1959,829 +1959,6 @@
       },
       {
         "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraAnalytic"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "NetmeraScreenOpenEvent",
-        "printedName": "NetmeraScreenOpenEvent",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "key",
-            "printedName": "key",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15NetmeraAnalytic0A15ScreenOpenEventC3keySSvpZ",
-            "mangledName": "$s15NetmeraAnalytic0A15ScreenOpenEventC3keySSvpZ",
-            "moduleName": "NetmeraAnalytic",
-            "static": true,
-            "overriding": true,
-            "isOpen": true,
-            "declAttributes": [
-              "Override",
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A15ScreenOpenEventC3keySSvgZ",
-                "mangledName": "$s15NetmeraAnalytic0A15ScreenOpenEventC3keySSvgZ",
-                "moduleName": "NetmeraAnalytic",
-                "static": true,
-                "overriding": true,
-                "isOpen": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "pageId",
-            "printedName": "pageId",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15NetmeraAnalytic0A15ScreenOpenEventC6pageIdSSSgvp",
-            "mangledName": "$s15NetmeraAnalytic0A15ScreenOpenEventC6pageIdSSSgvp",
-            "moduleName": "NetmeraAnalytic",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A15ScreenOpenEventC6pageIdSSSgvg",
-                "mangledName": "$s15NetmeraAnalytic0A15ScreenOpenEventC6pageIdSSSgvg",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A15ScreenOpenEventC6pageIdSSSgvs",
-                "mangledName": "$s15NetmeraAnalytic0A15ScreenOpenEventC6pageIdSSSgvs",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A15ScreenOpenEventC6pageIdSSSgvM",
-                "mangledName": "$s15NetmeraAnalytic0A15ScreenOpenEventC6pageIdSSSgvM",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "prevPageId",
-            "printedName": "prevPageId",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15NetmeraAnalytic0A15ScreenOpenEventC10prevPageIdSSSgvp",
-            "mangledName": "$s15NetmeraAnalytic0A15ScreenOpenEventC10prevPageIdSSSgvp",
-            "moduleName": "NetmeraAnalytic",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A15ScreenOpenEventC10prevPageIdSSSgvg",
-                "mangledName": "$s15NetmeraAnalytic0A15ScreenOpenEventC10prevPageIdSSSgvg",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A15ScreenOpenEventC10prevPageIdSSSgvs",
-                "mangledName": "$s15NetmeraAnalytic0A15ScreenOpenEventC10prevPageIdSSSgvs",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A15ScreenOpenEventC10prevPageIdSSSgvM",
-                "mangledName": "$s15NetmeraAnalytic0A15ScreenOpenEventC10prevPageIdSSSgvM",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "viewList",
-            "printedName": "viewList",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15NetmeraAnalytic0A15ScreenOpenEventC8viewListSaySSGSgvp",
-            "mangledName": "$s15NetmeraAnalytic0A15ScreenOpenEventC8viewListSaySSGSgvp",
-            "moduleName": "NetmeraAnalytic",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[Swift.String]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A15ScreenOpenEventC8viewListSaySSGSgvg",
-                "mangledName": "$s15NetmeraAnalytic0A15ScreenOpenEventC8viewListSaySSGSgvg",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[Swift.String]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A15ScreenOpenEventC8viewListSaySSGSgvs",
-                "mangledName": "$s15NetmeraAnalytic0A15ScreenOpenEventC8viewListSaySSGSgvs",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A15ScreenOpenEventC8viewListSaySSGSgvM",
-                "mangledName": "$s15NetmeraAnalytic0A15ScreenOpenEventC8viewListSaySSGSgvM",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "prevViewList",
-            "printedName": "prevViewList",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15NetmeraAnalytic0A15ScreenOpenEventC12prevViewListSaySSGSgvp",
-            "mangledName": "$s15NetmeraAnalytic0A15ScreenOpenEventC12prevViewListSaySSGSgvp",
-            "moduleName": "NetmeraAnalytic",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[Swift.String]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A15ScreenOpenEventC12prevViewListSaySSGSgvg",
-                "mangledName": "$s15NetmeraAnalytic0A15ScreenOpenEventC12prevViewListSaySSGSgvg",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[Swift.String]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A15ScreenOpenEventC12prevViewListSaySSGSgvs",
-                "mangledName": "$s15NetmeraAnalytic0A15ScreenOpenEventC12prevViewListSaySSGSgvs",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A15ScreenOpenEventC12prevViewListSaySSGSgvM",
-                "mangledName": "$s15NetmeraAnalytic0A15ScreenOpenEventC12prevViewListSaySSGSgvM",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(pageId:prevPageId:viewList:prevViewList:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "NetmeraScreenOpenEvent",
-                "printedName": "NetmeraAnalytic.NetmeraScreenOpenEvent",
-                "usr": "s:15NetmeraAnalytic0A15ScreenOpenEventC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:15NetmeraAnalytic0A15ScreenOpenEventC6pageId08prevPageG08viewList0h4ViewK0ACSSSg_AHSaySSGSgAJtcfc",
-            "mangledName": "$s15NetmeraAnalytic0A15ScreenOpenEventC6pageId08prevPageG08viewList0h4ViewK0ACSSSg_AHSaySSGSgAJtcfc",
-            "moduleName": "NetmeraAnalytic",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "NetmeraScreenOpenEvent",
-                "printedName": "NetmeraAnalytic.NetmeraScreenOpenEvent",
-                "usr": "s:15NetmeraAnalytic0A15ScreenOpenEventC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:15NetmeraAnalytic0A15ScreenOpenEventC4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s15NetmeraAnalytic0A15ScreenOpenEventC4fromACs7Decoder_p_tKcfc",
-            "moduleName": "NetmeraAnalytic",
-            "overriding": true,
-            "declAttributes": [
-              "Required",
-              "AccessControl"
-            ],
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15NetmeraAnalytic0A15ScreenOpenEventC6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s15NetmeraAnalytic0A15ScreenOpenEventC6encode2toys7Encoder_p_tKF",
-            "moduleName": "NetmeraAnalytic",
-            "overriding": true,
-            "isOpen": true,
-            "declAttributes": [
-              "Override",
-              "AccessControl"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NetmeraScreenOpenEvent",
-                "printedName": "NetmeraAnalytic.NetmeraScreenOpenEvent",
-                "usr": "s:15NetmeraAnalytic0A15ScreenOpenEventC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NetmeraScreenOpenEvent",
-                "printedName": "NetmeraAnalytic.NetmeraScreenOpenEvent",
-                "usr": "s:15NetmeraAnalytic0A15ScreenOpenEventC"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15NetmeraAnalytic0A15ScreenOpenEventC2eeoiySbAC_ACtFZ",
-            "mangledName": "$s15NetmeraAnalytic0A15ScreenOpenEventC2eeoiySbAC_ACtFZ",
-            "moduleName": "NetmeraAnalytic",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "NetmeraScreenOpenEvent",
-                "printedName": "NetmeraAnalytic.NetmeraScreenOpenEvent",
-                "usr": "s:15NetmeraAnalytic0A15ScreenOpenEventC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:15NetmeraAnalytic0A15ScreenOpenEventCACycfc",
-            "mangledName": "$s15NetmeraAnalytic0A15ScreenOpenEventCACycfc",
-            "moduleName": "NetmeraAnalytic",
-            "overriding": true,
-            "implicit": true,
-            "declAttributes": [
-              "Override"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:15NetmeraAnalytic0A15ScreenOpenEventC",
-        "mangledName": "$s15NetmeraAnalytic0A15ScreenOpenEventC",
-        "moduleName": "NetmeraAnalytic",
-        "isOpen": true,
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "superclassUsr": "s:11NetmeraCore0A5EventC",
-        "superclassNames": [
-          "NetmeraCore.NetmeraEvent"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraAnalytic",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -10842,531 +10019,6 @@
         "moduleName": "NetmeraAnalytic"
       },
       {
-        "kind": "TypeDecl",
-        "name": "NetmeraUIActionEvent",
-        "printedName": "NetmeraUIActionEvent",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "key",
-            "printedName": "key",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15NetmeraAnalytic0A13UIActionEventC3keySSvpZ",
-            "mangledName": "$s15NetmeraAnalytic0A13UIActionEventC3keySSvpZ",
-            "moduleName": "NetmeraAnalytic",
-            "static": true,
-            "overriding": true,
-            "isOpen": true,
-            "declAttributes": [
-              "Override",
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A13UIActionEventC3keySSvgZ",
-                "mangledName": "$s15NetmeraAnalytic0A13UIActionEventC3keySSvgZ",
-                "moduleName": "NetmeraAnalytic",
-                "static": true,
-                "overriding": true,
-                "isOpen": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "itemId",
-            "printedName": "itemId",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15NetmeraAnalytic0A13UIActionEventC6itemIdSSvp",
-            "mangledName": "$s15NetmeraAnalytic0A13UIActionEventC6itemIdSSvp",
-            "moduleName": "NetmeraAnalytic",
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A13UIActionEventC6itemIdSSvg",
-                "mangledName": "$s15NetmeraAnalytic0A13UIActionEventC6itemIdSSvg",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "value",
-            "printedName": "value",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15NetmeraAnalytic0A13UIActionEventC5valueSSSgvp",
-            "mangledName": "$s15NetmeraAnalytic0A13UIActionEventC5valueSSSgvp",
-            "moduleName": "NetmeraAnalytic",
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A13UIActionEventC5valueSSSgvg",
-                "mangledName": "$s15NetmeraAnalytic0A13UIActionEventC5valueSSSgvg",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "actionType",
-            "printedName": "actionType",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "NetmeraUIActionType",
-                "printedName": "NetmeraAnalytic.NetmeraUIActionType",
-                "usr": "s:15NetmeraAnalytic0A12UIActionTypeO"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15NetmeraAnalytic0A13UIActionEventC10actionTypeAA0acF0Ovp",
-            "mangledName": "$s15NetmeraAnalytic0A13UIActionEventC10actionTypeAA0acF0Ovp",
-            "moduleName": "NetmeraAnalytic",
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NetmeraUIActionType",
-                    "printedName": "NetmeraAnalytic.NetmeraUIActionType",
-                    "usr": "s:15NetmeraAnalytic0A12UIActionTypeO"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A13UIActionEventC10actionTypeAA0acF0Ovg",
-                "mangledName": "$s15NetmeraAnalytic0A13UIActionEventC10actionTypeAA0acF0Ovg",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "pageId",
-            "printedName": "pageId",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15NetmeraAnalytic0A13UIActionEventC6pageIdSSSgvp",
-            "mangledName": "$s15NetmeraAnalytic0A13UIActionEventC6pageIdSSSgvp",
-            "moduleName": "NetmeraAnalytic",
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A13UIActionEventC6pageIdSSSgvg",
-                "mangledName": "$s15NetmeraAnalytic0A13UIActionEventC6pageIdSSSgvg",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(itemId:value:actionType:pageId:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "NetmeraUIActionEvent",
-                "printedName": "NetmeraAnalytic.NetmeraUIActionEvent",
-                "usr": "s:15NetmeraAnalytic0A13UIActionEventC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NetmeraUIActionType",
-                "printedName": "NetmeraAnalytic.NetmeraUIActionType",
-                "usr": "s:15NetmeraAnalytic0A12UIActionTypeO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:15NetmeraAnalytic0A13UIActionEventC6itemId5value10actionType04pageF0ACSS_SSSgAA0acI0OAHtcfc",
-            "mangledName": "$s15NetmeraAnalytic0A13UIActionEventC6itemId5value10actionType04pageF0ACSS_SSSgAA0acI0OAHtcfc",
-            "moduleName": "NetmeraAnalytic",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "NetmeraUIActionEvent",
-                "printedName": "NetmeraAnalytic.NetmeraUIActionEvent",
-                "usr": "s:15NetmeraAnalytic0A13UIActionEventC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:15NetmeraAnalytic0A13UIActionEventC4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s15NetmeraAnalytic0A13UIActionEventC4fromACs7Decoder_p_tKcfc",
-            "moduleName": "NetmeraAnalytic",
-            "overriding": true,
-            "declAttributes": [
-              "Required",
-              "AccessControl"
-            ],
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15NetmeraAnalytic0A13UIActionEventC6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s15NetmeraAnalytic0A13UIActionEventC6encode2toys7Encoder_p_tKF",
-            "moduleName": "NetmeraAnalytic",
-            "overriding": true,
-            "isOpen": true,
-            "declAttributes": [
-              "Override",
-              "AccessControl"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NetmeraUIActionEvent",
-                "printedName": "NetmeraAnalytic.NetmeraUIActionEvent",
-                "usr": "s:15NetmeraAnalytic0A13UIActionEventC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NetmeraUIActionEvent",
-                "printedName": "NetmeraAnalytic.NetmeraUIActionEvent",
-                "usr": "s:15NetmeraAnalytic0A13UIActionEventC"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15NetmeraAnalytic0A13UIActionEventC2eeoiySbAC_ACtFZ",
-            "mangledName": "$s15NetmeraAnalytic0A13UIActionEventC2eeoiySbAC_ACtFZ",
-            "moduleName": "NetmeraAnalytic",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "NetmeraUIActionEvent",
-                "printedName": "NetmeraAnalytic.NetmeraUIActionEvent",
-                "usr": "s:15NetmeraAnalytic0A13UIActionEventC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:15NetmeraAnalytic0A13UIActionEventCACycfc",
-            "mangledName": "$s15NetmeraAnalytic0A13UIActionEventCACycfc",
-            "moduleName": "NetmeraAnalytic",
-            "overriding": true,
-            "implicit": true,
-            "declAttributes": [
-              "Override"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:15NetmeraAnalytic0A13UIActionEventC",
-        "mangledName": "$s15NetmeraAnalytic0A13UIActionEventC",
-        "moduleName": "NetmeraAnalytic",
-        "isOpen": true,
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "superclassUsr": "s:11NetmeraCore0A5EventC",
-        "superclassNames": [
-          "NetmeraCore.NetmeraEvent"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraAnalytic",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraAnalytic"
-      },
-      {
         "kind": "Import",
         "name": "Swinject",
         "printedName": "Swinject",
@@ -15337,1045 +13989,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "NetmeraScreenCloseEvent",
-        "printedName": "NetmeraScreenCloseEvent",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "key",
-            "printedName": "key",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15NetmeraAnalytic0A16ScreenCloseEventC3keySSvpZ",
-            "mangledName": "$s15NetmeraAnalytic0A16ScreenCloseEventC3keySSvpZ",
-            "moduleName": "NetmeraAnalytic",
-            "static": true,
-            "overriding": true,
-            "isOpen": true,
-            "declAttributes": [
-              "Override",
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A16ScreenCloseEventC3keySSvgZ",
-                "mangledName": "$s15NetmeraAnalytic0A16ScreenCloseEventC3keySSvgZ",
-                "moduleName": "NetmeraAnalytic",
-                "static": true,
-                "overriding": true,
-                "isOpen": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "pageId",
-            "printedName": "pageId",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15NetmeraAnalytic0A16ScreenCloseEventC6pageIdSSvp",
-            "mangledName": "$s15NetmeraAnalytic0A16ScreenCloseEventC6pageIdSSvp",
-            "moduleName": "NetmeraAnalytic",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A16ScreenCloseEventC6pageIdSSvg",
-                "mangledName": "$s15NetmeraAnalytic0A16ScreenCloseEventC6pageIdSSvg",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A16ScreenCloseEventC6pageIdSSvs",
-                "mangledName": "$s15NetmeraAnalytic0A16ScreenCloseEventC6pageIdSSvs",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A16ScreenCloseEventC6pageIdSSvM",
-                "mangledName": "$s15NetmeraAnalytic0A16ScreenCloseEventC6pageIdSSvM",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "prevPageId",
-            "printedName": "prevPageId",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15NetmeraAnalytic0A16ScreenCloseEventC10prevPageIdSSSgvp",
-            "mangledName": "$s15NetmeraAnalytic0A16ScreenCloseEventC10prevPageIdSSSgvp",
-            "moduleName": "NetmeraAnalytic",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A16ScreenCloseEventC10prevPageIdSSSgvg",
-                "mangledName": "$s15NetmeraAnalytic0A16ScreenCloseEventC10prevPageIdSSSgvg",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A16ScreenCloseEventC10prevPageIdSSSgvs",
-                "mangledName": "$s15NetmeraAnalytic0A16ScreenCloseEventC10prevPageIdSSSgvs",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A16ScreenCloseEventC10prevPageIdSSSgvM",
-                "mangledName": "$s15NetmeraAnalytic0A16ScreenCloseEventC10prevPageIdSSSgvM",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "timeInPage",
-            "printedName": "timeInPage",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Double?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Double",
-                    "printedName": "Swift.Double",
-                    "usr": "s:Sd"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15NetmeraAnalytic0A16ScreenCloseEventC10timeInPageSdSgvp",
-            "mangledName": "$s15NetmeraAnalytic0A16ScreenCloseEventC10timeInPageSdSgvp",
-            "moduleName": "NetmeraAnalytic",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Double?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Double",
-                        "printedName": "Swift.Double",
-                        "usr": "s:Sd"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A16ScreenCloseEventC10timeInPageSdSgvg",
-                "mangledName": "$s15NetmeraAnalytic0A16ScreenCloseEventC10timeInPageSdSgvg",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Double?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Double",
-                        "printedName": "Swift.Double",
-                        "usr": "s:Sd"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A16ScreenCloseEventC10timeInPageSdSgvs",
-                "mangledName": "$s15NetmeraAnalytic0A16ScreenCloseEventC10timeInPageSdSgvs",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A16ScreenCloseEventC10timeInPageSdSgvM",
-                "mangledName": "$s15NetmeraAnalytic0A16ScreenCloseEventC10timeInPageSdSgvM",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "exitFlag",
-            "printedName": "exitFlag",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Bool?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15NetmeraAnalytic0A16ScreenCloseEventC8exitFlagSbSgvp",
-            "mangledName": "$s15NetmeraAnalytic0A16ScreenCloseEventC8exitFlagSbSgvp",
-            "moduleName": "NetmeraAnalytic",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Bool?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A16ScreenCloseEventC8exitFlagSbSgvg",
-                "mangledName": "$s15NetmeraAnalytic0A16ScreenCloseEventC8exitFlagSbSgvg",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Bool?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A16ScreenCloseEventC8exitFlagSbSgvs",
-                "mangledName": "$s15NetmeraAnalytic0A16ScreenCloseEventC8exitFlagSbSgvs",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A16ScreenCloseEventC8exitFlagSbSgvM",
-                "mangledName": "$s15NetmeraAnalytic0A16ScreenCloseEventC8exitFlagSbSgvM",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "viewList",
-            "printedName": "viewList",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15NetmeraAnalytic0A16ScreenCloseEventC8viewListSaySSGSgvp",
-            "mangledName": "$s15NetmeraAnalytic0A16ScreenCloseEventC8viewListSaySSGSgvp",
-            "moduleName": "NetmeraAnalytic",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[Swift.String]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A16ScreenCloseEventC8viewListSaySSGSgvg",
-                "mangledName": "$s15NetmeraAnalytic0A16ScreenCloseEventC8viewListSaySSGSgvg",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[Swift.String]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A16ScreenCloseEventC8viewListSaySSGSgvs",
-                "mangledName": "$s15NetmeraAnalytic0A16ScreenCloseEventC8viewListSaySSGSgvs",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A16ScreenCloseEventC8viewListSaySSGSgvM",
-                "mangledName": "$s15NetmeraAnalytic0A16ScreenCloseEventC8viewListSaySSGSgvM",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "prevViewList",
-            "printedName": "prevViewList",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15NetmeraAnalytic0A16ScreenCloseEventC12prevViewListSaySSGSgvp",
-            "mangledName": "$s15NetmeraAnalytic0A16ScreenCloseEventC12prevViewListSaySSGSgvp",
-            "moduleName": "NetmeraAnalytic",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[Swift.String]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A16ScreenCloseEventC12prevViewListSaySSGSgvg",
-                "mangledName": "$s15NetmeraAnalytic0A16ScreenCloseEventC12prevViewListSaySSGSgvg",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[Swift.String]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A16ScreenCloseEventC12prevViewListSaySSGSgvs",
-                "mangledName": "$s15NetmeraAnalytic0A16ScreenCloseEventC12prevViewListSaySSGSgvs",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15NetmeraAnalytic0A16ScreenCloseEventC12prevViewListSaySSGSgvM",
-                "mangledName": "$s15NetmeraAnalytic0A16ScreenCloseEventC12prevViewListSaySSGSgvM",
-                "moduleName": "NetmeraAnalytic",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(pageId:prevPageId:timeInPage:exitFlag:viewList:prevViewList:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "NetmeraScreenCloseEvent",
-                "printedName": "NetmeraAnalytic.NetmeraScreenCloseEvent",
-                "usr": "s:15NetmeraAnalytic0A16ScreenCloseEventC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Double?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Double",
-                    "printedName": "Swift.Double",
-                    "usr": "s:Sd"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Bool?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:15NetmeraAnalytic0A16ScreenCloseEventC6pageId08prevPageG006timeInI08exitFlag8viewList0h4ViewO0ACSS_SSSgSdSgSbSgSaySSGSgANtcfc",
-            "mangledName": "$s15NetmeraAnalytic0A16ScreenCloseEventC6pageId08prevPageG006timeInI08exitFlag8viewList0h4ViewO0ACSS_SSSgSdSgSbSgSaySSGSgANtcfc",
-            "moduleName": "NetmeraAnalytic",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "NetmeraScreenCloseEvent",
-                "printedName": "NetmeraAnalytic.NetmeraScreenCloseEvent",
-                "usr": "s:15NetmeraAnalytic0A16ScreenCloseEventC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:15NetmeraAnalytic0A16ScreenCloseEventC4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s15NetmeraAnalytic0A16ScreenCloseEventC4fromACs7Decoder_p_tKcfc",
-            "moduleName": "NetmeraAnalytic",
-            "overriding": true,
-            "declAttributes": [
-              "Required",
-              "AccessControl"
-            ],
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15NetmeraAnalytic0A16ScreenCloseEventC6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s15NetmeraAnalytic0A16ScreenCloseEventC6encode2toys7Encoder_p_tKF",
-            "moduleName": "NetmeraAnalytic",
-            "overriding": true,
-            "isOpen": true,
-            "declAttributes": [
-              "Override",
-              "AccessControl"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NetmeraScreenCloseEvent",
-                "printedName": "NetmeraAnalytic.NetmeraScreenCloseEvent",
-                "usr": "s:15NetmeraAnalytic0A16ScreenCloseEventC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NetmeraScreenCloseEvent",
-                "printedName": "NetmeraAnalytic.NetmeraScreenCloseEvent",
-                "usr": "s:15NetmeraAnalytic0A16ScreenCloseEventC"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15NetmeraAnalytic0A16ScreenCloseEventC2eeoiySbAC_ACtFZ",
-            "mangledName": "$s15NetmeraAnalytic0A16ScreenCloseEventC2eeoiySbAC_ACtFZ",
-            "moduleName": "NetmeraAnalytic",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "NetmeraScreenCloseEvent",
-                "printedName": "NetmeraAnalytic.NetmeraScreenCloseEvent",
-                "usr": "s:15NetmeraAnalytic0A16ScreenCloseEventC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:15NetmeraAnalytic0A16ScreenCloseEventCACycfc",
-            "mangledName": "$s15NetmeraAnalytic0A16ScreenCloseEventCACycfc",
-            "moduleName": "NetmeraAnalytic",
-            "overriding": true,
-            "implicit": true,
-            "declAttributes": [
-              "Override"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:15NetmeraAnalytic0A16ScreenCloseEventC",
-        "mangledName": "$s15NetmeraAnalytic0A16ScreenCloseEventC",
-        "moduleName": "NetmeraAnalytic",
-        "isOpen": true,
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "superclassUsr": "s:11NetmeraCore0A5EventC",
-        "superclassNames": [
-          "NetmeraCore.NetmeraEvent"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraAnalytic",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraAnalytic"
-      },
-      {
-        "kind": "TypeDecl",
         "name": "NetmeraShareEvent",
         "printedName": "NetmeraShareEvent",
         "children": [
@@ -18082,6 +15695,696 @@
         "moduleName": "NetmeraAnalytic"
       },
       {
+        "kind": "TypeDecl",
+        "name": "NetmeraViewActionTestEvent",
+        "printedName": "NetmeraViewActionTestEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "key",
+            "printedName": "key",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15NetmeraAnalytic0A19ViewActionTestEventC3keySSvpZ",
+            "mangledName": "$s15NetmeraAnalytic0A19ViewActionTestEventC3keySSvpZ",
+            "moduleName": "NetmeraAnalytic",
+            "static": true,
+            "overriding": true,
+            "isOpen": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NetmeraAnalytic0A19ViewActionTestEventC3keySSvgZ",
+                "mangledName": "$s15NetmeraAnalytic0A19ViewActionTestEventC3keySSvgZ",
+                "moduleName": "NetmeraAnalytic",
+                "static": true,
+                "overriding": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "path",
+            "printedName": "path",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15NetmeraAnalytic0A19ViewActionTestEventC4pathSSvp",
+            "mangledName": "$s15NetmeraAnalytic0A19ViewActionTestEventC4pathSSvp",
+            "moduleName": "NetmeraAnalytic",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NetmeraAnalytic0A19ViewActionTestEventC4pathSSvg",
+                "mangledName": "$s15NetmeraAnalytic0A19ViewActionTestEventC4pathSSvg",
+                "moduleName": "NetmeraAnalytic",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "actionType",
+            "printedName": "actionType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraUIActionType",
+                "printedName": "NetmeraAnalytic.NetmeraUIActionType",
+                "usr": "s:15NetmeraAnalytic0A12UIActionTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15NetmeraAnalytic0A19ViewActionTestEventC10actionTypeAA0a8UIActionH0Ovp",
+            "mangledName": "$s15NetmeraAnalytic0A19ViewActionTestEventC10actionTypeAA0a8UIActionH0Ovp",
+            "moduleName": "NetmeraAnalytic",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetmeraUIActionType",
+                    "printedName": "NetmeraAnalytic.NetmeraUIActionType",
+                    "usr": "s:15NetmeraAnalytic0A12UIActionTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NetmeraAnalytic0A19ViewActionTestEventC10actionTypeAA0a8UIActionH0Ovg",
+                "mangledName": "$s15NetmeraAnalytic0A19ViewActionTestEventC10actionTypeAA0a8UIActionH0Ovg",
+                "moduleName": "NetmeraAnalytic",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(path:actionType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraViewActionTestEvent",
+                "printedName": "NetmeraAnalytic.NetmeraViewActionTestEvent",
+                "usr": "s:15NetmeraAnalytic0A19ViewActionTestEventC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraUIActionType",
+                "printedName": "NetmeraAnalytic.NetmeraUIActionType",
+                "usr": "s:15NetmeraAnalytic0A12UIActionTypeO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15NetmeraAnalytic0A19ViewActionTestEventC4path10actionTypeACSS_AA0a8UIActionI0Otcfc",
+            "mangledName": "$s15NetmeraAnalytic0A19ViewActionTestEventC4path10actionTypeACSS_AA0a8UIActionI0Otcfc",
+            "moduleName": "NetmeraAnalytic",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraViewActionTestEvent",
+                "printedName": "NetmeraAnalytic.NetmeraViewActionTestEvent",
+                "usr": "s:15NetmeraAnalytic0A19ViewActionTestEventC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15NetmeraAnalytic0A19ViewActionTestEventC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s15NetmeraAnalytic0A19ViewActionTestEventC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "NetmeraAnalytic",
+            "overriding": true,
+            "declAttributes": [
+              "Required",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15NetmeraAnalytic0A19ViewActionTestEventC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s15NetmeraAnalytic0A19ViewActionTestEventC6encode2toys7Encoder_p_tKF",
+            "moduleName": "NetmeraAnalytic",
+            "overriding": true,
+            "isOpen": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraViewActionTestEvent",
+                "printedName": "NetmeraAnalytic.NetmeraViewActionTestEvent",
+                "usr": "s:15NetmeraAnalytic0A19ViewActionTestEventC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraViewActionTestEvent",
+                "printedName": "NetmeraAnalytic.NetmeraViewActionTestEvent",
+                "usr": "s:15NetmeraAnalytic0A19ViewActionTestEventC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15NetmeraAnalytic0A19ViewActionTestEventC2eeoiySbAC_ACtFZ",
+            "mangledName": "$s15NetmeraAnalytic0A19ViewActionTestEventC2eeoiySbAC_ACtFZ",
+            "moduleName": "NetmeraAnalytic",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraViewActionTestEvent",
+                "printedName": "NetmeraAnalytic.NetmeraViewActionTestEvent",
+                "usr": "s:15NetmeraAnalytic0A19ViewActionTestEventC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15NetmeraAnalytic0A19ViewActionTestEventCACycfc",
+            "mangledName": "$s15NetmeraAnalytic0A19ViewActionTestEventCACycfc",
+            "moduleName": "NetmeraAnalytic",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15NetmeraAnalytic0A19ViewActionTestEventC",
+        "mangledName": "$s15NetmeraAnalytic0A19ViewActionTestEventC",
+        "moduleName": "NetmeraAnalytic",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:11NetmeraCore0A5EventC",
+        "superclassNames": [
+          "NetmeraCore.NetmeraEvent"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraAnalytic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraAnalytic"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetmeraShowViewEvent",
+        "printedName": "NetmeraShowViewEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "key",
+            "printedName": "key",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15NetmeraAnalytic0A13ShowViewEventC3keySSvpZ",
+            "mangledName": "$s15NetmeraAnalytic0A13ShowViewEventC3keySSvpZ",
+            "moduleName": "NetmeraAnalytic",
+            "static": true,
+            "overriding": true,
+            "isOpen": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NetmeraAnalytic0A13ShowViewEventC3keySSvgZ",
+                "mangledName": "$s15NetmeraAnalytic0A13ShowViewEventC3keySSvgZ",
+                "moduleName": "NetmeraAnalytic",
+                "static": true,
+                "overriding": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "code",
+            "printedName": "code",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15NetmeraAnalytic0A13ShowViewEventC4codeSSvp",
+            "mangledName": "$s15NetmeraAnalytic0A13ShowViewEventC4codeSSvp",
+            "moduleName": "NetmeraAnalytic",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NetmeraAnalytic0A13ShowViewEventC4codeSSvg",
+                "mangledName": "$s15NetmeraAnalytic0A13ShowViewEventC4codeSSvg",
+                "moduleName": "NetmeraAnalytic",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(code:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraShowViewEvent",
+                "printedName": "NetmeraAnalytic.NetmeraShowViewEvent",
+                "usr": "s:15NetmeraAnalytic0A13ShowViewEventC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15NetmeraAnalytic0A13ShowViewEventC4codeACSS_tcfc",
+            "mangledName": "$s15NetmeraAnalytic0A13ShowViewEventC4codeACSS_tcfc",
+            "moduleName": "NetmeraAnalytic",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraShowViewEvent",
+                "printedName": "NetmeraAnalytic.NetmeraShowViewEvent",
+                "usr": "s:15NetmeraAnalytic0A13ShowViewEventC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15NetmeraAnalytic0A13ShowViewEventC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s15NetmeraAnalytic0A13ShowViewEventC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "NetmeraAnalytic",
+            "overriding": true,
+            "declAttributes": [
+              "Required",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15NetmeraAnalytic0A13ShowViewEventC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s15NetmeraAnalytic0A13ShowViewEventC6encode2toys7Encoder_p_tKF",
+            "moduleName": "NetmeraAnalytic",
+            "overriding": true,
+            "isOpen": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraShowViewEvent",
+                "printedName": "NetmeraAnalytic.NetmeraShowViewEvent",
+                "usr": "s:15NetmeraAnalytic0A13ShowViewEventC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraShowViewEvent",
+                "printedName": "NetmeraAnalytic.NetmeraShowViewEvent",
+                "usr": "s:15NetmeraAnalytic0A13ShowViewEventC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15NetmeraAnalytic0A13ShowViewEventC2eeoiySbAC_ACtFZ",
+            "mangledName": "$s15NetmeraAnalytic0A13ShowViewEventC2eeoiySbAC_ACtFZ",
+            "moduleName": "NetmeraAnalytic",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraShowViewEvent",
+                "printedName": "NetmeraAnalytic.NetmeraShowViewEvent",
+                "usr": "s:15NetmeraAnalytic0A13ShowViewEventC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15NetmeraAnalytic0A13ShowViewEventCACycfc",
+            "mangledName": "$s15NetmeraAnalytic0A13ShowViewEventCACycfc",
+            "moduleName": "NetmeraAnalytic",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15NetmeraAnalytic0A13ShowViewEventC",
+        "mangledName": "$s15NetmeraAnalytic0A13ShowViewEventC",
+        "moduleName": "NetmeraAnalytic",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:11NetmeraCore0A5EventC",
+        "superclassNames": [
+          "NetmeraCore.NetmeraEvent"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraAnalytic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraAnalytic"
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -19090,6 +17393,324 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraAnalytic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraAnalytic"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetmeraShowViewTestEvent",
+        "printedName": "NetmeraShowViewTestEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "key",
+            "printedName": "key",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15NetmeraAnalytic0A17ShowViewTestEventC3keySSvpZ",
+            "mangledName": "$s15NetmeraAnalytic0A17ShowViewTestEventC3keySSvpZ",
+            "moduleName": "NetmeraAnalytic",
+            "static": true,
+            "overriding": true,
+            "isOpen": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NetmeraAnalytic0A17ShowViewTestEventC3keySSvgZ",
+                "mangledName": "$s15NetmeraAnalytic0A17ShowViewTestEventC3keySSvgZ",
+                "moduleName": "NetmeraAnalytic",
+                "static": true,
+                "overriding": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "path",
+            "printedName": "path",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15NetmeraAnalytic0A17ShowViewTestEventC4pathSSvp",
+            "mangledName": "$s15NetmeraAnalytic0A17ShowViewTestEventC4pathSSvp",
+            "moduleName": "NetmeraAnalytic",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NetmeraAnalytic0A17ShowViewTestEventC4pathSSvg",
+                "mangledName": "$s15NetmeraAnalytic0A17ShowViewTestEventC4pathSSvg",
+                "moduleName": "NetmeraAnalytic",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(path:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraShowViewTestEvent",
+                "printedName": "NetmeraAnalytic.NetmeraShowViewTestEvent",
+                "usr": "s:15NetmeraAnalytic0A17ShowViewTestEventC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15NetmeraAnalytic0A17ShowViewTestEventC4pathACSS_tcfc",
+            "mangledName": "$s15NetmeraAnalytic0A17ShowViewTestEventC4pathACSS_tcfc",
+            "moduleName": "NetmeraAnalytic",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraShowViewTestEvent",
+                "printedName": "NetmeraAnalytic.NetmeraShowViewTestEvent",
+                "usr": "s:15NetmeraAnalytic0A17ShowViewTestEventC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15NetmeraAnalytic0A17ShowViewTestEventC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s15NetmeraAnalytic0A17ShowViewTestEventC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "NetmeraAnalytic",
+            "overriding": true,
+            "declAttributes": [
+              "Required",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15NetmeraAnalytic0A17ShowViewTestEventC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s15NetmeraAnalytic0A17ShowViewTestEventC6encode2toys7Encoder_p_tKF",
+            "moduleName": "NetmeraAnalytic",
+            "overriding": true,
+            "isOpen": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraShowViewTestEvent",
+                "printedName": "NetmeraAnalytic.NetmeraShowViewTestEvent",
+                "usr": "s:15NetmeraAnalytic0A17ShowViewTestEventC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraShowViewTestEvent",
+                "printedName": "NetmeraAnalytic.NetmeraShowViewTestEvent",
+                "usr": "s:15NetmeraAnalytic0A17ShowViewTestEventC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15NetmeraAnalytic0A17ShowViewTestEventC2eeoiySbAC_ACtFZ",
+            "mangledName": "$s15NetmeraAnalytic0A17ShowViewTestEventC2eeoiySbAC_ACtFZ",
+            "moduleName": "NetmeraAnalytic",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraShowViewTestEvent",
+                "printedName": "NetmeraAnalytic.NetmeraShowViewTestEvent",
+                "usr": "s:15NetmeraAnalytic0A17ShowViewTestEventC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15NetmeraAnalytic0A17ShowViewTestEventCACycfc",
+            "mangledName": "$s15NetmeraAnalytic0A17ShowViewTestEventCACycfc",
+            "moduleName": "NetmeraAnalytic",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15NetmeraAnalytic0A17ShowViewTestEventC",
+        "mangledName": "$s15NetmeraAnalytic0A17ShowViewTestEventC",
+        "moduleName": "NetmeraAnalytic",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:11NetmeraCore0A5EventC",
+        "superclassNames": [
+          "NetmeraCore.NetmeraEvent"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -20989,6 +19610,378 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraAnalytic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraAnalytic"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetmeraViewActionEvent",
+        "printedName": "NetmeraViewActionEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "key",
+            "printedName": "key",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15NetmeraAnalytic0A15ViewActionEventC3keySSvpZ",
+            "mangledName": "$s15NetmeraAnalytic0A15ViewActionEventC3keySSvpZ",
+            "moduleName": "NetmeraAnalytic",
+            "static": true,
+            "overriding": true,
+            "isOpen": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NetmeraAnalytic0A15ViewActionEventC3keySSvgZ",
+                "mangledName": "$s15NetmeraAnalytic0A15ViewActionEventC3keySSvgZ",
+                "moduleName": "NetmeraAnalytic",
+                "static": true,
+                "overriding": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "code",
+            "printedName": "code",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15NetmeraAnalytic0A15ViewActionEventC4codeSSvp",
+            "mangledName": "$s15NetmeraAnalytic0A15ViewActionEventC4codeSSvp",
+            "moduleName": "NetmeraAnalytic",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NetmeraAnalytic0A15ViewActionEventC4codeSSvg",
+                "mangledName": "$s15NetmeraAnalytic0A15ViewActionEventC4codeSSvg",
+                "moduleName": "NetmeraAnalytic",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "actionType",
+            "printedName": "actionType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraUIActionType",
+                "printedName": "NetmeraAnalytic.NetmeraUIActionType",
+                "usr": "s:15NetmeraAnalytic0A12UIActionTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15NetmeraAnalytic0A15ViewActionEventC10actionTypeAA0a8UIActionG0Ovp",
+            "mangledName": "$s15NetmeraAnalytic0A15ViewActionEventC10actionTypeAA0a8UIActionG0Ovp",
+            "moduleName": "NetmeraAnalytic",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetmeraUIActionType",
+                    "printedName": "NetmeraAnalytic.NetmeraUIActionType",
+                    "usr": "s:15NetmeraAnalytic0A12UIActionTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15NetmeraAnalytic0A15ViewActionEventC10actionTypeAA0a8UIActionG0Ovg",
+                "mangledName": "$s15NetmeraAnalytic0A15ViewActionEventC10actionTypeAA0a8UIActionG0Ovg",
+                "moduleName": "NetmeraAnalytic",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(code:actionType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraViewActionEvent",
+                "printedName": "NetmeraAnalytic.NetmeraViewActionEvent",
+                "usr": "s:15NetmeraAnalytic0A15ViewActionEventC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraUIActionType",
+                "printedName": "NetmeraAnalytic.NetmeraUIActionType",
+                "usr": "s:15NetmeraAnalytic0A12UIActionTypeO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15NetmeraAnalytic0A15ViewActionEventC4code10actionTypeACSS_AA0a8UIActionH0Otcfc",
+            "mangledName": "$s15NetmeraAnalytic0A15ViewActionEventC4code10actionTypeACSS_AA0a8UIActionH0Otcfc",
+            "moduleName": "NetmeraAnalytic",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraViewActionEvent",
+                "printedName": "NetmeraAnalytic.NetmeraViewActionEvent",
+                "usr": "s:15NetmeraAnalytic0A15ViewActionEventC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15NetmeraAnalytic0A15ViewActionEventC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s15NetmeraAnalytic0A15ViewActionEventC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "NetmeraAnalytic",
+            "overriding": true,
+            "declAttributes": [
+              "Required",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15NetmeraAnalytic0A15ViewActionEventC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s15NetmeraAnalytic0A15ViewActionEventC6encode2toys7Encoder_p_tKF",
+            "moduleName": "NetmeraAnalytic",
+            "overriding": true,
+            "isOpen": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraViewActionEvent",
+                "printedName": "NetmeraAnalytic.NetmeraViewActionEvent",
+                "usr": "s:15NetmeraAnalytic0A15ViewActionEventC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraViewActionEvent",
+                "printedName": "NetmeraAnalytic.NetmeraViewActionEvent",
+                "usr": "s:15NetmeraAnalytic0A15ViewActionEventC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15NetmeraAnalytic0A15ViewActionEventC2eeoiySbAC_ACtFZ",
+            "mangledName": "$s15NetmeraAnalytic0A15ViewActionEventC2eeoiySbAC_ACtFZ",
+            "moduleName": "NetmeraAnalytic",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetmeraViewActionEvent",
+                "printedName": "NetmeraAnalytic.NetmeraViewActionEvent",
+                "usr": "s:15NetmeraAnalytic0A15ViewActionEventC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15NetmeraAnalytic0A15ViewActionEventCACycfc",
+            "mangledName": "$s15NetmeraAnalytic0A15ViewActionEventCACycfc",
+            "moduleName": "NetmeraAnalytic",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15NetmeraAnalytic0A15ViewActionEventC",
+        "mangledName": "$s15NetmeraAnalytic0A15ViewActionEventC",
+        "moduleName": "NetmeraAnalytic",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:11NetmeraCore0A5EventC",
+        "superclassNames": [
+          "NetmeraCore.NetmeraEvent"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "Netmera",
         "printedName": "Netmera",
@@ -21135,34 +20128,6 @@
       "offset": 968,
       "length": 4,
       "value": "\"ge\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraScreenOpenEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1667,
-      "length": 4,
-      "value": "\"ee\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraScreenOpenEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1694,
-      "length": 4,
-      "value": "\"ef\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraScreenOpenEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1719,
-      "length": 4,
-      "value": "\"eg\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraScreenOpenEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1748,
-      "length": 4,
-      "value": "\"eh\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraBatteryLevelEvent.swift",
@@ -21417,34 +20382,6 @@
       "value": "\"em\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1511,
-      "length": 4,
-      "value": "\"ea\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1533,
-      "length": 4,
-      "value": "\"eb\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1560,
-      "length": 4,
-      "value": "\"ed\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraUIActionEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1583,
-      "length": 4,
-      "value": "\"ee\""
-    },
-    {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraGeofenceEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 211,
@@ -21606,48 +20543,6 @@
       "value": "\"et\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraScreenCloseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2121,
-      "length": 4,
-      "value": "\"ee\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraScreenCloseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2148,
-      "length": 4,
-      "value": "\"ef\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraScreenCloseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2175,
-      "length": 4,
-      "value": "\"el\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraScreenCloseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2200,
-      "length": 4,
-      "value": "\"fg\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraScreenCloseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2225,
-      "length": 4,
-      "value": "\"eg\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraScreenCloseEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2254,
-      "length": 4,
-      "value": "\"eh\""
-    },
-    {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraShareEvent.swift",
       "kind": "StringLiteral",
       "offset": 1129,
@@ -21667,6 +20562,27 @@
       "offset": 938,
       "length": 4,
       "value": "\"eo\""
+    },
+    {
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraViewActionTestEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 1164,
+      "length": 4,
+      "value": "\"eb\""
+    },
+    {
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraViewActionTestEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 1191,
+      "length": 4,
+      "value": "\"ed\""
+    },
+    {
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraShowViewEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 893,
+      "length": 4,
+      "value": "\"ea\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraTimeInAppEvent.swift",
@@ -21716,6 +20632,13 @@
       "offset": 283,
       "length": 4,
       "value": "0x04"
+    },
+    {
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraShowViewTestEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 902,
+      "length": 4,
+      "value": "\"eb\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraLocationUpdateEvent.swift",
@@ -21842,6 +20765,20 @@
       "offset": 402,
       "length": 14,
       "value": "12"
+    },
+    {
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraViewActionEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 1155,
+      "length": 4,
+      "value": "\"ea\""
+    },
+    {
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraViewActionEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 1182,
+      "length": 4,
+      "value": "\"ed\""
     }
   ]
 }

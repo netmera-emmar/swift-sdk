@@ -65,6 +65,32 @@ public enum AccessLevel : Swift.String {
     get
   }
 }
+public struct NetmeraTrackableActionInfo : Swift.Codable, Swift.Equatable {
+  public let path: Swift.String
+  public let code: Swift.String
+  public let actionType: Swift.Int
+  public enum CodingKeys : Swift.String, Swift.CodingKey {
+    case path
+    case code
+    case actionType
+    public init?(rawValue: Swift.String)
+    public init?(stringValue: Swift.String)
+    public init?(intValue: Swift.Int)
+    public typealias RawValue = Swift.String
+    public var intValue: Swift.Int? {
+      get
+    }
+    public var rawValue: Swift.String {
+      get
+    }
+    public var stringValue: Swift.String {
+      get
+    }
+  }
+  public static func == (lhs: NetmeraCore.NetmeraTrackableActionInfo, rhs: NetmeraCore.NetmeraTrackableActionInfo) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public protocol DispatcherProvider {
   func io() -> any NetmeraCore.Dispatchable
   func ui() -> any NetmeraCore.Dispatchable
@@ -345,7 +371,8 @@ public struct NetmeraAppConfig : Swift.Codable, Swift.Equatable {
   public let richPushTemplates: [Swift.String : Swift.String?]?
   public let interactiveCategories: [NetmeraCore.NetmeraUserNotificationCategory]?
   public let geofences: [NetmeraCore.NetmeraGeofenceEntity]?
-  public let includeUserAction: [Swift.String : [NetmeraCore.NetmeraControlActionConfig]]?
+  public let trackableScreens: [NetmeraCore.NetmeraTrackableScreenInfo]?
+  public let trackableActions: [NetmeraCore.NetmeraTrackableActionInfo]?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -521,11 +548,10 @@ extension NetmeraCore.NetmeraEvent {
 public protocol NetmeraEncrypterProtocol {
   func encrypt(value: Swift.String) -> Swift.String
 }
-public struct NetmeraControlActionConfig : Swift.Codable, Swift.Equatable {
-  public let item: Swift.String
-  public let valueEnabled: Swift.Bool
-  public let privateEnabled: Swift.Bool
-  public static func == (lhs: NetmeraCore.NetmeraControlActionConfig, rhs: NetmeraCore.NetmeraControlActionConfig) -> Swift.Bool
+public struct NetmeraTrackableScreenInfo : Swift.Codable, Swift.Equatable {
+  public let path: Swift.String
+  public let code: Swift.String
+  public static func == (lhs: NetmeraCore.NetmeraTrackableScreenInfo, rhs: NetmeraCore.NetmeraTrackableScreenInfo) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -630,6 +656,9 @@ public enum NetmeraHTTPMethod : Swift.String {
 extension NetmeraCore.AccessLevel : Swift.Equatable {}
 extension NetmeraCore.AccessLevel : Swift.Hashable {}
 extension NetmeraCore.AccessLevel : Swift.RawRepresentable {}
+extension NetmeraCore.NetmeraTrackableActionInfo.CodingKeys : Swift.Equatable {}
+extension NetmeraCore.NetmeraTrackableActionInfo.CodingKeys : Swift.Hashable {}
+extension NetmeraCore.NetmeraTrackableActionInfo.CodingKeys : Swift.RawRepresentable {}
 extension NetmeraCore.ApplicationState : Swift.Equatable {}
 extension NetmeraCore.ApplicationState : Swift.Hashable {}
 extension NetmeraCore.NetmeraDownloadOption : Swift.Equatable {}
