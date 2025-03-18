@@ -16,22 +16,19 @@ import _SwiftConcurrencyShims
 extension CoreLocation.CLLocation {
   public func toSdkLocation() -> NetmeraCore.Location
 }
+public protocol LocationUpdateDelegate {
+  func updateActiveLocation()
+}
+public protocol NetmeraLocationAuthorizationDelegate {
+  func locationManagerDidChangeAuthorization(_ status: NetmeraLocation.NetmeraLocationAuthorizationStatus)
+}
 public protocol NetmeraLocationDelegate : CoreLocation.CLLocationManagerDelegate {
   func register(authorizationDelegate: any NetmeraLocation.NetmeraLocationAuthorizationDelegate)
   func register(regionDelegate: any NetmeraLocation.NetmeraLocationRegionDelegate)
 }
-public protocol LocationUpdateDelegate {
-  func updateActiveLocation()
-}
 public protocol NetmeraLocationRegionDelegate {
   func locationManager(didEnterRegion region: NetmeraLocation.NetmeraRegion)
   func locationManager(didExitRegion region: NetmeraLocation.NetmeraRegion)
-}
-extension NetmeraCore.Netmera {
-  public static func requestLocationAuthorization()
-}
-public protocol NetmeraLocationAuthorizationDelegate {
-  func locationManagerDidChangeAuthorization(_ status: NetmeraLocation.NetmeraLocationAuthorizationStatus)
 }
 public typealias NetmeraLocationAuthorizationStatus = CoreLocation.CLAuthorizationStatus
 public typealias NetmeraCLLocation = CoreLocation.CLLocation
@@ -52,4 +49,7 @@ extension CoreLocation.CLLocationManager : NetmeraLocation.NetmeraLocationManage
   public var osLocation: NetmeraCore.Location {
     get
   }
+}
+extension NetmeraCore.Netmera {
+  public static func requestLocationAuthorization()
 }

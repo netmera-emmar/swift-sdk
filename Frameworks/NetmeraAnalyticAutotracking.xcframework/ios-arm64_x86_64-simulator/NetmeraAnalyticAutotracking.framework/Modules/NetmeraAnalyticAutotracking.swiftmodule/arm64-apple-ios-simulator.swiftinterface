@@ -4,7 +4,6 @@
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import Foundation
 import NetmeraAnalytic
-@_exported import NetmeraAnalyticAutotracking
 import NetmeraCore
 import StoreKit
 import Swift
@@ -13,11 +12,11 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-extension UIKit.UIScrollView {
-  @objc @_Concurrency.MainActor @preconcurrency dynamic open func s_delegate(_ delegate: (any UIKit.UIScrollViewDelegate)?)
-}
 extension UIKit.UIPickerView {
   @objc @_Concurrency.MainActor @preconcurrency dynamic open func s_delegate(_ delegate: (any UIKit.UIPickerViewDelegate)?)
+}
+extension UIKit.UIScrollView {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic open func s_delegate(_ delegate: (any UIKit.UIScrollViewDelegate)?)
 }
 public protocol NetmeraScreenTrackable : UIKit.UIViewController {
   var netmeraScreenName: Swift.String { get set }

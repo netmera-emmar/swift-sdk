@@ -2,7 +2,6 @@
 //  NetmeraAnalytic.h
 //  NetmeraAnalytic
 //
-//  Copyright © 2020 Fatih Sen. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

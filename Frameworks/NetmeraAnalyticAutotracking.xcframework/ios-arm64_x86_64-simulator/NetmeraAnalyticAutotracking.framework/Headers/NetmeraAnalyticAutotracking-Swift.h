@@ -304,6 +304,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__OBJC__)
 
 
+
 @protocol UIPickerViewDelegate;
 
 @interface UIPickerView (SWIFT_EXTENSION(NetmeraAnalyticAutotracking))
@@ -315,7 +316,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @interface UIScrollView (SWIFT_EXTENSION(NetmeraAnalyticAutotracking))
 - (void)s_delegate:(id <UIScrollViewDelegate> _Nullable)delegate;
 @end
-
 
 
 
@@ -635,6 +635,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__OBJC__)
 
 
+
 @protocol UIPickerViewDelegate;
 
 @interface UIPickerView (SWIFT_EXTENSION(NetmeraAnalyticAutotracking))
@@ -646,7 +647,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @interface UIScrollView (SWIFT_EXTENSION(NetmeraAnalyticAutotracking))
 - (void)s_delegate:(id <UIScrollViewDelegate> _Nullable)delegate;
 @end
-
 
 
 

@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/NetmeraGeofence.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
-		mai4YEyRfb6lbFLI8ObxaMUzUFs=
+		33UH2DTptGxHPnfrNSPkd7ITMlU=
 		</data>
 		<key>Modules/NetmeraGeofence.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/NetmeraGeofence.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		i9fAx5moZgpD9KQSrxjdmwEX7dY=
+		m9O3TNHr0GKges/PqPVrbOy0FOw=
 		</data>
 		<key>Modules/NetmeraGeofence.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
-		mai4YEyRfb6lbFLI8ObxaMUzUFs=
+		33UH2DTptGxHPnfrNSPkd7ITMlU=
 		</data>
 		<key>Modules/NetmeraGeofence.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/NetmeraGeofence.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		Jx9nS623M3kV5g2QTNiZuSCD/MQ=
+		Jgi3GXsSQYJ4AWFQNXtWpwSR02A=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GfaygZMK8Z8X2MP37/Q+Bsp0eFiU0jHty7kVihhIz2A=
+			JzItNPGy5o+YQkeU3FgFUA4VYsgh9526QK0UClIPgPY=
 			</data>
 		</dict>
 		<key>Modules/NetmeraGeofence.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KiQ+fdgs8CyQEuwLUEdr2ozV1/g5ilvuh3GcGHZ05kI=
+			bWw1HhpwmpOrzL3Oys2V5iWik1sLTUoVpVabDvaybog=
 			</data>
 		</dict>
 		<key>Modules/NetmeraGeofence.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GfaygZMK8Z8X2MP37/Q+Bsp0eFiU0jHty7kVihhIz2A=
+			JzItNPGy5o+YQkeU3FgFUA4VYsgh9526QK0UClIPgPY=
 			</data>
 		</dict>
 		<key>Modules/NetmeraGeofence.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			w86mnukK2dJDHsF0w3wE4tkEBT3tU0+/8ZgPiWCaFVQ=
+			NS/OTZESxkWvBfNLcjm3ryWcZmQArLT5NYz3MN6fiQ8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

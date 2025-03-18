@@ -2,8 +2,6 @@
 //  NetmeraCore.h
 //  NetmeraCore
 //
-//  Created by Fatih Sen on 5.12.2020.
-//  Copyright © 2020 Fatih Sen. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
