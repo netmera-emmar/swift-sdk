@@ -519,7 +519,8 @@
             "static": true,
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -625,14 +626,14 @@
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAdvertisingId\/NetmeraAdvertisingId\/Manager\/AdvertisingIdManager\/AdvertisingIdManagerImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 4242,
+      "offset": 4219,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAdvertisingId\/NetmeraAdvertisingId\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 152,
+      "offset": 143,
       "length": 17,
       "value": "\"AdvertisingInfo\""
     }

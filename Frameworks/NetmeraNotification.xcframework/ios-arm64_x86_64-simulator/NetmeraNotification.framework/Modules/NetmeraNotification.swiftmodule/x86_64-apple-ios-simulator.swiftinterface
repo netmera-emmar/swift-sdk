@@ -48,15 +48,15 @@ extension UserNotifications.UNUserNotificationCenter {
   public static func swizzle()
 }
 extension NetmeraCore.Netmera {
+  public static var recentPushObject: NetmeraNotificationCore.NetmeraBasePush? {
+    get
+  }
   public static func setEnabledPopupPresentation(_ enabled: Swift.Bool)
   public static func setEnabledInAppMessagePresentation(_ enabled: Swift.Bool)
   public static func setEnabledReceivingPushNotifications(_ enabled: Swift.Bool)
   public static func isEnabledReceivingPushNotifications(completion: @escaping (Swift.Bool) -> Swift.Void)
   public static func requestPushNotificationAuthorization(for options: NetmeraNotification.NetmeraNotificationAuthorizationOptions)
   public static func setPushDelegate(_ delegate: any NetmeraNotification.NetmeraPushDelegate)
-  public static var recentPushObject: NetmeraNotificationCore.NetmeraBasePush? {
-    get
-  }
   public static func handlePushObject(_ pushObject: NetmeraNotificationCore.NetmeraInteractivePush)
   public static func handleInteractiveAction(_ action: NetmeraNotificationCore.NetmeraPushAction, for pushObject: NetmeraNotificationCore.NetmeraInteractivePush)
 }

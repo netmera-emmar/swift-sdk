@@ -283,8 +283,9 @@
               "ObjC",
               "Preconcurrency",
               "Custom",
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -311,8 +312,8 @@
               "ObjC",
               "Preconcurrency",
               "Custom",
-              "Override",
-              "AccessControl"
+              "AccessControl",
+              "Override"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -343,7 +344,8 @@
               "ObjC",
               "Preconcurrency",
               "Custom",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -748,217 +750,168 @@
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationContentExtension\/NetmeraNotificationContentExtension\/PushContentCollection\/BaseContentCollectionView\/PushContentCollectionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 508,
+      "offset": 453,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationContentExtension\/NetmeraNotificationContentExtension\/PushContentCollection\/BaseContentCollectionView\/PushContentCollectionView.swift",
       "kind": "IntegerLiteral",
-      "offset": 769,
+      "offset": 714,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationContentExtension\/NetmeraNotificationContentExtension\/PushContentCollection\/BaseContentCollectionView\/PushContentCollectionView.swift",
       "kind": "IntegerLiteral",
-      "offset": 794,
+      "offset": 739,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationContentExtension\/NetmeraNotificationContentExtension\/PushContentCollection\/BaseContentCollectionView\/PushContentCollectionView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 804,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationContentExtension\/NetmeraNotificationContentExtension\/PushContentCollection\/BaseContentCollectionView\/PushContentCollectionView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 830,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationContentExtension\/NetmeraNotificationContentExtension\/PushContentCollection\/BaseContentCollectionView\/PushContentCollectionView.swift",
       "kind": "Array",
-      "offset": 904,
+      "offset": 965,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationContentExtension\/NetmeraNotificationContentExtension\/PushContentCollection\/BaseContentCollectionView\/PushContentCollectionView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 940,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationContentExtension\/NetmeraNotificationContentExtension\/PushContentCollection\/BaseContentCollectionView\/PushContentCollectionView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 966,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationContentExtension\/NetmeraNotificationContentExtension\/PushContentCollection\/Carousel\/Layout\/CarouselLayout.swift",
-      "kind": "FloatLiteral",
-      "offset": 465,
-      "length": 3,
-      "value": "0.6"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationContentExtension\/NetmeraNotificationContentExtension\/PushContentCollection\/Carousel\/Layout\/CarouselLayout.swift",
-      "kind": "FloatLiteral",
-      "offset": 515,
-      "length": 3,
-      "value": "0.6"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationContentExtension\/NetmeraNotificationContentExtension\/PushContentCollection\/Carousel\/Layout\/CarouselLayout.swift",
-      "kind": "FloatLiteral",
-      "offset": 565,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationContentExtension\/NetmeraNotificationContentExtension\/PushContentCollection\/Carousel\/Layout\/CarouselLayout.swift",
       "kind": "IntegerLiteral",
-      "offset": 643,
+      "offset": 244,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationContentExtension\/NetmeraNotificationContentExtension\/PushContentCollection\/Carousel\/Layout\/CarouselLayout.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3119,
-      "length": 1,
-      "value": "2"
+      "kind": "FloatLiteral",
+      "offset": 295,
+      "length": 3,
+      "value": "0.6"
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationContentExtension\/NetmeraNotificationContentExtension\/PushContentCollection\/Carousel\/Layout\/CarouselLayout.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3156,
-      "length": 1,
-      "value": "2"
+      "kind": "FloatLiteral",
+      "offset": 345,
+      "length": 3,
+      "value": "0.6"
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationContentExtension\/NetmeraNotificationContentExtension\/PushContentCollection\/Carousel\/Layout\/CarouselLayout.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3615,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationContentExtension\/NetmeraNotificationContentExtension\/PushContentCollection\/Carousel\/Layout\/CarouselLayout.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3685,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationContentExtension\/NetmeraNotificationContentExtension\/PushContentCollection\/Carousel\/Layout\/CarouselLayout.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3747,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationContentExtension\/NetmeraNotificationContentExtension\/PushContentCollection\/Carousel\/Layout\/CarouselLayout.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3893,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationContentExtension\/NetmeraNotificationContentExtension\/PushContentCollection\/Carousel\/Layout\/CarouselLayout.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3932,
-      "length": 2,
-      "value": "10"
+      "kind": "FloatLiteral",
+      "offset": 395,
+      "length": 3,
+      "value": "0.0"
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationContentExtension\/NetmeraNotificationContentExtension\/PushContentCollection\/Carousel\/CarouselView.swift",
       "kind": "IntegerLiteral",
-      "offset": 213,
+      "offset": 799,
       "length": 3,
       "value": "180"
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationContentExtension\/NetmeraNotificationContentExtension\/PushContentCollection\/Carousel\/CarouselView.swift",
       "kind": "IntegerLiteral",
-      "offset": 250,
+      "offset": 836,
       "length": 3,
       "value": "180"
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationContentExtension\/NetmeraNotificationContentExtension\/PushContentCollection\/Carousel\/CarouselView.swift",
       "kind": "IntegerLiteral",
-      "offset": 288,
+      "offset": 874,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationContentExtension\/NetmeraNotificationContentExtension\/PushContentCollection\/Carousel\/CarouselView.swift",
       "kind": "FloatLiteral",
-      "offset": 331,
+      "offset": 917,
       "length": 3,
       "value": "0.7"
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationContentExtension\/NetmeraNotificationContentExtension\/PushContentCollection\/Carousel\/CarouselView.swift",
       "kind": "FloatLiteral",
-      "offset": 375,
+      "offset": 961,
       "length": 3,
       "value": "0.8"
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationContentExtension\/NetmeraNotificationContentExtension\/PushContentCollection\/View\/PushContentItemView.swift",
       "kind": "IntegerLiteral",
-      "offset": 342,
+      "offset": 356,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationContentExtension\/NetmeraNotificationContentExtension\/PushContentCollection\/View\/PushContentItemView.swift",
       "kind": "BooleanLiteral",
-      "offset": 527,
+      "offset": 541,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationContentExtension\/NetmeraNotificationContentExtension\/PushContentCollection\/View\/PushContentItemView.swift",
       "kind": "IntegerLiteral",
-      "offset": 676,
+      "offset": 690,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationContentExtension\/NetmeraNotificationContentExtension\/PushContentCollection\/View\/PushContentItemView.swift",
       "kind": "IntegerLiteral",
-      "offset": 882,
+      "offset": 896,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationContentExtension\/NetmeraNotificationContentExtension\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 234,
+      "offset": 232,
       "length": 9,
       "value": "\"forward\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationContentExtension\/NetmeraNotificationContentExtension\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 269,
+      "offset": 267,
       "length": 9,
       "value": "\"goToApp\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationContentExtension\/NetmeraNotificationContentExtension\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 335,
+      "offset": 333,
       "length": 9,
       "value": "\"#508AA8\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationContentExtension\/NetmeraNotificationContentExtension\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 406,
+      "offset": 404,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationContentExtension\/NetmeraNotificationContentExtension\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 410,
+      "offset": 408,
       "length": 1,
       "value": "4"
     }

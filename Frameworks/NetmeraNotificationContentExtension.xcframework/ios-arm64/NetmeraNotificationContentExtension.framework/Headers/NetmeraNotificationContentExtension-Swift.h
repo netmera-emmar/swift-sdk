@@ -311,7 +311,7 @@ SWIFT_CLASS("_TtC35NetmeraNotificationContentExtension25PushContentCollectionVie
 @interface PushContentCollectionView : UIView
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)_ OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)_ OBJC_DESIGNATED_INITIALIZER SWIFT_UNAVAILABLE;
 @end
 
 
@@ -319,7 +319,6 @@ SWIFT_CLASS("_TtC35NetmeraNotificationContentExtension12CarouselView")
 @interface CarouselView : PushContentCollectionView
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)__argument1 OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class UNNotification;
@@ -342,7 +341,7 @@ SWIFT_CLASS("_TtC35NetmeraNotificationContentExtension28NotificationContentExten
 SWIFT_CLASS("_TtC35NetmeraNotificationContentExtension15PushContentCell")
 @interface PushContentCell : UICollectionViewCell
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)_ OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)_ OBJC_DESIGNATED_INITIALIZER SWIFT_UNAVAILABLE;
 @end
 
 
@@ -370,7 +369,7 @@ SWIFT_CLASS("_TtC35NetmeraNotificationContentExtension19PushContentItemView")
 @interface PushContentItemView : UIView
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)_ OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)_ OBJC_DESIGNATED_INITIALIZER SWIFT_UNAVAILABLE;
 @end
 
 
@@ -379,7 +378,6 @@ SWIFT_CLASS("_TtC35NetmeraNotificationContentExtension10SliderView")
 - (void)layoutSubviews;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)__argument1 OBJC_DESIGNATED_INITIALIZER;
 @end
 
 

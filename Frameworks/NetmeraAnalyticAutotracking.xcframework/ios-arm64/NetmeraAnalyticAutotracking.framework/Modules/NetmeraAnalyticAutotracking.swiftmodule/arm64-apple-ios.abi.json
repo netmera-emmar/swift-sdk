@@ -1401,7 +1401,8 @@
               "Preconcurrency",
               "Custom",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -1549,7 +1550,8 @@
               "Preconcurrency",
               "Custom",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -1875,78 +1877,78 @@
   "ConstValues": [
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
+      "kind": "Array",
+      "offset": 166,
+      "length": 1904,
+      "value": "[\"UICompatibilityInputViewController\", \"UINavigationController\", \"UIAlertController\", \"UIPageViewController\", \"UITabBarController\", \"UIInputViewController\", \"UISystemKeyboardDockController\", \"UISearchController\", \"UISearchContainerViewController\", \"MFMailComposeInternalViewController\", \"MFMailComposePlaceholderViewController\", \"UIInputWindowController\", \"UIActivityViewController\", \"UIActivityGroupViewController\", \"_UIActivityGroupListViewController\", \"_UIActivityViewControllerContentController\", \"UIKeyboardCandidateRowViewController\", \"UIKeyboardCandidateGridCollectionViewController\", \"UIPrintMoreOptionsTableViewController\", \"UIPrintPanelTableViewController\", \"UIPrintPanelViewController\", \"UIPrintPaperViewController\", \"UIPrintPreviewViewController\", \"UIPrintRangeViewController\", \"UIDocumentMenuViewController\", \"UISplitViewController\", \"UIDocumentPickerViewController\", \"UIDocumentPickerExtensionViewController\", \"UIInterfaceActionGroupViewController\", \"UISystemInputViewController\", \"UICompatibilityInputViewController\", \"UIInputViewAnimationControllerViewController\", \"UISnapshotModalViewController\", \"UISplitViewController\", \"UIReferenceLibraryViewController\", \"UIMultiColumnViewController\", \"_UIFallbackPresentationViewController\", \"UIApplicationRotationFollowingControllerNoTouches\", \"UIKeyCommandDiscoverabilityHUDViewController\", \"UIApplicationRotationFollowingController\", \"UISystemInputAssistantViewController\", \"UIPredictionViewController\", \"UIRecentsInputViewController\", \"_UIShareExtensionRemoteViewController\", \"SFAuthenticationViewController\", \"SLComposeViewController\", \"SLRemoteComposeViewController\", \"SFBrowserRemoteViewController\", \"_UISFAirDropInstructionsViewController\"]"
+    },
+    {
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 548,
+      "offset": 2537,
       "length": 24,
       "value": "\"blacklist_screen_names\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 668,
+      "offset": 2657,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 740,
+      "offset": 2729,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 820,
+      "offset": 2809,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 866,
+      "offset": 2855,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 917,
+      "offset": 2906,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1001,
+      "offset": 2990,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1046,
+      "offset": 3035,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/Constants\/Constants.swift",
-      "kind": "Array",
-      "offset": 1096,
-      "length": 1904,
-      "value": "[\"UICompatibilityInputViewController\", \"UINavigationController\", \"UIAlertController\", \"UIPageViewController\", \"UITabBarController\", \"UIInputViewController\", \"UISystemKeyboardDockController\", \"UISearchController\", \"UISearchContainerViewController\", \"MFMailComposeInternalViewController\", \"MFMailComposePlaceholderViewController\", \"UIInputWindowController\", \"UIActivityViewController\", \"UIActivityGroupViewController\", \"_UIActivityGroupListViewController\", \"_UIActivityViewControllerContentController\", \"UIKeyboardCandidateRowViewController\", \"UIKeyboardCandidateGridCollectionViewController\", \"UIPrintMoreOptionsTableViewController\", \"UIPrintPanelTableViewController\", \"UIPrintPanelViewController\", \"UIPrintPaperViewController\", \"UIPrintPreviewViewController\", \"UIPrintRangeViewController\", \"UIDocumentMenuViewController\", \"UISplitViewController\", \"UIDocumentPickerViewController\", \"UIDocumentPickerExtensionViewController\", \"UIInterfaceActionGroupViewController\", \"UISystemInputViewController\", \"UICompatibilityInputViewController\", \"UIInputViewAnimationControllerViewController\", \"UISnapshotModalViewController\", \"UISplitViewController\", \"UIReferenceLibraryViewController\", \"UIMultiColumnViewController\", \"_UIFallbackPresentationViewController\", \"UIApplicationRotationFollowingControllerNoTouches\", \"UIKeyCommandDiscoverabilityHUDViewController\", \"UIApplicationRotationFollowingController\", \"UISystemInputAssistantViewController\", \"UIPredictionViewController\", \"UIRecentsInputViewController\", \"_UIShareExtensionRemoteViewController\", \"SFAuthenticationViewController\", \"SLComposeViewController\", \"SLRemoteComposeViewController\", \"SFBrowserRemoteViewController\", \"_UISFAirDropInstructionsViewController\"]"
-    },
-    {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/TrackingManager\/DeviceFeature\/DeviceFeatureTrackingManagerImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 682,
+      "offset": 703,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalyticAutoTracking\/NetmeraAnalyticAutotracking\/TrackingManager\/UIControlAction\/ActionInfo\/UIControlActionInfo.swift",
       "kind": "StringLiteral",
-      "offset": 409,
+      "offset": 324,
       "length": 2,
       "value": "\"\""
     }

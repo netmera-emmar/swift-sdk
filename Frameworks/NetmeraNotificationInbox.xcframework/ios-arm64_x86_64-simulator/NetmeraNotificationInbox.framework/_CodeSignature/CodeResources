@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		6/f7J2KVxHZCdzOBeWQ5UNoxcv8=
+		PT1jQOruacToEgmjfsGDI9wK/K0=
 		</data>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		fpNWEQAAHDT+1CGd5v9VBtRuYaI=
+		A0/J2+anU3DIIYQ/8Rfxr9RASG4=
 		</data>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		6/f7J2KVxHZCdzOBeWQ5UNoxcv8=
+		PT1jQOruacToEgmjfsGDI9wK/K0=
 		</data>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		brfL/iIFZzVuMmdg1nHNqwKFvCU=
+		BpnkuQjwCPw8CLS3AGjZAH0gK0Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NIS4ZiakYAGC6CR+HQ5lBJjKLZsb7FNxTWv7LyW3Sp4=
+			Qv76XfQhfIWzQNdW7b8MLr51IP1Z0T4G3yEiu7bo3kw=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UnXD5dwtEbmnsqwJzpKaUjUPZWrfTEtXlqGCn8Xdj5U=
+			5ox5/TPbbNV1bEXOn6qt8mFpHMuZUQEnKGr0ntQrhPU=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NIS4ZiakYAGC6CR+HQ5lBJjKLZsb7FNxTWv7LyW3Sp4=
+			Qv76XfQhfIWzQNdW7b8MLr51IP1Z0T4G3yEiu7bo3kw=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FwCw6VKzj1DvoHnSO6Ng75Aq4KjuaT47EYmuda+roWI=
+			yexPTGMHoCqXMf5vAy9Y2VjAd24BZQ/NXOUr45S1z20=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

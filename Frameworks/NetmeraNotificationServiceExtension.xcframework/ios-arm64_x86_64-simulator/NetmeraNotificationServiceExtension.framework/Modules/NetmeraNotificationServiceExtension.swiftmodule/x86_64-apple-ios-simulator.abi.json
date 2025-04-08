@@ -231,8 +231,9 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -282,7 +283,8 @@
               "Dynamic",
               "ObjC",
               "AccessControl",
-              "Override"
+              "Override",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -411,28 +413,28 @@
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationServiceExtension\/NetmeraNotificationServiceExtension\/Model\/NetmeraMediaPush.swift",
       "kind": "StringLiteral",
-      "offset": 946,
+      "offset": 1036,
       "length": 4,
       "value": "\"mu\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationServiceExtension\/NetmeraNotificationServiceExtension\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 145,
+      "offset": 173,
       "length": 12,
       "value": "\"attachment\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationServiceExtension\/NetmeraNotificationServiceExtension\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 209,
+      "offset": 262,
       "length": 18,
       "value": "\"TempPathProvider\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationServiceExtension\/NetmeraNotificationServiceExtension\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 264,
+      "offset": 317,
       "length": 20,
       "value": "\"MediaPushConverter\""
     }

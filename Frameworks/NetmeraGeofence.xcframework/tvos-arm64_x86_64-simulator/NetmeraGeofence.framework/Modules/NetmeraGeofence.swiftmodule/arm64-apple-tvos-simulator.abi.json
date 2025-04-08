@@ -486,56 +486,56 @@
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraGeofence\/NetmeraGeofence\/Region\/LocationRegionManagerImpl.swift",
       "kind": "Array",
-      "offset": 1162,
+      "offset": 1278,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraGeofence\/NetmeraGeofence\/Region\/LocationRegionManagerImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 1203,
+      "offset": 1319,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraGeofence\/NetmeraGeofence\/Region\/LocationRegionManagerImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 5098,
+      "offset": 7073,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraGeofence\/NetmeraGeofence\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 163,
+      "offset": 184,
       "length": 36,
       "value": "\"kNetmeraInternalGeofenceIdentifier\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraGeofence\/NetmeraGeofence\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 260,
+      "offset": 306,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraGeofence\/NetmeraGeofence\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 332,
+      "offset": 378,
       "length": 34,
       "value": "\"GeofenceRegionDelegateIdentifier\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraGeofence\/NetmeraGeofence\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 424,
+      "offset": 470,
       "length": 41,
       "value": "\"GeofenceAuthorizationDelegateIdentifier\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraGeofence\/NetmeraGeofence\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 516,
+      "offset": 562,
       "length": 34,
       "value": "\"LocationRegionDelegateIdentifier\""
     }

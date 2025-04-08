@@ -112,6 +112,7 @@ public enum NetmeraEnqueueRequestParams {
   case disableAdId(source: Swift.Int)
   case enablePush(source: Swift.Int)
   case disablePush(source: Swift.Int)
+  case setEmailPreference(isAllowed: Swift.Bool)
 }
 public protocol NetmeraPushPassthrough {
   func on(payload: [Swift.AnyHashable : Any])
@@ -138,7 +139,7 @@ open class SerializerProvider<D, E> {
   public func encoder() -> E
   @objc deinit
 }
-public protocol UIApplicationProxyDelegate {
+public protocol UIApplicationProxyDelegate : AnyObject {
   @available(iOS 13.0, tvOS 13.0, *)
   var connectedScenes: Swift.Set<UIKit.UIScene> { get }
   var applicationIconBadgeNumber: Swift.Int { get set }
@@ -146,6 +147,7 @@ public protocol UIApplicationProxyDelegate {
   func registerForRemoteNotifications()
   func beginBackgroundTask()
   func endBackgroundTask()
+  func open(_ url: Foundation.URL, options: [UIKit.UIApplication.OpenExternalURLOptionsKey : Any], completionHandler: ((Swift.Bool) -> Swift.Void)?)
   var resolver: any NetmeraCore.DependencyResolver { get }
 }
 open class Variable<T> where T : Swift.Equatable {
@@ -154,19 +156,19 @@ open class Variable<T> where T : Swift.Equatable {
     set
   }
   public init(_ value: T)
+  @objc deinit
   public func register(callback: NetmeraCore.Callback<T>)
   public func unregister(callback: NetmeraCore.Callback<T>)
   public func clearAll()
   public func dispatchValue(value: T)
-  @objc deinit
 }
 public protocol NetmeraEventConverter {
   func hasConverter(_ className: Swift.String) -> Swift.Bool
   func convert(_ dbCache: NetmeraCore.DbCache) -> NetmeraCore.NetmeraEvent
 }
 public protocol NetmeraPushConverterProtocol {
-  func convert(_ userInfo: Swift.Dictionary<Swift.AnyHashable, Any>, _ serializerProvider: NetmeraCore.SerializerProvider<any NetmeraCore.DictionaryDecoder, any NetmeraCore.DictionaryEncoder>) -> NetmeraCore.NetmeraPush
-  func decode(_ userInfo: Swift.Dictionary<Swift.AnyHashable, Any>) -> Swift.Bool
+  func convert(_ userInfo: [Swift.AnyHashable : Any], _ serializerProvider: NetmeraCore.SerializerProvider<any NetmeraCore.DictionaryDecoder, any NetmeraCore.DictionaryEncoder>) -> NetmeraCore.NetmeraPush
+  func decode(_ userInfo: [Swift.AnyHashable : Any]) -> Swift.Bool
 }
 public protocol NetmeraCacheInvoke {
   func appendEventClasses(classes: [Swift.AnyClass])
@@ -177,8 +179,8 @@ public protocol NetmeraCacheInvoke {
   func typeRequestOf(_ key: Swift.String) -> Swift.AnyClass
 }
 @_hasMissingDesignatedInitializers public class NetmeraCoreModule : NetmeraCore.Module {
-  public func applyContainer(_ container: Swinject.Container)
   public static func create() -> any NetmeraCore.Module
+  public func applyContainer(_ container: Swinject.Container)
   @objc deinit
 }
 extension Swift.Bool {
@@ -204,7 +206,7 @@ extension NetmeraCore.NetmeraEvent {
   public static func deserialize(_ decoder: Foundation.JSONDecoder, data: Foundation.Data) -> NetmeraCore.NetmeraEvent
 }
 extension NetmeraCore.NetmeraPushConverterProtocol {
-  public func validateUserInfo(_ data: Swift.Dictionary<Swift.AnyHashable, Any>, for type: NetmeraCore.NetmeraPushType) -> Swift.Bool
+  public func validateUserInfo(_ data: [Swift.AnyHashable : Any], for type: NetmeraCore.NetmeraPushType) -> Swift.Bool
 }
 extension NetmeraCore.NetmeraRequest {
   public static func deserialize(_ decoder: Foundation.JSONDecoder, data: Foundation.Data) -> NetmeraCore.NetmeraRequest
@@ -220,7 +222,8 @@ public protocol InitializerCache {
   func initializeAll()
 }
 public enum AccessLevel : Swift.String {
-  case `public`, `private`
+  case `public`
+  case `private`
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -232,8 +235,11 @@ public enum AccessLevel : Swift.String {
   @objc deinit
 }
 public enum LogLevel : Swift.Int, Swift.Comparable {
+  case debug
+  case info
+  case error
+  case fault
   public static func < (lhs: NetmeraCore.LogLevel, rhs: NetmeraCore.LogLevel) -> Swift.Bool
-  case debug, info, error, fault
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
@@ -352,8 +358,8 @@ open class NetmeraEvent : Swift.Codable, Swift.Equatable {
   public var identifiers: NetmeraCore.NetmeraIdentifiers?
   public init()
   required public init(from decoder: any Swift.Decoder) throws
-  open func encode(to encoder: any Swift.Encoder) throws
   public static func == (lhs: NetmeraCore.NetmeraEvent, rhs: NetmeraCore.NetmeraEvent) -> Swift.Bool
+  open func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
 }
 @usableFromInline
@@ -436,10 +442,10 @@ public struct Location : Swift.CustomStringConvertible, Swift.Equatable {
   public let verticalAccuracy: Swift.Double
   public let horizontalAccuracy: Swift.Double
   public let timestamp: Foundation.Date
-  public init(lattitude: Swift.Double, longitude: Swift.Double, altitude: Swift.Double, verticalAccuracy: Swift.Double, horizontalAccuracy: Swift.Double, timestamp: Foundation.Date)
   public var description: Swift.String {
     get
   }
+  public init(lattitude: Swift.Double, longitude: Swift.Double, altitude: Swift.Double, verticalAccuracy: Swift.Double, horizontalAccuracy: Swift.Double, timestamp: Foundation.Date)
   public static func == (lhs: NetmeraCore.Location, rhs: NetmeraCore.Location) -> Swift.Bool
 }
 @_hasMissingDesignatedInitializers public class NetmeraAdvertisingInfo : Swift.Codable, Swift.Equatable {
@@ -522,13 +528,14 @@ public struct NetmeraParams : Swift.Equatable, Swift.Codable {
   public let customEvents: [Swift.AnyClass]
   public init(apiKey: Swift.String, baseUrl: Swift.String? = nil, appGroupName: Swift.String? = nil, useUISceneDelegate: Swift.Bool = false, customEvents: [Swift.AnyClass] = [])
   public init(from decoder: any Swift.Decoder) throws
-  public func encode(to encoder: any Swift.Encoder) throws
   public static func == (lhs: NetmeraCore.NetmeraParams, rhs: NetmeraCore.NetmeraParams) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct NetmeraTrackableActionInfo : Swift.Codable, Swift.Equatable {
   public let path: Swift.String
   public let code: Swift.String
   public let actionType: Swift.Int
+  public static func == (lhs: NetmeraCore.NetmeraTrackableActionInfo, rhs: NetmeraCore.NetmeraTrackableActionInfo) -> Swift.Bool
   public enum CodingKeys : Swift.String, Swift.CodingKey {
     case path
     case code
@@ -547,7 +554,6 @@ public struct NetmeraTrackableActionInfo : Swift.Codable, Swift.Equatable {
       get
     }
   }
-  public static func == (lhs: NetmeraCore.NetmeraTrackableActionInfo, rhs: NetmeraCore.NetmeraTrackableActionInfo) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }

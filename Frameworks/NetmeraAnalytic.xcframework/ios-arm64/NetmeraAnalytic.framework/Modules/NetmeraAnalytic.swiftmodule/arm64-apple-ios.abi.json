@@ -148,8 +148,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -202,7 +203,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -448,7 +450,8 @@
             "mangledName": "$s15NetmeraAnalytic0A19CartAddProductEventC7product5count11basketTotalAcA0aE0C_SuSgSdSgtcfc",
             "moduleName": "NetmeraAnalytic",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -506,8 +509,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -628,8 +632,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -682,7 +687,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -803,7 +809,8 @@
             "mangledName": "$s15NetmeraAnalytic0A22CartRemoveProductEventC7product5countAcA0aE0C_SuSgtcfc",
             "moduleName": "NetmeraAnalytic",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -861,8 +868,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -990,8 +998,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -1044,7 +1053,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1284,7 +1294,8 @@
             "mangledName": "$s15NetmeraAnalytic0A13CartViewEventC8subTotal9itemCountACSdSg_SuSgtcfc",
             "moduleName": "NetmeraAnalytic",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -1342,8 +1353,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -1464,7 +1476,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -2046,7 +2059,8 @@
             "mangledName": "$s15NetmeraAnalytic0A8LineItemC9productId0E4Name5price5count08campaignF0ACSSSg_AISdSgSiAItcfc",
             "moduleName": "NetmeraAnalytic",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -2101,7 +2115,8 @@
             "mangledName": "$s15NetmeraAnalytic0A8LineItemC6encode2toys7Encoder_p_tKF",
             "moduleName": "NetmeraAnalytic",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -2187,8 +2202,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -2241,7 +2257,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -2722,7 +2739,8 @@
             "mangledName": "$s15NetmeraAnalytic0A16OrderCancelEventC8subTotal05grandG09itemCount13paymentMethodACSd_SdSgSuSgSSSgtcfc",
             "moduleName": "NetmeraAnalytic",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -2780,8 +2798,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -2894,7 +2913,8 @@
             "declAttributes": [
               "Final",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -3900,7 +3920,8 @@
             "mangledName": "$s15NetmeraAnalytic0A7ProductC9productId0D4Name5price11categoryIds0H5Names05brandE00kF07variant8keywordsACSS_SSSdSaySSGSgANSSSgA2oNtcfc",
             "moduleName": "NetmeraAnalytic",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           }
@@ -3964,8 +3985,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -4015,8 +4037,9 @@
             "moduleName": "NetmeraAnalytic",
             "overriding": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -4074,8 +4097,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -4174,7 +4198,8 @@
             "declAttributes": [
               "Final",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -5054,7 +5079,8 @@
             "mangledName": "$s15NetmeraAnalytic0A12ProductEventC7productAcA0aC0C_tcfc",
             "moduleName": "NetmeraAnalytic",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -5112,8 +5138,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -5227,8 +5254,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -5281,7 +5309,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -5402,7 +5431,8 @@
             "mangledName": "$s15NetmeraAnalytic0A16ProductRateEventC7product6ratingAcA0aC0C_SuSgtcfc",
             "moduleName": "NetmeraAnalytic",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -5460,8 +5490,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -5582,8 +5613,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -5633,8 +5665,9 @@
             "moduleName": "NetmeraAnalytic",
             "overriding": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -5692,8 +5725,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -5793,8 +5827,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -5838,7 +5873,8 @@
             "moduleName": "NetmeraAnalytic",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -6556,7 +6592,8 @@
             "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC9itemCountSivp",
             "moduleName": "NetmeraAnalytic",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -6722,7 +6759,8 @@
             "mangledName": "$s15NetmeraAnalytic0A13PurchaseEventC8subTotal05grandF09lineItems13paymentMethod12shippingCost8discount6couponACSd_SdSayAA0A8LineItemCGSSSgSdSgAoNtcfc",
             "moduleName": "NetmeraAnalytic",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -6779,8 +6817,9 @@
             "moduleName": "NetmeraAnalytic",
             "overriding": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -6894,8 +6933,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -6948,7 +6988,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -7069,7 +7110,8 @@
             "mangledName": "$s15NetmeraAnalytic0A13WishListEventC7product10campaignIdAcA0A7ProductC_SSSgtcfc",
             "moduleName": "NetmeraAnalytic",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -7127,8 +7169,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -7256,8 +7299,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -7310,7 +7354,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -7582,7 +7627,8 @@
             "mangledName": "$s15NetmeraAnalytic0A16BannerClickEventC8bannerId8keywordsACSSSg_SaySSGSgtcfc",
             "moduleName": "NetmeraAnalytic",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -7640,8 +7686,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -7677,7 +7724,8 @@
             "static": true,
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -7797,8 +7845,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -7851,7 +7900,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -8091,7 +8141,8 @@
             "mangledName": "$s15NetmeraAnalytic0A17CategoryViewEventC10categoryId0F4NameACSSSg_AFtcfc",
             "moduleName": "NetmeraAnalytic",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -8149,8 +8200,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -8186,7 +8238,8 @@
             "static": true,
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -8306,8 +8359,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -8352,7 +8406,8 @@
             "declAttributes": [
               "Final",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -8944,7 +8999,8 @@
             "mangledName": "$s15NetmeraAnalytic0A15ScreenViewEventC6pageId0F4Name012referrerPageG00ijH006timeInJ08keywords8formInfoACSS_SSSgA2KSdSgSaySSGSgSDyS2SGSgtcfc",
             "moduleName": "NetmeraAnalytic",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -9002,8 +9058,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -9039,7 +9096,8 @@
             "static": true,
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -9159,8 +9217,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -9213,7 +9272,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -9453,7 +9513,8 @@
             "mangledName": "$s15NetmeraAnalytic0A11SearchEventC5query11resultCountACSSSg_SiSgtcfc",
             "moduleName": "NetmeraAnalytic",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -9511,8 +9572,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -9548,7 +9610,8 @@
             "static": true,
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -9668,8 +9731,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -9722,7 +9786,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -9962,7 +10027,8 @@
             "mangledName": "$s15NetmeraAnalytic0A10ShareEventC7channel7contentACSSSg_AFtcfc",
             "moduleName": "NetmeraAnalytic",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -10020,8 +10086,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -10057,7 +10124,8 @@
             "static": true,
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -10137,6 +10205,16 @@
       },
       {
         "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraAnalytic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -10177,8 +10255,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -10231,7 +10310,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -10346,7 +10426,8 @@
             "mangledName": "$s15NetmeraAnalytic0A17BatteryLevelEventC07batteryD0ACSiSg_tcfc",
             "moduleName": "NetmeraAnalytic",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -10404,8 +10485,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -10441,7 +10523,8 @@
             "static": true,
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -10787,8 +10870,9 @@
             "static": true,
             "overriding": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -10840,7 +10924,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -11080,7 +11165,8 @@
             "mangledName": "$s15NetmeraAnalytic0A13GeofenceEventC10identifier4typeACSSSg_AA0C4TypeOSgtcfc",
             "moduleName": "NetmeraAnalytic",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -11137,8 +11223,9 @@
             "moduleName": "NetmeraAnalytic",
             "overriding": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -11174,7 +11261,8 @@
             "static": true,
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -11293,8 +11381,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -11347,7 +11436,8 @@
             "declAttributes": [
               "Final",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -12041,7 +12131,8 @@
             "mangledName": "$s15NetmeraAnalytic0A18InAppPurchaseEventC9productId0G4Name5price11categoryIds0K5Names5count8keywords8currencyACSSSg_ALSdSgSaySSGSgAOSiSgAoLtcfc",
             "moduleName": "NetmeraAnalytic",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -12099,8 +12190,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -12136,7 +12228,8 @@
             "static": true,
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -12255,8 +12348,9 @@
             "static": true,
             "overriding": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -12308,7 +12402,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -12798,7 +12893,8 @@
             "mangledName": "$s15NetmeraAnalytic0A14LinkClickEventC6source10campaignId0G4Name6mediumACSSSg_A3Htcfc",
             "moduleName": "NetmeraAnalytic",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -12855,8 +12951,9 @@
             "moduleName": "NetmeraAnalytic",
             "overriding": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -12892,7 +12989,8 @@
             "static": true,
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -13010,8 +13108,9 @@
             "static": true,
             "overriding": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -13063,7 +13162,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -13178,7 +13278,8 @@
             "mangledName": "$s15NetmeraAnalytic0A26LocationAuthorizationEventC19authorizationStatusACSiSg_tcfc",
             "moduleName": "NetmeraAnalytic",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -13235,8 +13336,9 @@
             "moduleName": "NetmeraAnalytic",
             "overriding": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -13272,7 +13374,8 @@
             "static": true,
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -13390,8 +13493,9 @@
             "static": true,
             "overriding": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -13443,7 +13547,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -13683,7 +13788,8 @@
             "mangledName": "$s15NetmeraAnalytic0A19LocationUpdateEventC8accuracy12locationDateACSdSg_10Foundation0H0VSgtcfc",
             "moduleName": "NetmeraAnalytic",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -13740,8 +13846,9 @@
             "moduleName": "NetmeraAnalytic",
             "overriding": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -13777,7 +13884,8 @@
             "static": true,
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -13895,8 +14003,9 @@
             "static": true,
             "overriding": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -13939,8 +14048,9 @@
             "moduleName": "NetmeraAnalytic",
             "overriding": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -13968,8 +14078,8 @@
             "moduleName": "NetmeraAnalytic",
             "overriding": true,
             "declAttributes": [
-              "AccessControl",
-              "Required"
+              "Required",
+              "AccessControl"
             ],
             "throwing": true,
             "init_kind": "Designated"
@@ -13997,8 +14107,9 @@
             "moduleName": "NetmeraAnalytic",
             "overriding": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -14096,8 +14207,8 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
-              "Override",
               "AccessControl",
+              "Override",
               "RawDocComment"
             ],
             "accessors": [
@@ -14256,8 +14367,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -14414,8 +14526,8 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
-              "Override",
               "AccessControl",
+              "Override",
               "RawDocComment"
             ],
             "accessors": [
@@ -14574,8 +14686,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -14731,8 +14844,9 @@
             "static": true,
             "overriding": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -14776,7 +14890,8 @@
             "declAttributes": [
               "Final",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -14828,7 +14943,8 @@
             "mangledName": "$s15NetmeraAnalytic0A14TimeInAppEventC04timedE7SecondsACSd_tcfc",
             "moduleName": "NetmeraAnalytic",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -14885,8 +15001,9 @@
             "moduleName": "NetmeraAnalytic",
             "overriding": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -14922,7 +15039,8 @@
             "static": true,
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -15722,8 +15840,8 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
-              "Override",
               "AccessControl",
+              "Override",
               "RawDocComment"
             ],
             "accessors": [
@@ -15936,8 +16054,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -16094,8 +16213,8 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
-              "Override",
               "AccessControl",
+              "Override",
               "RawDocComment"
             ],
             "accessors": [
@@ -16308,8 +16427,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -16458,7 +16578,8 @@
             "declAttributes": [
               "Final",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -17214,7 +17335,8 @@
             "mangledName": "$s15NetmeraAnalytic0A7ContentC9contentId0D4Name0D4Type11categoryIds0H5Names8provider8keywordsACSS_SSAA0ac5EventG0OSaySSGSgANSSSgANtcfc",
             "moduleName": "NetmeraAnalytic",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           }
@@ -17278,8 +17400,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -17329,8 +17452,9 @@
             "moduleName": "NetmeraAnalytic",
             "overriding": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -17388,8 +17512,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -17488,7 +17613,8 @@
             "declAttributes": [
               "Final",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -18148,7 +18274,8 @@
             "mangledName": "$s15NetmeraAnalytic0A12ContentEventC7contentAcA0aC0C_tcfc",
             "moduleName": "NetmeraAnalytic",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -18206,8 +18333,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -18669,8 +18797,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -18723,7 +18852,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -18844,7 +18974,8 @@
             "mangledName": "$s15NetmeraAnalytic0A16ContentRateEventC7content6ratingAcA0aC0C_SuSgtcfc",
             "moduleName": "NetmeraAnalytic",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -18902,8 +19033,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -19024,8 +19156,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -19075,8 +19208,9 @@
             "moduleName": "NetmeraAnalytic",
             "overriding": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -19134,8 +19268,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -19235,8 +19370,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -19289,7 +19425,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -19404,7 +19541,8 @@
             "mangledName": "$s15NetmeraAnalytic0A10LoginEventC6userIdACSSSg_tcfc",
             "moduleName": "NetmeraAnalytic",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -19462,8 +19600,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -19499,7 +19638,8 @@
             "static": true,
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -19619,8 +19759,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -19673,7 +19814,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -19788,7 +19930,8 @@
             "mangledName": "$s15NetmeraAnalytic0A13RegisterEventC6userIdACSSSg_tcfc",
             "moduleName": "NetmeraAnalytic",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -19846,8 +19989,9 @@
             "overriding": true,
             "isOpen": true,
             "declAttributes": [
+              "AccessControl",
               "Override",
-              "AccessControl"
+              "RawDocComment"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -19883,7 +20027,8 @@
             "static": true,
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -20016,6 +20161,120 @@
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setEmailSubscriptionAllowed",
+            "printedName": "setEmailSubscriptionAllowed(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11NetmeraCore0A0C0A8AnalyticE27setEmailSubscriptionAllowedyySbFZ",
+            "mangledName": "$s11NetmeraCore0A0C0A8AnalyticE27setEmailSubscriptionAllowedyySbFZ",
+            "moduleName": "NetmeraAnalytic",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isEmailSubscriptionAllowed",
+            "printedName": "isEmailSubscriptionAllowed()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11NetmeraCore0A0C0A8AnalyticE26isEmailSubscriptionAllowedSbyFZ",
+            "mangledName": "$s11NetmeraCore0A0C0A8AnalyticE26isEmailSubscriptionAllowedSbyFZ",
+            "moduleName": "NetmeraAnalytic",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAllowedEmailSubscription",
+            "printedName": "setAllowedEmailSubscription(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11NetmeraCore0A0C0A8AnalyticE27setAllowedEmailSubscriptionyySbFZ",
+            "mangledName": "$s11NetmeraCore0A0C0A8AnalyticE27setAllowedEmailSubscriptionyySbFZ",
+            "moduleName": "NetmeraAnalytic",
+            "static": true,
+            "deprecated": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Available",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isAllowedEmailSubscription",
+            "printedName": "isAllowedEmailSubscription()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11NetmeraCore0A0C0A8AnalyticE26isAllowedEmailSubscriptionSbyFZ",
+            "mangledName": "$s11NetmeraCore0A0C0A8AnalyticE26isAllowedEmailSubscriptionSbyFZ",
+            "moduleName": "NetmeraAnalytic",
+            "static": true,
+            "deprecated": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Available",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -20048,350 +20307,357 @@
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraCartAddProductEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1134,
+      "offset": 1261,
       "length": 4,
       "value": "\"ec\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraCartAddProductEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1162,
+      "offset": 1289,
       "length": 4,
       "value": "\"er\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraCartRemoveProductEvent.swift",
       "kind": "StringLiteral",
-      "offset": 882,
+      "offset": 1014,
       "length": 4,
       "value": "\"ec\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraCartViewEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1082,
+      "offset": 1209,
       "length": 4,
       "value": "\"er\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraCartViewEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1108,
+      "offset": 1235,
       "length": 4,
       "value": "\"ec\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraLineItem.swift",
       "kind": "StringLiteral",
-      "offset": 1599,
+      "offset": 1666,
       "length": 4,
       "value": "\"ea\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraLineItem.swift",
       "kind": "StringLiteral",
-      "offset": 1627,
+      "offset": 1694,
       "length": 4,
       "value": "\"eb\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraLineItem.swift",
       "kind": "StringLiteral",
-      "offset": 1649,
+      "offset": 1716,
       "length": 4,
       "value": "\"eq\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraLineItem.swift",
       "kind": "StringLiteral",
-      "offset": 1671,
+      "offset": 1738,
       "length": 4,
       "value": "\"ec\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraLineItem.swift",
       "kind": "StringLiteral",
-      "offset": 1698,
+      "offset": 1765,
       "length": 4,
       "value": "\"ge\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraOrderCancelEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1605,
+      "offset": 1722,
       "length": 4,
       "value": "\"er\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraOrderCancelEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1632,
+      "offset": 1749,
       "length": 4,
       "value": "\"es\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraOrderCancelEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1658,
+      "offset": 1775,
       "length": 4,
       "value": "\"ec\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraOrderCancelEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1688,
+      "offset": 1805,
       "length": 4,
       "value": "\"em\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2580,
+      "offset": 2574,
       "length": 4,
       "value": "\"ea\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2608,
+      "offset": 2602,
       "length": 4,
       "value": "\"eb\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2630,
+      "offset": 2624,
       "length": 4,
       "value": "\"eq\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2658,
+      "offset": 2652,
       "length": 4,
       "value": "\"ga\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2688,
+      "offset": 2682,
       "length": 4,
       "value": "\"ef\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2712,
+      "offset": 2706,
       "length": 4,
       "value": "\"gd\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2738,
+      "offset": 2732,
       "length": 4,
       "value": "\"eh\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2762,
+      "offset": 2756,
       "length": 4,
       "value": "\"ei\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2787,
+      "offset": 2781,
       "length": 4,
       "value": "\"eg\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraProductRateEvent.swift",
       "kind": "StringLiteral",
-      "offset": 884,
+      "offset": 1016,
       "length": 4,
       "value": "\"eo\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2599,
+      "offset": 2719,
       "length": 4,
       "value": "\"er\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2626,
+      "offset": 2746,
       "length": 4,
       "value": "\"es\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2652,
+      "offset": 2772,
       "length": 4,
       "value": "\"ec\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2681,
+      "offset": 2801,
       "length": 4,
       "value": "\"fz\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2707,
+      "offset": 2827,
       "length": 7,
       "value": "\"items\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2740,
+      "offset": 2860,
       "length": 4,
       "value": "\"em\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2769,
+      "offset": 2889,
       "length": 4,
       "value": "\"ep\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2794,
+      "offset": 2914,
       "length": 4,
       "value": "\"el\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2817,
+      "offset": 2937,
       "length": 4,
       "value": "\"ek\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Commerce\/NetmeraWishListEvent.swift",
       "kind": "StringLiteral",
-      "offset": 914,
+      "offset": 1046,
       "length": 4,
       "value": "\"ge\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraBannerClickEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1110,
+      "offset": 1487,
       "length": 4,
       "value": "\"ea\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraBannerClickEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1135,
+      "offset": 1512,
       "length": 4,
       "value": "\"eg\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraCategoryViewEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1156,
+      "offset": 1547,
       "length": 4,
       "value": "\"ga\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraCategoryViewEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1185,
+      "offset": 1576,
       "length": 4,
       "value": "\"ef\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraScreenViewEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2392,
+      "offset": 2960,
       "length": 4,
       "value": "\"ee\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraScreenViewEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2417,
+      "offset": 2985,
       "length": 4,
       "value": "\"ea\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraScreenViewEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2448,
+      "offset": 3016,
       "length": 4,
       "value": "\"ef\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraScreenViewEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2481,
+      "offset": 3049,
       "length": 4,
       "value": "\"ej\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraScreenViewEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2508,
+      "offset": 3076,
       "length": 4,
       "value": "\"el\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraScreenViewEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2533,
+      "offset": 3101,
       "length": 4,
       "value": "\"eg\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraScreenViewEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2558,
+      "offset": 3126,
       "length": 4,
       "value": "\"fi\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraSearchEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1083,
+      "offset": 1450,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraSearchEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1111,
+      "offset": 1478,
       "length": 4,
       "value": "\"ec\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraShareEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1075,
+      "offset": 1436,
       "length": 4,
       "value": "\"ej\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Common\/NetmeraShareEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1099,
+      "offset": 1460,
       "length": 4,
       "value": "\"ea\""
     },
     {
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Utils\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 99,
+      "length": 17,
+      "value": "\"EmailPreference\""
+    },
+    {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraBatteryLevelEvent.swift",
       "kind": "StringLiteral",
-      "offset": 900,
+      "offset": 1204,
       "length": 4,
       "value": "\"ec\""
     },
@@ -20412,140 +20678,140 @@
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraGeofenceEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1186,
+      "offset": 1503,
       "length": 4,
       "value": "\"ea\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraGeofenceEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1207,
+      "offset": 1524,
       "length": 4,
       "value": "\"fy\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraInAppPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2508,
+      "offset": 3099,
       "length": 4,
       "value": "\"ea\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraInAppPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2536,
+      "offset": 3127,
       "length": 4,
       "value": "\"eb\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraInAppPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2558,
+      "offset": 3149,
       "length": 4,
       "value": "\"eq\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraInAppPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2586,
+      "offset": 3177,
       "length": 4,
       "value": "\"ga\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraInAppPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2616,
+      "offset": 3207,
       "length": 4,
       "value": "\"ef\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraInAppPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2638,
+      "offset": 3229,
       "length": 4,
       "value": "\"ec\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraInAppPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2663,
+      "offset": 3254,
       "length": 4,
       "value": "\"eg\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraInAppPurchaseEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2688,
+      "offset": 3279,
       "length": 4,
       "value": "\"ej\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraLinkClickEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1589,
+      "offset": 1982,
       "length": 4,
       "value": "\"eg\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraLinkClickEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1616,
+      "offset": 2009,
       "length": 4,
       "value": "\"ea\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraLinkClickEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1645,
+      "offset": 2038,
       "length": 4,
       "value": "\"eb\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraLinkClickEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1668,
+      "offset": 2061,
       "length": 4,
       "value": "\"et\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraLocationAuthorizationEvent.swift",
       "kind": "StringLiteral",
-      "offset": 961,
+      "offset": 1297,
       "length": 4,
       "value": "\"fe\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraLocationUpdateEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1131,
+      "offset": 1472,
       "length": 4,
       "value": "\"fw\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraLocationUpdateEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1160,
+      "offset": 1501,
       "length": 4,
       "value": "\"fu\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraShowViewEvent.swift",
       "kind": "StringLiteral",
-      "offset": 893,
+      "offset": 1173,
       "length": 4,
       "value": "\"ea\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraShowViewTestEvent.swift",
       "kind": "StringLiteral",
-      "offset": 902,
+      "offset": 1190,
       "length": 4,
       "value": "\"eb\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraTimeInAppEvent.swift",
       "kind": "StringLiteral",
-      "offset": 912,
+      "offset": 1218,
       "length": 4,
       "value": "\"ft\""
     },
@@ -20650,77 +20916,77 @@
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraViewActionEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1155,
+      "offset": 1470,
       "length": 4,
       "value": "\"ea\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraViewActionEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1182,
+      "offset": 1497,
       "length": 4,
       "value": "\"ed\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraViewActionTestEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1164,
+      "offset": 1487,
       "length": 4,
       "value": "\"eb\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraViewActionTestEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1191,
+      "offset": 1514,
       "length": 4,
       "value": "\"ed\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2203,
+      "offset": 2238,
       "length": 4,
       "value": "\"ea\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2231,
+      "offset": 2266,
       "length": 4,
       "value": "\"eb\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2259,
+      "offset": 2294,
       "length": 4,
       "value": "\"ed\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2287,
+      "offset": 2322,
       "length": 4,
       "value": "\"ga\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2317,
+      "offset": 2352,
       "length": 4,
       "value": "\"ef\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2342,
+      "offset": 2377,
       "length": 4,
       "value": "\"ee\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentEvent.swift",
       "kind": "StringLiteral",
-      "offset": 2367,
+      "offset": 2402,
       "length": 4,
       "value": "\"eg\""
     },
@@ -20762,21 +21028,21 @@
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Media\/NetmeraContentRateEvent.swift",
       "kind": "StringLiteral",
-      "offset": 878,
+      "offset": 1010,
       "length": 4,
       "value": "\"eo\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/User\/NetmeraLoginEvent.swift",
       "kind": "StringLiteral",
-      "offset": 832,
+      "offset": 1110,
       "length": 5,
       "value": "\"uid\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/User\/NetmeraRegisterEvent.swift",
       "kind": "StringLiteral",
-      "offset": 838,
+      "offset": 1172,
       "length": 5,
       "value": "\"uid\""
     }

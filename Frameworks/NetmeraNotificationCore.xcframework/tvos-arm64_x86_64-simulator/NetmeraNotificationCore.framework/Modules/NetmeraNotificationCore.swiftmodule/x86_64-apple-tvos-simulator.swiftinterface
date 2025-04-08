@@ -31,12 +31,12 @@ public enum InAppMessageStyle : Swift.Int, Swift.Codable {
   }
 }
 public struct NetmeraInboxStatus : Swift.OptionSet, Swift.Codable, Swift.Hashable {
-  public let rawValue: Swift.Int
   public static let read: NetmeraNotificationCore.NetmeraInboxStatus
   public static let unread: NetmeraNotificationCore.NetmeraInboxStatus
   public static let deleted: NetmeraNotificationCore.NetmeraInboxStatus
   public static let `default`: NetmeraNotificationCore.NetmeraInboxStatus
   public static let all: NetmeraNotificationCore.NetmeraInboxStatus
+  public let rawValue: Swift.Int
   public init(rawValue: Swift.Int)
   public typealias ArrayLiteralElement = NetmeraNotificationCore.NetmeraInboxStatus
   public typealias Element = NetmeraNotificationCore.NetmeraInboxStatus
@@ -50,6 +50,7 @@ public enum PushActionType : Swift.Int, Swift.Codable {
   case sendEvent
   case share
   case review
+  case showWidget
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
@@ -125,15 +126,15 @@ public class NetmeraPushViewEvent : NetmeraCore.NetmeraEvent {
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class ContentPushItem : Swift.Codable, Swift.Equatable {
+  public static let empty: NetmeraNotificationCore.ContentPushItem
   final public let id: Swift.String?
   final public let url: Foundation.URL?
   final public let title: Swift.String?
   final public let subtitle: Swift.String?
   final public let action: NetmeraNotificationCore.NetmeraPushAction?
-  public static let empty: NetmeraNotificationCore.ContentPushItem
   required public init(from decoder: any Swift.Decoder) throws
-  open func encode(to encoder: any Swift.Encoder) throws
   public static func == (lhs: NetmeraNotificationCore.ContentPushItem, rhs: NetmeraNotificationCore.ContentPushItem) -> Swift.Bool
+  open func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class NetmeraPushAlert : Swift.Codable, Swift.Equatable {
@@ -151,12 +152,12 @@ public class NetmeraPushAPS : Swift.Codable, Swift.Equatable, Swift.CustomString
   final public let badge: Swift.Int?
   final public let category: Swift.String?
   final public let contentAvailable: Swift.Int?
-  required public init(from decoder: any Swift.Decoder) throws
-  public func encode(to encoder: any Swift.Encoder) throws
-  public static func == (lhs: NetmeraNotificationCore.NetmeraPushAPS, rhs: NetmeraNotificationCore.NetmeraPushAPS) -> Swift.Bool
   public var description: Swift.String {
     get
   }
+  required public init(from decoder: any Swift.Decoder) throws
+  public static func == (lhs: NetmeraNotificationCore.NetmeraPushAPS, rhs: NetmeraNotificationCore.NetmeraPushAPS) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
 }
 public class NetmeraPushInAppMessage : Swift.Codable, Swift.Equatable {
@@ -233,8 +234,8 @@ public class NetmeraPushInteractiveAction : Swift.Codable {
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class NetmeraBannerPush : NetmeraNotificationCore.NetmeraInAppPush {
-  final public let inAppMessage: NetmeraNotificationCore.NetmeraPushInAppMessage?
   public static let empty: NetmeraNotificationCore.NetmeraBannerPush
+  final public let inAppMessage: NetmeraNotificationCore.NetmeraPushInAppMessage?
   public init()
   override public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
@@ -287,8 +288,8 @@ public class NetmeraInboxPush : Swift.Codable, Swift.Equatable {
     get
   }
   required public init(from decoder: any Swift.Decoder) throws
-  public func encode(to encoder: any Swift.Encoder) throws
   public static func == (lhs: NetmeraNotificationCore.NetmeraInboxPush, rhs: NetmeraNotificationCore.NetmeraInboxPush) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class NetmeraInteractivePush : NetmeraNotificationCore.NetmeraStandartPush {

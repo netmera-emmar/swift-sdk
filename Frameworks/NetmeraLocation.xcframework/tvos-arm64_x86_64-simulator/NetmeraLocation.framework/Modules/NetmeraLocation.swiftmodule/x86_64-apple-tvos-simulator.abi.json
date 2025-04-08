@@ -1548,49 +1548,49 @@
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraLocation\/NetmeraLocation\/Location\/Authorization\/LocationAuthorizationManagerImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 908,
+      "offset": 1206,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraLocation\/NetmeraLocation\/Location\/LocationManager\/Delegate\/NetmeraLocationDelegateImpl.swift",
       "kind": "Array",
-      "offset": 473,
+      "offset": 478,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraLocation\/NetmeraLocation\/Location\/LocationManager\/Delegate\/NetmeraLocationDelegateImpl.swift",
       "kind": "Array",
-      "offset": 542,
+      "offset": 538,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraLocation\/NetmeraLocation\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 156,
+      "offset": 177,
       "length": 34,
       "value": "\"NSLocationAlwaysUsageDescription\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraLocation\/NetmeraLocation\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 232,
+      "offset": 253,
       "length": 37,
       "value": "\"NSLocationWhenInUseUsageDescription\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraLocation\/NetmeraLocation\/Utils\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 353,
+      "offset": 374,
       "length": 21,
       "value": "\"authorizationStatus\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraLocation\/NetmeraLocation\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 440,
+      "offset": 486,
       "length": 1,
       "value": "0"
     }
