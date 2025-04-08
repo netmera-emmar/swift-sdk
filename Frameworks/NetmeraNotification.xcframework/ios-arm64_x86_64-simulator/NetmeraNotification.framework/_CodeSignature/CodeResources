@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		WB0pJMHlHnWi0tfQURj5s8zd2VA=
+		pnvaKXMcyxrpk7WFXXyHu16Xefw=
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		U2tRb/o8wuJVaeR2WA2MeFNm6/k=
+		rW0EOLj3qAAGu8LFuRlYNTrcZbk=
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		WB0pJMHlHnWi0tfQURj5s8zd2VA=
+		pnvaKXMcyxrpk7WFXXyHu16Xefw=
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		fDgQsl8aiUSmtbWmtNXmoiKX0As=
+		zKTen/ZucaFmxj5KmKwf520l0Kc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QT8liBGtVC7Un+fS54cC6rWNHusA51g8oXn+OswP+ik=
+			D9X9iaMuvtqoAi2BrXoy0tqXPp2xB37C/dI6ADcylPk=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotification.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SNx2RZz/3omFF93h15Fl9hLHGAgXcSqzhisj/SNus6I=
+			7OecbL9U2SA6hw+wmUjelwqUrZhf0wkyb8EhS/lr5X4=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QT8liBGtVC7Un+fS54cC6rWNHusA51g8oXn+OswP+ik=
+			D9X9iaMuvtqoAi2BrXoy0tqXPp2xB37C/dI6ADcylPk=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			44MEvq5w9wvjXcLcrif1g8jdGuODKXYLpZpmR1OJXd8=
+			xkRMTYJAIWCavxT4H/Fr4SscbEtR2CijRvcPb5TTHTU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

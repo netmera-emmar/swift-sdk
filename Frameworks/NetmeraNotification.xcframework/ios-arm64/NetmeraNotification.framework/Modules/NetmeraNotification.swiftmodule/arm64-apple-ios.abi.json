@@ -338,47 +338,6 @@
       },
       {
         "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification"
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraNotificationCore",
-        "printedName": "NetmeraNotificationCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraNotification",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1874,6 +1833,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "NetmeraCore",
         "printedName": "NetmeraCore",
         "declKind": "Import",
@@ -2509,6 +2478,37 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "NetmeraNotificationCore",
+        "printedName": "NetmeraNotificationCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NetmeraNotification"
       },
       {
         "kind": "Import",
@@ -3520,34 +3520,6 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotification\/NetmeraNotification\/InAppMessage\/WebViewMessageAction.swift",
-      "kind": "StringLiteral",
-      "offset": 996,
-      "length": 10,
-      "value": "\"open_url\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotification\/NetmeraNotification\/InAppMessage\/WebViewMessageAction.swift",
-      "kind": "StringLiteral",
-      "offset": 1031,
-      "length": 15,
-      "value": "\"open_deeplink\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotification\/NetmeraNotification\/InAppMessage\/WebViewMessageAction.swift",
-      "kind": "StringLiteral",
-      "offset": 1068,
-      "length": 15,
-      "value": "\"close_webview\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotification\/NetmeraNotification\/InAppMessage\/WebViewMessageAction.swift",
-      "kind": "StringLiteral",
-      "offset": 1735,
-      "length": 12,
-      "value": "\"app_manage\""
-    },
-    {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotification\/NetmeraNotification\/Authorization\/StatusManager\/NotificationReceivingStatusInfo.swift",
       "kind": "BooleanLiteral",
       "offset": 469,
@@ -3651,6 +3623,34 @@
       "offset": 3145,
       "length": 4,
       "value": "\"fy\""
+    },
+    {
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotification\/NetmeraNotification\/InAppMessage\/WebViewMessageAction.swift",
+      "kind": "StringLiteral",
+      "offset": 996,
+      "length": 10,
+      "value": "\"open_url\""
+    },
+    {
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotification\/NetmeraNotification\/InAppMessage\/WebViewMessageAction.swift",
+      "kind": "StringLiteral",
+      "offset": 1031,
+      "length": 15,
+      "value": "\"open_deeplink\""
+    },
+    {
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotification\/NetmeraNotification\/InAppMessage\/WebViewMessageAction.swift",
+      "kind": "StringLiteral",
+      "offset": 1068,
+      "length": 15,
+      "value": "\"close_webview\""
+    },
+    {
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotification\/NetmeraNotification\/InAppMessage\/WebViewMessageAction.swift",
+      "kind": "StringLiteral",
+      "offset": 1735,
+      "length": 12,
+      "value": "\"app_manage\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotification\/NetmeraNotification\/InAppMessage\/Banner\/View\/BannerView.swift",
