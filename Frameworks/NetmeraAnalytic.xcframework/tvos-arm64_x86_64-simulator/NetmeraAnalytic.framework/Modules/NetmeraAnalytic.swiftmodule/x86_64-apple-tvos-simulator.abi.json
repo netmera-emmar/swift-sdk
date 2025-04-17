@@ -115,6 +115,16 @@
       },
       {
         "kind": "Import",
+        "name": "NetmeraCore",
+        "printedName": "NetmeraCore",
+        "declKind": "Import",
+        "moduleName": "NetmeraAnalytic",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -10201,16 +10211,6 @@
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
           }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "NetmeraCore",
-        "printedName": "NetmeraCore",
-        "declKind": "Import",
-        "moduleName": "NetmeraAnalytic",
-        "declAttributes": [
-          "RawDocComment"
         ]
       },
       {
@@ -20648,13 +20648,6 @@
       "value": "\"ea\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Utils\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 99,
-      "length": 17,
-      "value": "\"EmailPreference\""
-    },
-    {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Model\/Internal\/NetmeraBatteryLevelEvent.swift",
       "kind": "StringLiteral",
       "offset": 1204,
@@ -21045,6 +21038,13 @@
       "offset": 1172,
       "length": 5,
       "value": "\"uid\""
+    },
+    {
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraAnalytic\/NetmeraAnalytic\/Utils\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 99,
+      "length": 17,
+      "value": "\"EmailPreference\""
     }
   ]
 }

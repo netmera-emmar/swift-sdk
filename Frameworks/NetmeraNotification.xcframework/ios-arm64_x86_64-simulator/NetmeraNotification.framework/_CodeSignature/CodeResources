@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		pnvaKXMcyxrpk7WFXXyHu16Xefw=
+		cfoTfvgRpmU2SZKqgzsOaAGKx1I=
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		rW0EOLj3qAAGu8LFuRlYNTrcZbk=
+		mVeeNH+TgiUBpJMWpmdzVEaxO/k=
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		pnvaKXMcyxrpk7WFXXyHu16Xefw=
+		cfoTfvgRpmU2SZKqgzsOaAGKx1I=
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zKTen/ZucaFmxj5KmKwf520l0Kc=
+		UpWkVwYwmLNkMVQ7DW+gRNJT1a4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			D9X9iaMuvtqoAi2BrXoy0tqXPp2xB37C/dI6ADcylPk=
+			s6HEYy/bA8WyjIEPZszj9Dy37zp19H5hU7voGGuplNQ=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotification.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7OecbL9U2SA6hw+wmUjelwqUrZhf0wkyb8EhS/lr5X4=
+			ldundhkkII5XmnNoAd7y8DdkXGqQyH2PMoV6/nAXxAU=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			D9X9iaMuvtqoAi2BrXoy0tqXPp2xB37C/dI6ADcylPk=
+			s6HEYy/bA8WyjIEPZszj9Dy37zp19H5hU7voGGuplNQ=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xkRMTYJAIWCavxT4H/Fr4SscbEtR2CijRvcPb5TTHTU=
+			bFNXarfJ5jHjBLZDgPrUIi9GnIBUj0oaBVxjz1jlcmA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

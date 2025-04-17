@@ -4687,16 +4687,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraCore",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "NetmeraEventConverter",
         "printedName": "NetmeraEventConverter",
@@ -20944,6 +20934,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NetmeraCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "NetmeraResponse",
         "printedName": "NetmeraResponse",
@@ -24005,13 +24005,6 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraCore\/NetmeraCore\/Network\/Model\/Request\/NetmeraSetEmailPreferenceRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 930,
-      "length": 9,
-      "value": "\"allowed\""
-    },
-    {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraCore\/NetmeraCore\/DI\/ModuleInvoke.swift",
       "kind": "StringLiteral",
       "offset": 269,
@@ -25132,6 +25125,13 @@
       "value": "\"ids\""
     },
     {
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraCore\/NetmeraCore\/Network\/Model\/Request\/NetmeraSetEmailPreferenceRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 930,
+      "length": 9,
+      "value": "\"allowed\""
+    },
+    {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraCore\/NetmeraCore\/Network\/Model\/Request\/NetmeraUpdateDeviceRequest.swift",
       "kind": "StringLiteral",
       "offset": 953,
@@ -25381,7 +25381,7 @@
       "kind": "StringLiteral",
       "offset": 159,
       "length": 8,
-      "value": "\"4.0.24\""
+      "value": "\"4.0.25\""
     },
     {
       "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraCore\/NetmeraCore\/Util\/Constants.swift",
