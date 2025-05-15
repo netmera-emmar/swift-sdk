@@ -1841,9 +1841,17 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -1861,8 +1869,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:23NetmeraNotificationCore0A14PopupShowEventC6pushId0g8InstanceH0ACSS_SSSgtcfc",
-            "mangledName": "$s23NetmeraNotificationCore0A14PopupShowEventC6pushId0g8InstanceH0ACSS_SSSgtcfc",
+            "usr": "s:23NetmeraNotificationCore0A14PopupShowEventC6pushId0g8InstanceH0ACSSSg_AFtcfc",
+            "mangledName": "$s23NetmeraNotificationCore0A14PopupShowEventC6pushId0g8InstanceH0ACSSSg_AFtcfc",
             "moduleName": "NetmeraNotificationCore",
             "overriding": true,
             "implicit": true,
@@ -2033,9 +2041,17 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -2053,8 +2069,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:23NetmeraNotificationCore0A16PushDismissEventC6pushId0g8InstanceH0ACSS_SSSgtcfc",
-            "mangledName": "$s23NetmeraNotificationCore0A16PushDismissEventC6pushId0g8InstanceH0ACSS_SSSgtcfc",
+            "usr": "s:23NetmeraNotificationCore0A16PushDismissEventC6pushId0g8InstanceH0ACSSSg_AFtcfc",
+            "mangledName": "$s23NetmeraNotificationCore0A16PushDismissEventC6pushId0g8InstanceH0ACSSSg_AFtcfc",
             "moduleName": "NetmeraNotificationCore",
             "overriding": true,
             "implicit": true,
@@ -2167,14 +2183,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:23NetmeraNotificationCore0A9PushEventC6pushIdSSvp",
-            "mangledName": "$s23NetmeraNotificationCore0A9PushEventC6pushIdSSvp",
+            "usr": "s:23NetmeraNotificationCore0A9PushEventC6pushIdSSSgvp",
+            "mangledName": "$s23NetmeraNotificationCore0A9PushEventC6pushIdSSSgvp",
             "moduleName": "NetmeraNotificationCore",
             "declAttributes": [
               "Final",
@@ -2192,14 +2216,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:23NetmeraNotificationCore0A9PushEventC6pushIdSSvg",
-                "mangledName": "$s23NetmeraNotificationCore0A9PushEventC6pushIdSSvg",
+                "usr": "s:23NetmeraNotificationCore0A9PushEventC6pushIdSSSgvg",
+                "mangledName": "$s23NetmeraNotificationCore0A9PushEventC6pushIdSSSgvg",
                 "moduleName": "NetmeraNotificationCore",
                 "implicit": true,
                 "declAttributes": [
@@ -2286,9 +2318,17 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -2306,8 +2346,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:23NetmeraNotificationCore0A9PushEventC6pushId0f8InstanceG0ACSS_SSSgtcfc",
-            "mangledName": "$s23NetmeraNotificationCore0A9PushEventC6pushId0f8InstanceG0ACSS_SSSgtcfc",
+            "usr": "s:23NetmeraNotificationCore0A9PushEventC6pushId0f8InstanceG0ACSSSg_AFtcfc",
+            "mangledName": "$s23NetmeraNotificationCore0A9PushEventC6pushId0f8InstanceG0ACSSSg_AFtcfc",
             "moduleName": "NetmeraNotificationCore",
             "declAttributes": [
               "AccessControl",
@@ -2439,6 +2479,7 @@
         "usr": "s:23NetmeraNotificationCore0A9PushEventC",
         "mangledName": "$s23NetmeraNotificationCore0A9PushEventC",
         "moduleName": "NetmeraNotificationCore",
+        "isOpen": true,
         "declAttributes": [
           "AccessControl"
         ],
@@ -2694,15 +2735,31 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -2734,8 +2791,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:23NetmeraNotificationCore0A13PushOpenEventC6pushId0g8InstanceH0017interactiveActionH09inputTextACSS_S2SSgAHtcfc",
-            "mangledName": "$s23NetmeraNotificationCore0A13PushOpenEventC6pushId0g8InstanceH0017interactiveActionH09inputTextACSS_S2SSgAHtcfc",
+            "usr": "s:23NetmeraNotificationCore0A13PushOpenEventC6pushId0g8InstanceH0017interactiveActionH09inputTextACSSSg_A3Htcfc",
+            "mangledName": "$s23NetmeraNotificationCore0A13PushOpenEventC6pushId0g8InstanceH0017interactiveActionH09inputTextACSSSg_A3Htcfc",
             "moduleName": "NetmeraNotificationCore",
             "declAttributes": [
               "AccessControl",
@@ -2852,9 +2909,17 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -2872,8 +2937,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:23NetmeraNotificationCore0A13PushOpenEventC6pushId0g8InstanceH0ACSS_SSSgtcfc",
-            "mangledName": "$s23NetmeraNotificationCore0A13PushOpenEventC6pushId0g8InstanceH0ACSS_SSSgtcfc",
+            "usr": "s:23NetmeraNotificationCore0A13PushOpenEventC6pushId0g8InstanceH0ACSSSg_AFtcfc",
+            "mangledName": "$s23NetmeraNotificationCore0A13PushOpenEventC6pushId0g8InstanceH0ACSSSg_AFtcfc",
             "moduleName": "NetmeraNotificationCore",
             "overriding": true,
             "implicit": true,
@@ -3013,9 +3078,17 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -3033,8 +3106,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:23NetmeraNotificationCore0A16PushReceiveEventC6pushId0g8InstanceH0ACSS_SSSgtcfc",
-            "mangledName": "$s23NetmeraNotificationCore0A16PushReceiveEventC6pushId0g8InstanceH0ACSS_SSSgtcfc",
+            "usr": "s:23NetmeraNotificationCore0A16PushReceiveEventC6pushId0g8InstanceH0ACSSSg_AFtcfc",
+            "mangledName": "$s23NetmeraNotificationCore0A16PushReceiveEventC6pushId0g8InstanceH0ACSSSg_AFtcfc",
             "moduleName": "NetmeraNotificationCore",
             "overriding": true,
             "implicit": true,
@@ -3205,9 +3278,17 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -3225,8 +3306,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:23NetmeraNotificationCore0A13PushViewEventC6pushId0g8InstanceH0ACSS_SSSgtcfc",
-            "mangledName": "$s23NetmeraNotificationCore0A13PushViewEventC6pushId0g8InstanceH0ACSS_SSSgtcfc",
+            "usr": "s:23NetmeraNotificationCore0A13PushViewEventC6pushId0g8InstanceH0ACSSSg_AFtcfc",
+            "mangledName": "$s23NetmeraNotificationCore0A13PushViewEventC6pushId0g8InstanceH0ACSSSg_AFtcfc",
             "moduleName": "NetmeraNotificationCore",
             "overriding": true,
             "implicit": true,
@@ -11335,581 +11416,567 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/InAppMessageDirection.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/InAppMessageDirection.swift",
       "kind": "IntegerLiteral",
       "offset": 153,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/InAppMessageDirection.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/InAppMessageDirection.swift",
       "kind": "IntegerLiteral",
       "offset": 162,
       "length": 5,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/InAppMessageStyle.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/InAppMessageStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 148,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/InAppMessageStyle.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/InAppMessageStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 157,
       "length": 12,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/InAppMessageStyle.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/InAppMessageStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 177,
       "length": 9,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/NetmeraInboxStatus.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/NetmeraInboxStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 238,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/NetmeraInboxStatus.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/NetmeraInboxStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 243,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/NetmeraInboxStatus.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/NetmeraInboxStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 304,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/NetmeraInboxStatus.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/NetmeraInboxStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 309,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/NetmeraInboxStatus.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/NetmeraInboxStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 371,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/NetmeraInboxStatus.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/NetmeraInboxStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 376,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/PushActionType.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/PushActionType.swift",
       "kind": "IntegerLiteral",
       "offset": 142,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/PushActionType.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/PushActionType.swift",
       "kind": "IntegerLiteral",
       "offset": 166,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/PushActionType.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/PushActionType.swift",
       "kind": "IntegerLiteral",
       "offset": 189,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/PushActionType.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/PushActionType.swift",
       "kind": "IntegerLiteral",
       "offset": 208,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/PushActionType.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/PushActionType.swift",
       "kind": "IntegerLiteral",
       "offset": 229,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/PushActionType.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/PushActionType.swift",
       "kind": "IntegerLiteral",
       "offset": 246,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/PushActionType.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/PushActionType.swift",
       "kind": "IntegerLiteral",
       "offset": 264,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/PushActionType.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/PushActionType.swift",
       "kind": "IntegerLiteral",
       "offset": 286,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/PushStyleType.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/PushStyleType.swift",
       "kind": "IntegerLiteral",
       "offset": 140,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/PushStyleType.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/PushStyleType.swift",
       "kind": "IntegerLiteral",
       "offset": 160,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/PushStyleType.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/Enum\/PushStyleType.swift",
       "kind": "IntegerLiteral",
       "offset": 178,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Event\/NetmeraPushEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/Event\/NetmeraPushEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1337,
+      "offset": 1364,
       "length": 4,
       "value": "\"fs\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Event\/NetmeraPushEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/Event\/NetmeraPushEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1368,
+      "offset": 1395,
       "length": 6,
       "value": "\"piid\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Event\/NetmeraPushOpenEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/Event\/NetmeraPushOpenEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1722,
-      "length": 4,
-      "value": "\"fs\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Event\/NetmeraPushOpenEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1753,
-      "length": 6,
-      "value": "\"piid\""
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Event\/NetmeraPushOpenEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1791,
+      "offset": 1737,
       "length": 4,
       "value": "\"ea\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/Event\/NetmeraPushOpenEvent.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/Event\/NetmeraPushOpenEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1817,
+      "offset": 1763,
       "length": 5,
       "value": "\"txt\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/ContentPushItem.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/ContentPushItem.swift",
       "kind": "StringLiteral",
       "offset": 2675,
       "length": 4,
       "value": "\"at\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/ContentPushItem.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/ContentPushItem.swift",
       "kind": "StringLiteral",
       "offset": 2739,
       "length": 5,
       "value": "\"bpp\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/ContentPushItem.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/ContentPushItem.swift",
       "kind": "StringLiteral",
       "offset": 2762,
       "length": 8,
       "value": "\"ctitle\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/ContentPushItem.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/ContentPushItem.swift",
       "kind": "StringLiteral",
       "offset": 2791,
       "length": 7,
       "value": "\"ctext\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/ContentPushItem.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/ContentPushItem.swift",
       "kind": "StringLiteral",
       "offset": 2817,
       "length": 5,
       "value": "\"act\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/NetmeraPushAPS.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/NetmeraPushAPS.swift",
       "kind": "StringLiteral",
       "offset": 1842,
       "length": 19,
       "value": "\"content-available\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/NetmeraPushInAppMessage.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/NetmeraPushInAppMessage.swift",
       "kind": "StringLiteral",
       "offset": 1050,
       "length": 5,
       "value": "\"txt\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/NetmeraPushInAppMessage.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/NetmeraPushInAppMessage.swift",
       "kind": "StringLiteral",
       "offset": 1073,
       "length": 5,
       "value": "\"tid\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/NetmeraPushInAppMessage.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/NetmeraPushInAppMessage.swift",
       "kind": "StringLiteral",
       "offset": 1096,
       "length": 4,
       "value": "\"tt\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/NetmeraPushInAppMessage.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/NetmeraPushInAppMessage.swift",
       "kind": "StringLiteral",
       "offset": 1118,
       "length": 5,
       "value": "\"img\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/NetmeraPushInAppMessage.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/NetmeraPushInAppMessage.swift",
       "kind": "StringLiteral",
       "offset": 1146,
       "length": 5,
       "value": "\"ttl\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/NetmeraPushInAppMessage.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/NetmeraPushInAppMessage.swift",
       "kind": "StringLiteral",
       "offset": 1173,
       "length": 5,
       "value": "\"drc\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/NetmeraPushInAppMessage.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/NetmeraPushInAppMessage.swift",
       "kind": "StringLiteral",
       "offset": 1199,
       "length": 5,
       "value": "\"fsz\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/NetmeraPushInAppMessage.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/NetmeraPushInAppMessage.swift",
       "kind": "StringLiteral",
       "offset": 1226,
       "length": 5,
       "value": "\"fcl\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/NetmeraPushInAppMessage.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/NetmeraPushInAppMessage.swift",
       "kind": "StringLiteral",
       "offset": 1254,
       "length": 5,
       "value": "\"ffm\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/NetmeraPushInAppMessage.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/NetmeraPushInAppMessage.swift",
       "kind": "StringLiteral",
       "offset": 1284,
       "length": 5,
       "value": "\"brd\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/NetmeraPushInAppMessage.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/NetmeraPushInAppMessage.swift",
       "kind": "StringLiteral",
       "offset": 1312,
       "length": 5,
       "value": "\"pdt\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/NetmeraPushInAppMessage.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/NetmeraPushInAppMessage.swift",
       "kind": "StringLiteral",
       "offset": 1343,
       "length": 5,
       "value": "\"pdb\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/NetmeraPushInAppMessage.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/NetmeraPushInAppMessage.swift",
       "kind": "StringLiteral",
       "offset": 1372,
       "length": 5,
       "value": "\"pdl\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/NetmeraPushInAppMessage.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/NetmeraPushInAppMessage.swift",
       "kind": "StringLiteral",
       "offset": 1402,
       "length": 5,
       "value": "\"pdr\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/NetmeraPushInAppMessage.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/NetmeraPushInAppMessage.swift",
       "kind": "StringLiteral",
       "offset": 1439,
       "length": 5,
       "value": "\"omc\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/NetmeraPushInAppMessage.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/Entity\/NetmeraPushInAppMessage.swift",
       "kind": "StringLiteral",
       "offset": 1472,
       "length": 5,
       "value": "\"bcl\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/PushAction\/NetmeraDeepLinkAction.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/PushAction\/NetmeraDeepLinkAction.swift",
       "kind": "StringLiteral",
       "offset": 810,
       "length": 5,
       "value": "\"uri\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/PushAction\/NetmeraPushAction.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/PushAction\/NetmeraPushAction.swift",
       "kind": "StringLiteral",
       "offset": 996,
       "length": 4,
       "value": "\"at\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/PushAction\/NetmeraPushInteractiveAction.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/PushAction\/NetmeraPushInteractiveAction.swift",
       "kind": "StringLiteral",
       "offset": 2166,
       "length": 5,
       "value": "\"act\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/PushAction\/NetmeraPushInteractiveAction.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/PushAction\/NetmeraPushInteractiveAction.swift",
       "kind": "StringLiteral",
       "offset": 2189,
       "length": 6,
       "value": "\"text\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/PushAction\/NetmeraPushInteractiveAction.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/PushAction\/NetmeraPushInteractiveAction.swift",
       "kind": "StringLiteral",
       "offset": 2214,
       "length": 6,
       "value": "\"prms\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/PushAction\/NetmeraPushInteractiveAction.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/PushAction\/NetmeraPushInteractiveAction.swift",
       "kind": "StringLiteral",
       "offset": 2287,
       "length": 4,
       "value": "\"at\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/PushAction\/NetmeraWebViewAction.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/PushAction\/NetmeraWebViewAction.swift",
       "kind": "StringLiteral",
       "offset": 2433,
       "length": 5,
       "value": "\"tid\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/PushAction\/NetmeraWebViewAction.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/PushAction\/NetmeraWebViewAction.swift",
       "kind": "StringLiteral",
       "offset": 2465,
       "length": 7,
       "value": "\"tprms\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/PushAction\/NetmeraWebViewAction.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/PushAction\/NetmeraWebViewAction.swift",
       "kind": "StringLiteral",
       "offset": 2510,
       "length": 5,
       "value": "\"fsc\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/PushAction\/NetmeraWebViewAction.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/PushAction\/NetmeraWebViewAction.swift",
       "kind": "StringLiteral",
       "offset": 2544,
       "length": 5,
       "value": "\"whr\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/PushAction\/NetmeraWebViewAction.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/PushAction\/NetmeraWebViewAction.swift",
       "kind": "StringLiteral",
       "offset": 2576,
       "length": 4,
       "value": "\"ch\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/PushAction\/NetmeraWebViewAction.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/PushAction\/NetmeraWebViewAction.swift",
       "kind": "StringLiteral",
       "offset": 2603,
       "length": 5,
       "value": "\"ptl\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/PushAction\/NetmeraWebViewAction.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/PushAction\/NetmeraWebViewAction.swift",
       "kind": "StringLiteral",
       "offset": 2633,
       "length": 5,
       "value": "\"pbr\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/PushAction\/NetmeraWebViewAction.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/PushAction\/NetmeraWebViewAction.swift",
       "kind": "StringLiteral",
       "offset": 2661,
       "length": 4,
       "value": "\"at\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBannerPush.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBannerPush.swift",
       "kind": "StringLiteral",
       "offset": 1155,
       "length": 5,
       "value": "\"iam\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 4504,
+      "offset": 4594,
       "length": 5,
       "value": "\"_nm\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 4633,
+      "offset": 4723,
       "length": 19,
       "value": "\"content-available\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 4722,
+      "offset": 4812,
       "length": 4,
       "value": "\"pt\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 4753,
+      "offset": 4843,
       "length": 6,
       "value": "\"piid\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 4778,
+      "offset": 4868,
       "length": 5,
       "value": "\"pid\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 4804,
+      "offset": 4894,
       "length": 5,
       "value": "\"sts\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 4846,
+      "offset": 4936,
       "length": 4,
       "value": "\"dr\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 4869,
+      "offset": 4959,
       "length": 6,
       "value": "\"prms\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 4894,
+      "offset": 4984,
       "length": 5,
       "value": "\"act\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraBasePush.swift",
       "kind": "StringLiteral",
-      "offset": 4966,
+      "offset": 5056,
       "length": 4,
       "value": "\"at\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraContentPush.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraContentPush.swift",
       "kind": "StringLiteral",
       "offset": 1268,
       "length": 6,
       "value": "\"crsl\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraContentPush.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraContentPush.swift",
       "kind": "StringLiteral",
       "offset": 1292,
       "length": 5,
       "value": "\"stl\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraInAppPush.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraInAppPush.swift",
       "kind": "StringLiteral",
       "offset": 1679,
       "length": 5,
       "value": "\"ets\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraInAppPush.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraInAppPush.swift",
       "kind": "StringLiteral",
       "offset": 1710,
       "length": 4,
       "value": "\"is\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraInboxPush.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraInboxPush.swift",
       "kind": "StringLiteral",
       "offset": 1294,
       "length": 5,
       "value": "\"_nm\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraInboxPush.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraInboxPush.swift",
       "kind": "StringLiteral",
       "offset": 1372,
       "length": 4,
       "value": "\"st\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraInteractivePush.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraInteractivePush.swift",
       "kind": "StringLiteral",
       "offset": 1296,
       "length": 4,
       "value": "\"ia\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraInteractivePush.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationCore\/NetmeraNotificationCore\/PushObject\/NetmeraInteractivePush.swift",
       "kind": "StringLiteral",
       "offset": 1331,
       "length": 4,

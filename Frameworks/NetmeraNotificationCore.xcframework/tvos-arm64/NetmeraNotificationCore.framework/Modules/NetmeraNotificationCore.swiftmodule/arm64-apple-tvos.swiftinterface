@@ -71,7 +71,7 @@ public enum PushStyleType : Swift.Int, Swift.Codable {
   override public class var key: Swift.String {
     get
   }
-  override public init(pushId: Swift.String, pushInstanceId: Swift.String?)
+  override public init(pushId: Swift.String?, pushInstanceId: Swift.String?)
   required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
 }
@@ -79,14 +79,14 @@ public enum PushStyleType : Swift.Int, Swift.Codable {
   override public class var key: Swift.String {
     get
   }
-  override public init(pushId: Swift.String, pushInstanceId: Swift.String?)
+  override public init(pushId: Swift.String?, pushInstanceId: Swift.String?)
   required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
 }
-public class NetmeraPushEvent : NetmeraCore.NetmeraEvent {
-  final public let pushId: Swift.String
+open class NetmeraPushEvent : NetmeraCore.NetmeraEvent {
+  final public let pushId: Swift.String?
   final public let pushInstanceId: Swift.String?
-  public init(pushId: Swift.String, pushInstanceId: Swift.String?)
+  public init(pushId: Swift.String?, pushInstanceId: Swift.String?)
   required public init(from decoder: any Swift.Decoder) throws
   override public func encode(to encoder: any Swift.Encoder) throws
   public static func == (lhs: NetmeraNotificationCore.NetmeraPushEvent, rhs: NetmeraNotificationCore.NetmeraPushEvent) -> Swift.Bool
@@ -98,7 +98,7 @@ public class NetmeraPushOpenEvent : NetmeraNotificationCore.NetmeraPushEvent {
   }
   final public let interactiveActionId: Swift.String?
   final public let inputText: Swift.String?
-  public init(pushId: Swift.String, pushInstanceId: Swift.String, interactiveActionId: Swift.String?, inputText: Swift.String?)
+  public init(pushId: Swift.String?, pushInstanceId: Swift.String?, interactiveActionId: Swift.String?, inputText: Swift.String?)
   required public init(from decoder: any Swift.Decoder) throws
   override public func encode(to encoder: any Swift.Encoder) throws
   public static func == (lhs: NetmeraNotificationCore.NetmeraPushOpenEvent, rhs: NetmeraNotificationCore.NetmeraPushOpenEvent) -> Swift.Bool
@@ -108,7 +108,7 @@ public class NetmeraPushOpenEvent : NetmeraNotificationCore.NetmeraPushEvent {
   override public class var key: Swift.String {
     get
   }
-  override public init(pushId: Swift.String, pushInstanceId: Swift.String?)
+  override public init(pushId: Swift.String?, pushInstanceId: Swift.String?)
   required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
 }
@@ -116,7 +116,7 @@ public class NetmeraPushOpenEvent : NetmeraNotificationCore.NetmeraPushEvent {
   override public class var key: Swift.String {
     get
   }
-  override public init(pushId: Swift.String, pushInstanceId: Swift.String?)
+  override public init(pushId: Swift.String?, pushInstanceId: Swift.String?)
   required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
 }

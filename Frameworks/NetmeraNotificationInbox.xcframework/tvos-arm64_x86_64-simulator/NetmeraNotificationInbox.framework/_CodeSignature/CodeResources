@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
-		PT1jQOruacToEgmjfsGDI9wK/K0=
+		8195rA8867SJg9yKTVE3MZG0w0c=
 		</data>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		9Cs6l79zuzWxwmKxm+RhPm4XnkY=
+		NavcA2aHE521UMbWDrJFIynfUL0=
 		</data>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
-		PT1jQOruacToEgmjfsGDI9wK/K0=
+		8195rA8867SJg9yKTVE3MZG0w0c=
 		</data>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		KQ2QDRNJg0CUyjwQyAAwrrpZEEw=
+		vVTq17G9VvyGpp3dMyFLWe67DcI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qv76XfQhfIWzQNdW7b8MLr51IP1Z0T4G3yEiu7bo3kw=
+			dGbIvl7kgq2noENY7MZtDbqOb5bcgxGWdLKKbSuSEmk=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ju3CD5XTydUtF8qqmbkxqxjNHxUHGzfS+lpRpR6J2VA=
+			tJFEmkL+xjsmSwUXN/7zbFwm3HP3NULkDz+ppwFSWXE=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qv76XfQhfIWzQNdW7b8MLr51IP1Z0T4G3yEiu7bo3kw=
+			dGbIvl7kgq2noENY7MZtDbqOb5bcgxGWdLKKbSuSEmk=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			H1QVmCw+LyMjAeagfroo9UiKs1EMOKKJFKkCZ1/fesA=
+			lOB6QErYlpvhZw4mR0ja+KkV43b4FsSJp80oTLyawpw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

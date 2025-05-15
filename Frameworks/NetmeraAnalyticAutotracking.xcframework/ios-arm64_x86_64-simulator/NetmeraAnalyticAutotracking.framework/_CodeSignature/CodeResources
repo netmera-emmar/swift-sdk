@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/NetmeraAnalyticAutotracking.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		5lLI0a2xmjbiN2B5Jqb8Pnfb5io=
+		JkbYvAy2VO3pm0Mk0kTwhqgMfqg=
 		</data>
 		<key>Modules/NetmeraAnalyticAutotracking.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/NetmeraAnalyticAutotracking.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		0T5VLoDNDCckCXmmrH5feNiMbG8=
+		ZPMrQq83UrZhrxY3btJCy0jswBo=
 		</data>
 		<key>Modules/NetmeraAnalyticAutotracking.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		5lLI0a2xmjbiN2B5Jqb8Pnfb5io=
+		JkbYvAy2VO3pm0Mk0kTwhqgMfqg=
 		</data>
 		<key>Modules/NetmeraAnalyticAutotracking.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/NetmeraAnalyticAutotracking.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Ay2tLToHA4xllTMJmoZG6thEavw=
+		AdValDPrsrBwYrwdR9rCdgSX9xM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,7 +70,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			M/Yvo6ezZ2f8X+4xx+X7ZegOu+tlYk8JElYTFua7ELU=
+			9fKGZjPV5Rw6MCImTJX/Dz/f2qWJGAGjRUI/wVYnQ/Y=
 			</data>
 		</dict>
 		<key>Modules/NetmeraAnalyticAutotracking.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -98,14 +98,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xa/mSC+EjeUk8fUm2tkq9KQ23JdjUxjv8jnldM23oDU=
+			FZaQvq1opEJA9cMTIQdKChYQVboQrIx4lOKcJSDMZ7M=
 			</data>
 		</dict>
 		<key>Modules/NetmeraAnalyticAutotracking.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M/Yvo6ezZ2f8X+4xx+X7ZegOu+tlYk8JElYTFua7ELU=
+			9fKGZjPV5Rw6MCImTJX/Dz/f2qWJGAGjRUI/wVYnQ/Y=
 			</data>
 		</dict>
 		<key>Modules/NetmeraAnalyticAutotracking.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qS4wpaUU/LFvrJ/gBCOANc9O7PvRHY3Sp/Hch3Vyp6E=
+			l8W7RjuS+rF5xLJD4n6ocT3Tj4UNcivQKLhSCyYlQ5g=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		PT1jQOruacToEgmjfsGDI9wK/K0=
+		8195rA8867SJg9yKTVE3MZG0w0c=
 		</data>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		A0/J2+anU3DIIYQ/8Rfxr9RASG4=
+		ZAtnkZzrXNtclMgmz5foPphAPkM=
 		</data>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		PT1jQOruacToEgmjfsGDI9wK/K0=
+		8195rA8867SJg9yKTVE3MZG0w0c=
 		</data>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		BpnkuQjwCPw8CLS3AGjZAH0gK0Y=
+		mC4ukk5OmjUJVE3xo+FM89GdOtU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qv76XfQhfIWzQNdW7b8MLr51IP1Z0T4G3yEiu7bo3kw=
+			dGbIvl7kgq2noENY7MZtDbqOb5bcgxGWdLKKbSuSEmk=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5ox5/TPbbNV1bEXOn6qt8mFpHMuZUQEnKGr0ntQrhPU=
+			h8XUlUCx969EKAcqIgvdAnrGvG0n5B1i/CqjpzZ1hcY=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qv76XfQhfIWzQNdW7b8MLr51IP1Z0T4G3yEiu7bo3kw=
+			dGbIvl7kgq2noENY7MZtDbqOb5bcgxGWdLKKbSuSEmk=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yexPTGMHoCqXMf5vAy9Y2VjAd24BZQ/NXOUr45S1z20=
+			NOZ16REK8mbpXZcX0ExRRGNTlYnpLzuuV8FuWlH5Um0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

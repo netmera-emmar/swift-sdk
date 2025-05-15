@@ -411,28 +411,28 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationServiceExtension\/NetmeraNotificationServiceExtension\/Model\/NetmeraMediaPush.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationServiceExtension\/NetmeraNotificationServiceExtension\/Model\/NetmeraMediaPush.swift",
       "kind": "StringLiteral",
       "offset": 1036,
       "length": 4,
       "value": "\"mu\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationServiceExtension\/NetmeraNotificationServiceExtension\/Utils\/Constants.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationServiceExtension\/NetmeraNotificationServiceExtension\/Utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 173,
       "length": 12,
       "value": "\"attachment\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationServiceExtension\/NetmeraNotificationServiceExtension\/Utils\/Constants.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationServiceExtension\/NetmeraNotificationServiceExtension\/Utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 262,
       "length": 18,
       "value": "\"TempPathProvider\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-switft-sdk\/NetmeraNotificationServiceExtension\/NetmeraNotificationServiceExtension\/Utils\/Constants.swift",
+      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraNotificationServiceExtension\/NetmeraNotificationServiceExtension\/Utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 317,
       "length": 20,

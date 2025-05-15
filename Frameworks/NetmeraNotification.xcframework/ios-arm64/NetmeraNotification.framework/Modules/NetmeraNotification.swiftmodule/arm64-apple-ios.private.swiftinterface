@@ -17,6 +17,17 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public enum NetmeraPushPermissionType {
+  case notDetermined
+  case blocked
+  case denied
+  case granted
+  public static func == (a: NetmeraNotification.NetmeraPushPermissionType, b: NetmeraNotification.NetmeraPushPermissionType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public protocol NetmeraPushDelegate : AnyObject {
   func shouldHandleWebViewPresentation(for pushObject: NetmeraNotificationCore.NetmeraBasePush) -> Swift.Bool
   func handleWebViewPresentation(for pushObject: NetmeraNotificationCore.NetmeraBasePush)
@@ -59,4 +70,7 @@ extension NetmeraCore.Netmera {
   public static func setPushDelegate(_ delegate: any NetmeraNotification.NetmeraPushDelegate)
   public static func handlePushObject(_ pushObject: NetmeraNotificationCore.NetmeraInteractivePush)
   public static func handleInteractiveAction(_ action: NetmeraNotificationCore.NetmeraPushAction, for pushObject: NetmeraNotificationCore.NetmeraInteractivePush)
+  public static func checkNotificationPermission(completionHandler: @escaping (NetmeraNotification.NetmeraPushPermissionType) -> Swift.Void)
 }
+extension NetmeraNotification.NetmeraPushPermissionType : Swift.Equatable {}
+extension NetmeraNotification.NetmeraPushPermissionType : Swift.Hashable {}

@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/NetmeraNotificationServiceExtension.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		eHEdAsJHKYRwdqBx5Go0cHN2ctc=
+		nIuNVLT/+zH+EXW8vgczW5r5bFQ=
 		</data>
 		<key>Modules/NetmeraNotificationServiceExtension.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/NetmeraNotificationServiceExtension.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		8FAqsM6ypAaA+FovSj1lz2gfRls=
+		q4xpGpdnCNsKEjXlNWmkxdNbyJ4=
 		</data>
 		<key>Modules/NetmeraNotificationServiceExtension.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		eHEdAsJHKYRwdqBx5Go0cHN2ctc=
+		nIuNVLT/+zH+EXW8vgczW5r5bFQ=
 		</data>
 		<key>Modules/NetmeraNotificationServiceExtension.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/NetmeraNotificationServiceExtension.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		AF3giQjbhqeY/fYtNkO4gzqtgBA=
+		kd6QhusFtZ6w4ErdW0hsFJqfAZI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TaKTmt3WDBsDcCOvjp2NIjnGMJbBvD18d7OmadHYj9w=
+			ZhOPWR7rUVP6U6saDDBwT2IGsptxA1Kj86jjRntDylU=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotificationServiceExtension.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			09FY6QkaGuxN+Lql1JGuJbWaPIQhH43xFiy3LhRhZEA=
+			wGFHXR8wn+BSgKfN2F955obTFG5sqXbtV1n97do6GAk=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotificationServiceExtension.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TaKTmt3WDBsDcCOvjp2NIjnGMJbBvD18d7OmadHYj9w=
+			ZhOPWR7rUVP6U6saDDBwT2IGsptxA1Kj86jjRntDylU=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotificationServiceExtension.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UpS7a/uRiPB2g+Q8MiFlgg2sKLR+omF7okz6Yxy1vFc=
+			1ZiQ7KhRZhVWxiS0P84sSvszApLiflua2FHyZCHIBVI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
