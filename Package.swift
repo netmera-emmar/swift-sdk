@@ -29,6 +29,10 @@ let package = Package(
       targets: ["NetmeraGeofenceWrapper"]
     ),
     .library(
+      name: "NetmeraLiveActivity",
+      targets: ["NetmeraLiveActivityWrapper"]
+    ),
+    .library(
       name: "NetmeraLocation",
       targets: ["NetmeraLocationWrapper"]
     ),
@@ -78,6 +82,10 @@ let package = Package(
     .binaryTarget(
       name: "NetmeraGeofence",
       path: "Frameworks/NetmeraGeofence.xcframework"
+    ),
+    .binaryTarget(
+      name: "NetmeraLiveActivity",
+      path: "Frameworks/NetmeraLiveActivity.xcframework"
     ),
     .binaryTarget(
       name: "NetmeraLocation",
@@ -149,6 +157,11 @@ let package = Package(
             dependencies: [
               .target(name: "NetmeraNotificationCoreWrapper", condition: .when(platforms: [.iOS])),
               .target(name: "NetmeraNotificationInbox", condition: .when(platforms: [.iOS])),
+            ]),
+    .target(name: "NetmeraLiveActivityWrapper",
+            dependencies: [
+              .target(name: "NetmeraCoreWrapper", condition: .when(platforms: [.iOS])),
+              .target(name: "NetmeraLiveActivity", condition: .when(platforms: [.iOS])),
             ]),
     .target(name: "NetmeraLocationWrapper",
             dependencies: [
