@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
 // swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NetmeraCore
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import CoreTelephony
@@ -125,6 +125,7 @@ public protocol NetmeraRequestSender {
 public enum NetmeraResponseRequestParams {
   case inboxCategories(filters: any Swift.Encodable)
   case inbox(filters: any Swift.Encodable)
+  case inboxCount(filters: any Swift.Encodable)
   case setInboxStatus(inboxStatus: any Swift.Encodable)
 }
 public protocol NetmeraSessionDataSender {
@@ -178,6 +179,8 @@ public protocol NetmeraCacheInvoke {
   func typeEventOf(_ key: Swift.String) -> Swift.AnyClass
   func isKnownRequestClass(_ key: Swift.String) -> Swift.Bool
   func typeRequestOf(_ key: Swift.String) -> Swift.AnyClass
+  func appendSessionlessEventClasses(classes: [Swift.AnyClass])
+  func isSessionlessEventClass(_ key: Swift.String) -> Swift.Bool
 }
 @_hasMissingDesignatedInitializers public class NetmeraCoreModule : NetmeraCore.Module {
   public static func create() -> any NetmeraCore.Module
@@ -460,10 +463,10 @@ public struct Location : Swift.CustomStringConvertible, Swift.Equatable {
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
 }
-public struct NetmeraAppConfig : Swift.Codable, Swift.Equatable {
+public struct NetmeraAppConfig : Swift.Codable {
   public static let empty: NetmeraCore.NetmeraAppConfig
-  public static func == (lhs: NetmeraCore.NetmeraAppConfig, rhs: NetmeraCore.NetmeraAppConfig) -> Swift.Bool
   public let version: Swift.Int?
+  public let applicationKey: Swift.String?
   public let shouldManageBadge: Swift.Bool?
   public let shouldSendLocationData: Swift.Bool?
   public let shouldSendAdvertisingId: Swift.Bool?
@@ -480,6 +483,9 @@ public struct NetmeraAppConfig : Swift.Codable, Swift.Equatable {
   public let trackableActions: [NetmeraCore.NetmeraTrackableActionInfo]?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+}
+extension NetmeraCore.NetmeraAppConfig : Swift.Equatable {
+  public static func == (lhs: NetmeraCore.NetmeraAppConfig, rhs: NetmeraCore.NetmeraAppConfig) -> Swift.Bool
 }
 public struct NetmeraGeofenceEntity : Swift.Codable, Swift.Equatable {
   public static let empty: NetmeraCore.NetmeraGeofenceEntity

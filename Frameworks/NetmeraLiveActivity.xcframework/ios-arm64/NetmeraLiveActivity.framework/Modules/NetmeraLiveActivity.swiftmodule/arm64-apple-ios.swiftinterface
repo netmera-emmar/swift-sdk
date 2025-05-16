@@ -1,0 +1,24 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios16.1 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NetmeraLiveActivity
+import ActivityKit
+import NetmeraCore
+@_exported import NetmeraLiveActivity
+import Swift
+import Swinject
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol NetmeraLiveActivityAttributes {
+  var netmeraGroupId: Swift.String? { get set }
+}
+extension NetmeraCore.Netmera {
+  @available(iOS 17.2, *)
+  public static func register<T>(forType type: ActivityKit.Activity<T>.Type, name: Swift.String) where T : ActivityKit.ActivityAttributes, T : NetmeraLiveActivity.NetmeraLiveActivityAttributes
+  @available(iOS 17.2, *)
+  public static func unregister(name: Swift.String)
+  @available(iOS 16.1, *)
+  public static func observeActivity<T>(_ activity: ActivityKit.Activity<T>) where T : ActivityKit.ActivityAttributes, T : NetmeraLiveActivity.NetmeraLiveActivityAttributes
+  @available(iOS 16.1, *)
+  public static func resumeObservingActivities<T>(ofType type: ActivityKit.Activity<T>.Type) where T : ActivityKit.ActivityAttributes, T : NetmeraLiveActivity.NetmeraLiveActivityAttributes
+}

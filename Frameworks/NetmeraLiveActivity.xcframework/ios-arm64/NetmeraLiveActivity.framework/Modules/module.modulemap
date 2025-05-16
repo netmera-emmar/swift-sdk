@@ -1,0 +1,6 @@
+framework module NetmeraLiveActivity {
+  umbrella header "NetmeraLiveActivity.h"
+  export *
+
+  module * { export * }
+}
