@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/NetmeraNotification-Swift.h</key>
 		<data>
-		axt/Qa0S7OooLq9t5JG4FAcmqr8=
+		paCYNtEEMOaEgfpTkji/4+a9eLI=
 		</data>
 		<key>Headers/NetmeraNotification.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		skXRtECvFRZuC3PNpDdMshWsD5Y=
+		5Ka+4HBwozHhnQPDZ41XvLplCCs=
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		uV6w0iia8/fuv+rIi3mDKHIEbxQ=
+		GpuSwJFAzb5Kz4pzDFfrOpShNXA=
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		x70bvFwatN/0b8YM4vGTEnXxLUw=
+		NFwg9LcYLKs3j/3M2E0UQRAUI7k=
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		GISLmujaS/1FxA1HzYDcWnwP4aE=
+		vFB48eYz8U3x0j1no7nNcVopdog=
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		x70bvFwatN/0b8YM4vGTEnXxLUw=
+		NFwg9LcYLKs3j/3M2E0UQRAUI7k=
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ufagu6Fa/tyOtc0MEM9jAdq8mBA=
+		Vs6Iu9fX9TFNIWLhXZeVPnMJvYw=
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		uV6w0iia8/fuv+rIi3mDKHIEbxQ=
+		GpuSwJFAzb5Kz4pzDFfrOpShNXA=
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		xhdpdWrcRnBvoH80F4UBVQQzhzw=
+		iXUz8pzEIBRl9d0v5DVXuQVQKT4=
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Gs2AqC/s2aSKr0kPbhA4xNO6udQ=
+		SsnSHaXy4xsdkpuGHXCpZayZaEo=
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		xhdpdWrcRnBvoH80F4UBVQQzhzw=
+		iXUz8pzEIBRl9d0v5DVXuQVQKT4=
 		</data>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		wWsHqha0EG/dpZX4aJIWWpHRJV0=
+		YEdC89SlrbamPx7uKgT1X8P4YAI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kHSon5dyWnqNW9kfndmco5mq8SVo+7hR5s0uiyuXcz8=
+			eJhIB3bMR5croNUOp1jdtIQR12UR40XTjbfnmCKLPf4=
 			</data>
 		</dict>
 		<key>Headers/NetmeraNotification.h</key>
@@ -81,70 +81,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1QazP3C4I6okFk2wJ58/aihXm/BAuLiy+4xzuu80SMs=
+			8yRndp90LlRE9PX5jeMaUd6zY7/vITV0ku9dKEaG3uk=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotification.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HlqLN4h9blV5UWC0fUbHTsQTR21hx7H2H3tU6MpPCuI=
+			EJv5S6vB7UU8MHCtIJAisCJSAB9M9EkskqXLj4zzZCA=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotification.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3BMQybpCfhX6hVjm+6XN4/bD7Vx8s86IsfG2ln+fnr0=
+			b2dU55comgmrXYg5CaCpXK1c1BQ5waAW+8KVBwq17NM=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotification.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HlqLN4h9blV5UWC0fUbHTsQTR21hx7H2H3tU6MpPCuI=
+			EJv5S6vB7UU8MHCtIJAisCJSAB9M9EkskqXLj4zzZCA=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotification.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			USzg3qgmi6WCepoJYiTcoYTLqUmM53mnkNMvM7arEdk=
+			ZJLOTPDrpJVz1XAbQ6B1672oSmCsKWUfoyDfP+aDnts=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1QazP3C4I6okFk2wJ58/aihXm/BAuLiy+4xzuu80SMs=
+			8yRndp90LlRE9PX5jeMaUd6zY7/vITV0ku9dKEaG3uk=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BplEXh2CFK/lal4W47/UfVBxck5wSnIIOs050nTzl+4=
+			jOpbsBCzJ/luHGudmKqqr6FwXUyaAhIce6emNcoe/2M=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uqW3I0ZyNiLESsHn4Qh5JzSN3H/X9UpjCgZTyJVKcuA=
+			FL71v0j3B8vyrTMVnMym8Xv/Ct9FJruAvUKLLsnq7mg=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BplEXh2CFK/lal4W47/UfVBxck5wSnIIOs050nTzl+4=
+			jOpbsBCzJ/luHGudmKqqr6FwXUyaAhIce6emNcoe/2M=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotification.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SB4lvqeN0L7hE0jrPA4pa8CKavP1ryO+Z6zdGMX2I1Y=
+			/dMjPYwSE70sEZ6gDdjCuFAj23g+C8+fPaaEZbSt4pk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
