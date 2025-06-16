@@ -257,6 +257,15 @@ public protocol CacheManager {
   func save<T>(key: Swift.String, value: T) -> Swift.Result<Swift.Void, NetmeraCore.NetmeraCacheError> where T : Swift.Decodable, T : Swift.Encodable
   func save<T>(key: Swift.String, value: T, completion: @escaping (Swift.Result<Swift.Void, NetmeraCore.NetmeraCacheError>) -> Swift.Void) where T : Swift.Decodable, T : Swift.Encodable
 }
+@_hasMissingDesignatedInitializers final public class DataTransferStatusManager : NetmeraCore.DataTransferStatusManaging {
+  final public func setDataTransferEnabled(_ enabled: Swift.Bool)
+  final public func isDataTransferEnabled() -> Swift.Bool
+  @objc deinit
+}
+public protocol DataTransferStatusManaging {
+  func setDataTransferEnabled(_ enabled: Swift.Bool)
+  func isDataTransferEnabled() -> Swift.Bool
+}
 public protocol PlistManager {
   func read<T>(key: Swift.String, type: T.Type) -> Swift.Result<T, NetmeraCore.NetmeraPlistError> where T : Swift.Decodable
   func read<T>(key: Swift.String, type: T.Type, completion: @escaping (Swift.Result<T, NetmeraCore.NetmeraPlistError>) -> Swift.Void) where T : Swift.Decodable
@@ -669,6 +678,10 @@ public protocol WidgetUrlInterceptor {
   public static func updateUser<T>(user: T) where T : NetmeraCore.NetmeraUser
   public static func setLogLevel(_ logLevel: NetmeraCore.LogLevel)
   public static func setEncryptor(_ encryptor: any NetmeraCore.NetmeraEncrypterProtocol)
+  public static func setDataTransferEnabled(_ enabled: Swift.Bool)
+  public static func isDataTransferEnabled() -> Swift.Bool
+  public static func isNetmeraRemoteMessage(payload: [Swift.AnyHashable : Any]) -> Swift.Bool
+  public static func getCurrentExternalId() -> Swift.String?
   @objc deinit
 }
 extension NetmeraCore.AccessLevel : Swift.Equatable {}
