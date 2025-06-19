@@ -18,43 +18,43 @@
 		</data>
 		<key>Modules/NetmeraCore.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		GSnQu7WO5YhPK+UCyjqRvpDn+uM=
+		aO4W9vO7ytDHhZp7yk7xF05Qnko=
 		</data>
 		<key>Modules/NetmeraCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		epcntOxn0GgrY7Ffb3HCmSeBIYU=
+		Qvia5imhQ6Kwe2vmDDvtg7qBUEU=
 		</data>
 		<key>Modules/NetmeraCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		TBvFpDYHqAc/kS92mi6ZvGiBKu0=
+		HgZlof/iOlg+XqOm5IxvYO/y+LQ=
 		</data>
 		<key>Modules/NetmeraCore.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		epcntOxn0GgrY7Ffb3HCmSeBIYU=
+		Qvia5imhQ6Kwe2vmDDvtg7qBUEU=
 		</data>
 		<key>Modules/NetmeraCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		M7213z6pyAKYM0beIc/Im6Y0JPw=
+		6nSTShpR4GijRr+IwAA4FA8aSxg=
 		</data>
 		<key>Modules/NetmeraCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		GSnQu7WO5YhPK+UCyjqRvpDn+uM=
+		aO4W9vO7ytDHhZp7yk7xF05Qnko=
 		</data>
 		<key>Modules/NetmeraCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		8/jzuuDiz9johZ+h8Ayn/xMhiWI=
+		BVICj0Uy4QKeUGWT2EzJ4vX0brQ=
 		</data>
 		<key>Modules/NetmeraCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		g1pevS22JK/9LxmLrwqtpDgcN5s=
+		MAS1O3MPexPL0plfcUiGXNp4XUI=
 		</data>
 		<key>Modules/NetmeraCore.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		8/jzuuDiz9johZ+h8Ayn/xMhiWI=
+		BVICj0Uy4QKeUGWT2EzJ4vX0brQ=
 		</data>
 		<key>Modules/NetmeraCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		n2TUwYWLCEfP3AjC0QNGvKi56x4=
+		luB/OQgv/imGUn/tvn1hk4Ed+PM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -85,70 +85,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			k3dZaK/8LX0fhTeREF1SDLyj1PDmxw7nE2OBBQ7SPkc=
+			NQHbuySXlE96nxaFyjLeGuSIp8sWPc542p1+UQfcMZE=
 			</data>
 		</dict>
 		<key>Modules/NetmeraCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pywMseDE2ZsO/3J3WYOIYifix6t6UYKhSp1DQ7vX57w=
+			/XCZ9E/JD4PINwkGNNHvyTOBlQURJ1g0xcNQH2ieo6k=
 			</data>
 		</dict>
 		<key>Modules/NetmeraCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vpi2maZb+6wGjUPfX3+MttT29ZONwe7Y869MogwIzYk=
+			K2WOePs9RU6O5o39xyO7hzOkq+LmngsNgsAYWTl8f2M=
 			</data>
 		</dict>
 		<key>Modules/NetmeraCore.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pywMseDE2ZsO/3J3WYOIYifix6t6UYKhSp1DQ7vX57w=
+			/XCZ9E/JD4PINwkGNNHvyTOBlQURJ1g0xcNQH2ieo6k=
 			</data>
 		</dict>
 		<key>Modules/NetmeraCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bgAmq9iwkE671EfE+l4AwA6N8DaGQjYzuoygCX9UhEg=
+			qsZyc2nmruRuVarLSs1ooAU0VNTpho0EsDoVKNOVI5s=
 			</data>
 		</dict>
 		<key>Modules/NetmeraCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			k3dZaK/8LX0fhTeREF1SDLyj1PDmxw7nE2OBBQ7SPkc=
+			NQHbuySXlE96nxaFyjLeGuSIp8sWPc542p1+UQfcMZE=
 			</data>
 		</dict>
 		<key>Modules/NetmeraCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			trV4AGHh9AzKlGJFlDlS9uaFwBB5W7P8V2URYTalIog=
+			9JDMZcnQCqmz9l6R8oeHBm3ErEJ8YoMTZWNgzuyrPCo=
 			</data>
 		</dict>
 		<key>Modules/NetmeraCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iNjKkBiVfHj+okk6pz2t6lWyvdZ8buDBIu2EJ0ffWdk=
+			ipL86Q3bi8u75HT2CFPa/n/3qvRhzurdENkRTtEv7XA=
 			</data>
 		</dict>
 		<key>Modules/NetmeraCore.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			trV4AGHh9AzKlGJFlDlS9uaFwBB5W7P8V2URYTalIog=
+			9JDMZcnQCqmz9l6R8oeHBm3ErEJ8YoMTZWNgzuyrPCo=
 			</data>
 		</dict>
 		<key>Modules/NetmeraCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8tCVjwRe3qQ//bLsnY/cWwfGsxQcSVh6OFEGkjtGKZ0=
+			SLEhZb1X4mZ0mtXH4QXsJdoCA0nYDvTIq4wTh/739Yc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

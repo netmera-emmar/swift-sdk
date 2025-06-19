@@ -313,26 +313,6 @@ public enum NetmeraPlistError : NetmeraCore.NetmeraError {
     get
   }
 }
-public enum NetmeraGender : Swift.Int, Swift.Codable {
-  case male
-  case female
-  case notSpecified
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-public enum NetmeraMaritalStatus : Swift.Int, Swift.Codable {
-  case single
-  case married
-  case notSpecified
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
 public enum NetmeraTrackingManagerAuthorizationStatus : Swift.UInt, Swift.Codable {
   case notDetermined
   case restricted
@@ -446,6 +426,101 @@ public enum NetmeraPushType : Swift.Int, Swift.Codable {
   public var rawValue: Swift.Int {
     get
   }
+}
+public enum NetmeraGender : Swift.Int, Swift.Codable {
+  case male
+  case female
+  case notSpecified
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum NetmeraMaritalStatus : Swift.Int, Swift.Codable {
+  case single
+  case married
+  case notSpecified
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public class NetmeraProfileAttribute<T> : Swift.Codable where T : Swift.Decodable, T : Swift.Encodable {
+  public init()
+  public func set(_ value: T)
+  public func unset()
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+extension NetmeraCore.NetmeraProfileAttribute where T : Swift.ExpressibleByArrayLiteral {
+  public func add(_ values: T)
+  public func remove(_ values: T)
+}
+extension Swift.KeyedEncodingContainer {
+  public mutating func encode<T>(_ value: NetmeraCore.NetmeraProfileAttribute<T>, forKey key: K) throws where T : Swift.Decodable, T : Swift.Encodable
+}
+extension Swift.KeyedDecodingContainer {
+  public func decode<T>(_: NetmeraCore.NetmeraProfileAttribute<T>.Type, forKey key: K) throws -> NetmeraCore.NetmeraProfileAttribute<T> where T : Swift.Decodable, T : Swift.Encodable
+}
+@available(*, deprecated, message: "Use NetmeraUserIdentify instead")
+open class NetmeraUser : Swift.Codable {
+  public var userId: Swift.String?
+  public var email: Swift.String?
+  public var msisdn: Swift.String?
+  public var name: Swift.String?
+  public var surname: Swift.String?
+  public var language: Swift.String?
+  public var dateOfBirth: Foundation.Date?
+  public var gender: NetmeraCore.NetmeraGender?
+  public var maritalStatus: NetmeraCore.NetmeraMaritalStatus?
+  public var numberOfChildren: Swift.Int?
+  public var country: Swift.String?
+  public var state: Swift.String?
+  public var city: Swift.String?
+  public var district: Swift.String?
+  public var occupation: Swift.String?
+  public var industry: Swift.String?
+  public var favouriteTeam: Swift.String?
+  public var externalSegments: [Swift.String]?
+  public init()
+  public init(userId: Swift.String? = nil, email: Swift.String? = nil, msisdn: Swift.String? = nil, name: Swift.String? = nil, surname: Swift.String? = nil, language: Swift.String? = nil, dateOfBirth: Foundation.Date? = nil, gender: NetmeraCore.NetmeraGender? = nil, maritalStatus: NetmeraCore.NetmeraMaritalStatus? = nil, numberOfChildren: Swift.Int? = nil, country: Swift.String? = nil, state: Swift.String? = nil, city: Swift.String? = nil, district: Swift.String? = nil, occupation: Swift.String? = nil, industry: Swift.String? = nil, favouriteTeam: Swift.String? = nil, externalSegments: [Swift.String]? = nil)
+  @objc deinit
+  open func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+open class NetmeraUserIdentify : Swift.Codable {
+  public var userId: Swift.String?
+  public var email: Swift.String?
+  public var msisdn: Swift.String?
+  public init()
+  public init(userId: Swift.String? = nil, email: Swift.String? = nil, msisdn: Swift.String? = nil)
+  @objc deinit
+  open func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+open class NetmeraUserProfile : Swift.Codable {
+  public var name: NetmeraCore.NetmeraProfileAttribute<Swift.String>
+  public var surname: NetmeraCore.NetmeraProfileAttribute<Swift.String>
+  public var externalSegments: NetmeraCore.NetmeraProfileAttribute<[Swift.String]>
+  public var gender: NetmeraCore.NetmeraProfileAttribute<NetmeraCore.NetmeraGender>
+  public var dateOfBirth: NetmeraCore.NetmeraProfileAttribute<Foundation.Date>
+  public var maritalStatus: NetmeraCore.NetmeraProfileAttribute<NetmeraCore.NetmeraMaritalStatus>
+  public var numberOfChildren: NetmeraCore.NetmeraProfileAttribute<Swift.Int>
+  public var country: NetmeraCore.NetmeraProfileAttribute<Swift.String>
+  public var state: NetmeraCore.NetmeraProfileAttribute<Swift.String>
+  public var city: NetmeraCore.NetmeraProfileAttribute<Swift.String>
+  public var district: NetmeraCore.NetmeraProfileAttribute<Swift.String>
+  public var occupation: NetmeraCore.NetmeraProfileAttribute<Swift.String>
+  public var industry: NetmeraCore.NetmeraProfileAttribute<Swift.String>
+  public var favoriteTeam: NetmeraCore.NetmeraProfileAttribute<Swift.String>
+  public var language: NetmeraCore.NetmeraProfileAttribute<Swift.String>
+  public init()
+  @objc deinit
+  open func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public struct Location : Swift.CustomStringConvertible, Swift.Equatable {
   public static let empty: NetmeraCore.Location
@@ -580,31 +655,6 @@ public struct NetmeraTrackableScreenInfo : Swift.Codable, Swift.Equatable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-open class NetmeraUser : Swift.Codable {
-  public var userId: Swift.String?
-  public var email: Swift.String?
-  public var msisdn: Swift.String?
-  public var name: Swift.String?
-  public var surname: Swift.String?
-  public var language: Swift.String?
-  public var dateOfBirth: Foundation.Date?
-  public var gender: NetmeraCore.NetmeraGender?
-  public var maritalStatus: NetmeraCore.NetmeraMaritalStatus?
-  public var numberOfChildren: Swift.Int?
-  public var country: Swift.String?
-  public var state: Swift.String?
-  public var city: Swift.String?
-  public var district: Swift.String?
-  public var occupation: Swift.String?
-  public var industry: Swift.String?
-  public var favouriteTeam: Swift.String?
-  public var externalSegments: [Swift.String]?
-  public init()
-  public init(userId: Swift.String? = nil, email: Swift.String? = nil, msisdn: Swift.String? = nil, name: Swift.String? = nil, surname: Swift.String? = nil, language: Swift.String? = nil, dateOfBirth: Foundation.Date? = nil, gender: NetmeraCore.NetmeraGender? = nil, maritalStatus: NetmeraCore.NetmeraMaritalStatus? = nil, numberOfChildren: Swift.Int? = nil, country: Swift.String? = nil, state: Swift.String? = nil, city: Swift.String? = nil, district: Swift.String? = nil, occupation: Swift.String? = nil, industry: Swift.String? = nil, favouriteTeam: Swift.String? = nil, externalSegments: [Swift.String]? = nil)
-  @objc deinit
-  open func encode(to encoder: any Swift.Encoder) throws
-  required public init(from decoder: any Swift.Decoder) throws
-}
 public struct NetmeraUserNotificationAction : Swift.Codable, Swift.Equatable {
   public let id: Swift.String
   public let title: Swift.String
@@ -674,7 +724,10 @@ public protocol WidgetUrlInterceptor {
 }
 @_hasMissingDesignatedInitializers public class Netmera {
   public static func initialize(params: NetmeraCore.NetmeraParams? = nil, logLevel: NetmeraCore.LogLevel? = nil, encryptor: (any NetmeraCore.NetmeraEncrypterProtocol)? = nil)
+  @available(*, deprecated, message: "Use identifyUser(_:) instead")
   public static func updateUser<T>(user: T) where T : NetmeraCore.NetmeraUser
+  public static func identifyUser<T>(_ user: T) where T : NetmeraCore.NetmeraUserIdentify
+  public static func updateUserProfile<T>(userProfile: T) where T : NetmeraCore.NetmeraUserProfile
   public static func setLogLevel(_ logLevel: NetmeraCore.LogLevel)
   public static func setEncryptor(_ encryptor: any NetmeraCore.NetmeraEncrypterProtocol)
   public static func setDataTransferEnabled(_ enabled: Swift.Bool)
@@ -694,12 +747,6 @@ extension NetmeraCore.NetmeraCacheError : Swift.Equatable {}
 extension NetmeraCore.NetmeraCacheError : Swift.Hashable {}
 extension NetmeraCore.NetmeraPlistError : Swift.Equatable {}
 extension NetmeraCore.NetmeraPlistError : Swift.Hashable {}
-extension NetmeraCore.NetmeraGender : Swift.Equatable {}
-extension NetmeraCore.NetmeraGender : Swift.Hashable {}
-extension NetmeraCore.NetmeraGender : Swift.RawRepresentable {}
-extension NetmeraCore.NetmeraMaritalStatus : Swift.Equatable {}
-extension NetmeraCore.NetmeraMaritalStatus : Swift.Hashable {}
-extension NetmeraCore.NetmeraMaritalStatus : Swift.RawRepresentable {}
 extension NetmeraCore.NetmeraTrackingManagerAuthorizationStatus : Swift.Equatable {}
 extension NetmeraCore.NetmeraTrackingManagerAuthorizationStatus : Swift.Hashable {}
 extension NetmeraCore.NetmeraTrackingManagerAuthorizationStatus : Swift.RawRepresentable {}
@@ -718,6 +765,12 @@ extension NetmeraCore.NetmeraPush.PayloadInfoKeys : Swift.RawRepresentable {}
 extension NetmeraCore.NetmeraPushType : Swift.Equatable {}
 extension NetmeraCore.NetmeraPushType : Swift.Hashable {}
 extension NetmeraCore.NetmeraPushType : Swift.RawRepresentable {}
+extension NetmeraCore.NetmeraGender : Swift.Equatable {}
+extension NetmeraCore.NetmeraGender : Swift.Hashable {}
+extension NetmeraCore.NetmeraGender : Swift.RawRepresentable {}
+extension NetmeraCore.NetmeraMaritalStatus : Swift.Equatable {}
+extension NetmeraCore.NetmeraMaritalStatus : Swift.Hashable {}
+extension NetmeraCore.NetmeraMaritalStatus : Swift.RawRepresentable {}
 extension NetmeraCore.NetmeraIdentifiers.CodingKeys : Swift.Equatable {}
 extension NetmeraCore.NetmeraIdentifiers.CodingKeys : Swift.Hashable {}
 extension NetmeraCore.NetmeraIdentifiers.CodingKeys : Swift.RawRepresentable {}
