@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/NetmeraNotificationInbox-Swift.h</key>
 		<data>
-		NpU58mFGagVY+IGfCBzOrVx14r4=
+		wGHj5cSBa+KqZG+R5nvdRTC+Mso=
 		</data>
 		<key>Headers/NetmeraNotificationInbox.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		37OSMlolbBSlnVpcCE1ueydbq3A=
+		yUMxWaodHaQ9oYwPLHvtHheciEA=
 		</data>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
-		oj/l7SQM2sJ1pm2iFL/GNHTaoU8=
+		cY+zxxJxQPTebdVWr1NqovRK6O0=
 		</data>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		zyyH00JkXgkfgwHk5ICcb7hxXtA=
+		712inNxyMC1YG+WDPLCluFYtBLI=
 		</data>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		7yOsvBMN38kJ+XNzoFEK5Pxmjd0=
+		/FsG+U8NOXzSKDsUGdXm3E7WWOM=
 		</data>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		zyyH00JkXgkfgwHk5ICcb7hxXtA=
+		712inNxyMC1YG+WDPLCluFYtBLI=
 		</data>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		z2Zisf7COVv9DHJKAoB4UjPISq8=
+		Zksiin4sCt4krI9+WutDTrCV8vQ=
 		</data>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
-		oj/l7SQM2sJ1pm2iFL/GNHTaoU8=
+		cY+zxxJxQPTebdVWr1NqovRK6O0=
 		</data>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		EckOj3xyWkoVodzjaZsBCK+l3iU=
+		z6pjDLrvVpgH9puhsDjO0NGZF+c=
 		</data>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		dTz00mwfN6yNJLrqfGtmIf+mRO4=
+		EZpmXIjhRdHE4XOUwE69MtTGQX0=
 		</data>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		EckOj3xyWkoVodzjaZsBCK+l3iU=
+		z6pjDLrvVpgH9puhsDjO0NGZF+c=
 		</data>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		iDawIBi/6TdcqyDbb4MbHEdJ2H0=
+		tjF8L7Go8GZVhJsL8mUXiptZej0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			E7b9DL0wZKlpHxtXinzk7vgtmoMFUJgO67vuUGvPpaA=
+			FvZ+/Ko7sCO8g2RTtkbAdBzMpMsteoQlHXne6xaEcOI=
 			</data>
 		</dict>
 		<key>Headers/NetmeraNotificationInbox.h</key>
@@ -81,70 +81,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gct2X0NOKonlyHClKPr5oykymcePpaPSDFj3U0kuNuE=
+			ku0BY9NDeZbOVqpiP7qwn0tibTH7DMXsjG+tEn5eK1k=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			w1spqNYYTduLN230z4b9YWlYaZoSQp4ecDR+2Fsr/sM=
+			xLjEYZEWvNe87ecQD5ugFq7yyodDjD0flWQeGBBxe8M=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TtAvxI8jpvFTv4ZEFHk28gNmntV2lGoLNP71Tqd/nrI=
+			rYj6csf9m/ta4G1z5oa7OoDY7oNgyBh2oT9kCBhaUjM=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			w1spqNYYTduLN230z4b9YWlYaZoSQp4ecDR+2Fsr/sM=
+			xLjEYZEWvNe87ecQD5ugFq7yyodDjD0flWQeGBBxe8M=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cWeFqoEPYzFBh3FgLjGwnbhA0Gi8Ves4qWa/2lS/9PQ=
+			UrsWk29sxOneNC2tJbBYqaX64PN8NeEY7CYu5xr+RDs=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gct2X0NOKonlyHClKPr5oykymcePpaPSDFj3U0kuNuE=
+			ku0BY9NDeZbOVqpiP7qwn0tibTH7DMXsjG+tEn5eK1k=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0nFFIa4Bi2ZfPh7EThDSGHx5yBKKlaGPJ6vKY6VDB5I=
+			UJY2pN7J0uq8W/ndsRVn0LQ8PSDU7bPSmqfrbYItVv4=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jZ5vnMz2HIOj07GWjz332CqUq1thmbBUJSMIza2oOdo=
+			N+p//QhyjpiAEfrPCNPZuERe2QwcAQ/DOcmcNZ+McAY=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0nFFIa4Bi2ZfPh7EThDSGHx5yBKKlaGPJ6vKY6VDB5I=
+			UJY2pN7J0uq8W/ndsRVn0LQ8PSDU7bPSmqfrbYItVv4=
 			</data>
 		</dict>
 		<key>Modules/NetmeraNotificationInbox.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			x2LMTOqUPadFuTpaDUvfOzfv/xg7ezS/oLcbwB7sqS8=
+			vRLH04eZzvpveZZw79Rs050fsPmbvNJo99omCZQWYGA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

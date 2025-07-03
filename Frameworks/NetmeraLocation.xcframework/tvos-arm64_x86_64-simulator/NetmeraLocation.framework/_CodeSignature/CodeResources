@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/NetmeraLocation-Swift.h</key>
 		<data>
-		c1vjLdMfEBYr7Oif++ZVNdPlP+I=
+		Bm3S7zoEtub0+J1zG03LK9amTeY=
 		</data>
 		<key>Headers/NetmeraLocation.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		nIWUTUS3gjFJYN3xqvSEX6wb75o=
+		GW4RRjqCV1mnu4T5UPTwkP/xRHw=
 		</data>
 		<key>Modules/NetmeraLocation.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
-		syCmDEzh0JGUfBDVm4aBkcK/QZ0=
+		Kd5HKjgUYwh8rexsHP4VUOWKjEk=
 		</data>
 		<key>Modules/NetmeraLocation.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		QgiTcBkgHdVqtSv8xxj0uZ7ncmY=
+		fHxEKH9lmSy6jmk2E5n7b4JsZH8=
 		</data>
 		<key>Modules/NetmeraLocation.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		WALzdOVF1We+KMvyZd087jEotqE=
+		JbM5zajrmyFaG/PNLDDw6hkRgpk=
 		</data>
 		<key>Modules/NetmeraLocation.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		QgiTcBkgHdVqtSv8xxj0uZ7ncmY=
+		fHxEKH9lmSy6jmk2E5n7b4JsZH8=
 		</data>
 		<key>Modules/NetmeraLocation.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		OqZrhya+aUAFsn4n0IgoR4QcO5w=
+		V/Tme2Gc+8ZCARegNr3TgwvFjWQ=
 		</data>
 		<key>Modules/NetmeraLocation.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
-		syCmDEzh0JGUfBDVm4aBkcK/QZ0=
+		Kd5HKjgUYwh8rexsHP4VUOWKjEk=
 		</data>
 		<key>Modules/NetmeraLocation.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		1PAcTa6G3iFLWeWT4xFaD3WRHHI=
+		sSUpt6LU6kcRGGGuZypLaOKE+Zg=
 		</data>
 		<key>Modules/NetmeraLocation.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		lNVLLWW9CaOfoksBg5MjD03eIAs=
+		0clY3O2DOCzc9JOAxVouZDDu8dI=
 		</data>
 		<key>Modules/NetmeraLocation.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		1PAcTa6G3iFLWeWT4xFaD3WRHHI=
+		sSUpt6LU6kcRGGGuZypLaOKE+Zg=
 		</data>
 		<key>Modules/NetmeraLocation.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		+kOKH80c2BLzhhfaVm8WB4eJz5U=
+		l2voa0D0zL69nnJzSLN+rBrv+VI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SF+BYTBQZnWWuqukakm6Gp88gTB5+Npf5pKQrep5BBU=
+			oAsse/PSdAgY4KXI1i8y60ICnOeDrD4IfnejgVktMvM=
 			</data>
 		</dict>
 		<key>Headers/NetmeraLocation.h</key>
@@ -81,70 +81,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NDzAN+pr5q6tDiff4ZIvs690GyaaY4+1jVHRxQIgH7I=
+			t1fSTvzbe4bMefHyFQVYze8gld5CcDAPjVvfV9ptetY=
 			</data>
 		</dict>
 		<key>Modules/NetmeraLocation.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jsAh7VQ1Bza0tUIim/7Z3ulTJ2YPFpUN2Ig6GrSVGDo=
+			XL6kaBzTla4LVATB9sbSse9Tycwu2mnsBrXykDjj8VA=
 			</data>
 		</dict>
 		<key>Modules/NetmeraLocation.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			E40Y+WXDD524WnNBmXqyX0gvjamPduVlKKTsJrvHgCk=
+			r+3dJdfOnphD+KA95C0PZJ7tDODY/OWpJmR3oUrvrQE=
 			</data>
 		</dict>
 		<key>Modules/NetmeraLocation.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jsAh7VQ1Bza0tUIim/7Z3ulTJ2YPFpUN2Ig6GrSVGDo=
+			XL6kaBzTla4LVATB9sbSse9Tycwu2mnsBrXykDjj8VA=
 			</data>
 		</dict>
 		<key>Modules/NetmeraLocation.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wjF0LSzaOtLL7sI20sXrxcsHNCA53OGOOiK0vu+NzhU=
+			SIKYALqrfs6Fq8X0oXd8aXu450yTx4eSYS6xRo2Vwic=
 			</data>
 		</dict>
 		<key>Modules/NetmeraLocation.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NDzAN+pr5q6tDiff4ZIvs690GyaaY4+1jVHRxQIgH7I=
+			t1fSTvzbe4bMefHyFQVYze8gld5CcDAPjVvfV9ptetY=
 			</data>
 		</dict>
 		<key>Modules/NetmeraLocation.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nCSlnW25elITZwGecbgaY3LVeNk0xV4k2+tYpllhv/c=
+			qqxl/F+PvWzUocljEnWFErAnzde8/K31cR3SFtTxBNQ=
 			</data>
 		</dict>
 		<key>Modules/NetmeraLocation.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8FLFB9kQ5HBVxb2WnL8XAkwlNqeYelNUB8Y7S9VVi9A=
+			CLMT1Y1pZQwbBSEAlgRsnRZ6uZjSUCYkFRs5sMInfeQ=
 			</data>
 		</dict>
 		<key>Modules/NetmeraLocation.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nCSlnW25elITZwGecbgaY3LVeNk0xV4k2+tYpllhv/c=
+			qqxl/F+PvWzUocljEnWFErAnzde8/K31cR3SFtTxBNQ=
 			</data>
 		</dict>
 		<key>Modules/NetmeraLocation.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GE2wPxGmJO230T8I1mJ8WT4jKDSmt1LkxiWcXi75s2I=
+			v1MM98uEiabFYeZfGlAbPgDKK34UL966LNAEbsjWbiQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

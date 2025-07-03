@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
 // swift-module-flags: -target arm64-apple-tvos12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name NetmeraCore
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import Foundation
@@ -113,7 +113,8 @@ public enum NetmeraEnqueueRequestParams {
   case disableAdId(source: Swift.Int)
   case enablePush(source: Swift.Int)
   case disablePush(source: Swift.Int)
-  case setEmailPreference(isAllowed: Swift.Bool)
+  case setEmailPermission(isAllowed: Swift.Bool)
+  case setSmsPermission(isAllowed: Swift.Bool)
 }
 public protocol NetmeraPushPassthrough {
   func on(payload: [Swift.AnyHashable : Any])
@@ -127,13 +128,15 @@ public enum NetmeraResponseRequestParams {
   case inbox(filters: any Swift.Encodable)
   case inboxCount(filters: any Swift.Encodable)
   case setInboxStatus(inboxStatus: any Swift.Encodable)
+  case getEmailPermission
+  case getSmsPermission
 }
 public protocol NetmeraSessionDataSender {
   func sendOpenAppEvent()
   func sendTimeInAppEvent(_ timeInAppSecs: Swift.Double)
 }
 public protocol PushInstanceParamsSetProtocol {
-  func setPushParams(pushId: Swift.String, pushInstanceId: Swift.String)
+  func setPushParams(pushId: Swift.String?, pushInstanceId: Swift.String?)
 }
 open class SerializerProvider<D, E> {
   public init(decoder _decoder: D, encoder _encoder: E)
@@ -349,6 +352,9 @@ open class NetmeraEvent : Swift.Codable, Swift.Equatable {
   }
   public var locationString: Swift.String?
   public var identifiers: NetmeraCore.NetmeraIdentifiers?
+  open var isLocationDataRequired: Swift.Bool {
+    get
+  }
   public init()
   required public init(from decoder: any Swift.Decoder) throws
   public static func == (lhs: NetmeraCore.NetmeraEvent, rhs: NetmeraCore.NetmeraEvent) -> Swift.Bool
@@ -734,6 +740,14 @@ public protocol WidgetUrlInterceptor {
   public static func isDataTransferEnabled() -> Swift.Bool
   public static func isNetmeraRemoteMessage(payload: [Swift.AnyHashable : Any]) -> Swift.Bool
   public static func getCurrentExternalId() -> Swift.String?
+  public static func setEmailPermission(isAllowed: Swift.Bool)
+  public static func getEmailPermission(callback: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)
+  public static func setSmsPermission(isAllowed: Swift.Bool)
+  public static func getSmsPermission(callback: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)
+  @available(*, deprecated, renamed: "setEmailPermission(isAllowed:)")
+  public static func setAllowedEmailSubscription(_ allowed: Swift.Bool)
+  @available(*, deprecated, renamed: "getEmailPermission(callback:)")
+  public static func isAllowedEmailSubscription() -> Swift.Bool
   @objc deinit
 }
 extension NetmeraCore.AccessLevel : Swift.Equatable {}

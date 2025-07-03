@@ -191,13 +191,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "NetmeraLocation"
-      },
-      {
-        "kind": "Import",
         "name": "NetmeraCore",
         "printedName": "NetmeraCore",
         "declKind": "Import",
@@ -616,33 +609,6 @@
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "register",
-            "printedName": "register(regionDelegate:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NetmeraLocationRegionDelegate",
-                "printedName": "any NetmeraLocation.NetmeraLocationRegionDelegate",
-                "usr": "s:15NetmeraLocation0aB14RegionDelegateP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15NetmeraLocation0aB8DelegateP8register06regionC0yAA0ab6RegionC0_p_tF",
-            "mangledName": "$s15NetmeraLocation0aB8DelegateP8register06regionC0yAA0ab6RegionC0_p_tF",
-            "moduleName": "NetmeraLocation",
-            "genericSig": "<τ_0_0 where τ_0_0 : NetmeraLocation.NetmeraLocationDelegate>",
-            "sugared_genericSig": "<Self where Self : NetmeraLocation.NetmeraLocationDelegate>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -876,14 +842,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Location",
-                "printedName": "NetmeraCore.Location",
-                "usr": "s:11NetmeraCore8LocationV"
+                "name": "Optional",
+                "printedName": "NetmeraCore.Location?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Location",
+                    "printedName": "NetmeraCore.Location",
+                    "usr": "s:11NetmeraCore8LocationV"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:15NetmeraLocation0aB7ManagerP02osB00A4Core0B0Vvp",
-            "mangledName": "$s15NetmeraLocation0aB7ManagerP02osB00A4Core0B0Vvp",
+            "usr": "s:15NetmeraLocation0aB7ManagerP02osB00A4Core0B0VSgvp",
+            "mangledName": "$s15NetmeraLocation0aB7ManagerP02osB00A4Core0B0VSgvp",
             "moduleName": "NetmeraLocation",
             "protocolReq": true,
             "accessors": [
@@ -894,14 +868,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Location",
-                    "printedName": "NetmeraCore.Location",
-                    "usr": "s:11NetmeraCore8LocationV"
+                    "name": "Optional",
+                    "printedName": "NetmeraCore.Location?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Location",
+                        "printedName": "NetmeraCore.Location",
+                        "usr": "s:11NetmeraCore8LocationV"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:15NetmeraLocation0aB7ManagerP02osB00A4Core0B0Vvg",
-                "mangledName": "$s15NetmeraLocation0aB7ManagerP02osB00A4Core0B0Vvg",
+                "usr": "s:15NetmeraLocation0aB7ManagerP02osB00A4Core0B0VSgvg",
+                "mangledName": "$s15NetmeraLocation0aB7ManagerP02osB00A4Core0B0VSgvg",
                 "moduleName": "NetmeraLocation",
                 "genericSig": "<τ_0_0 where τ_0_0 : NetmeraLocation.NetmeraLocationManager>",
                 "sugared_genericSig": "<Self where Self : NetmeraLocation.NetmeraLocationManager>",
@@ -1574,14 +1556,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Location",
-                "printedName": "NetmeraCore.Location",
-                "usr": "s:11NetmeraCore8LocationV"
+                "name": "Optional",
+                "printedName": "NetmeraCore.Location?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Location",
+                    "printedName": "NetmeraCore.Location",
+                    "usr": "s:11NetmeraCore8LocationV"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:So17CLLocationManagerC15NetmeraLocationE02osD00C4Core0D0Vvp",
-            "mangledName": "$sSo17CLLocationManagerC15NetmeraLocationE02osD00C4Core0D0Vvp",
+            "usr": "s:So17CLLocationManagerC15NetmeraLocationE02osD00C4Core0D0VSgvp",
+            "mangledName": "$sSo17CLLocationManagerC15NetmeraLocationE02osD00C4Core0D0VSgvp",
             "moduleName": "NetmeraLocation",
             "declAttributes": [
               "AccessControl"
@@ -1595,14 +1585,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Location",
-                    "printedName": "NetmeraCore.Location",
-                    "usr": "s:11NetmeraCore8LocationV"
+                    "name": "Optional",
+                    "printedName": "NetmeraCore.Location?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Location",
+                        "printedName": "NetmeraCore.Location",
+                        "usr": "s:11NetmeraCore8LocationV"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:So17CLLocationManagerC15NetmeraLocationE02osD00C4Core0D0Vvg",
-                "mangledName": "$sSo17CLLocationManagerC15NetmeraLocationE02osD00C4Core0D0Vvg",
+                "usr": "s:So17CLLocationManagerC15NetmeraLocationE02osD00C4Core0D0VSgvg",
+                "mangledName": "$sSo17CLLocationManagerC15NetmeraLocationE02osD00C4Core0D0VSgvg",
                 "moduleName": "NetmeraLocation",
                 "isFromExtension": true,
                 "accessorKind": "get"
@@ -1758,49 +1756,42 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraLocation\/NetmeraLocation\/Location\/Authorization\/LocationAuthorizationManagerImpl.swift",
+      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraLocation\/NetmeraLocation\/Location\/Authorization\/LocationAuthorizationManagerImpl.swift",
       "kind": "BooleanLiteral",
       "offset": 1206,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraLocation\/NetmeraLocation\/Location\/LocationManager\/Delegate\/NetmeraLocationDelegateImpl.swift",
+      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraLocation\/NetmeraLocation\/Location\/LocationManager\/Delegate\/NetmeraLocationDelegateImpl.swift",
       "kind": "Array",
       "offset": 478,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraLocation\/NetmeraLocation\/Location\/LocationManager\/Delegate\/NetmeraLocationDelegateImpl.swift",
-      "kind": "Array",
-      "offset": 538,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraLocation\/NetmeraLocation\/Utils\/Constants.swift",
+      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraLocation\/NetmeraLocation\/Utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 177,
       "length": 34,
       "value": "\"NSLocationAlwaysUsageDescription\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraLocation\/NetmeraLocation\/Utils\/Constants.swift",
+      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraLocation\/NetmeraLocation\/Utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 253,
       "length": 37,
       "value": "\"NSLocationWhenInUseUsageDescription\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraLocation\/NetmeraLocation\/Utils\/Constants.swift",
+      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraLocation\/NetmeraLocation\/Utils\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 374,
       "length": 21,
       "value": "\"authorizationStatus\""
     },
     {
-      "filePath": "\/Users\/muhammedkilinc\/projects\/netmera-sdk-swift\/NetmeraLocation\/NetmeraLocation\/Utils\/Constants.swift",
+      "filePath": "\/Users\/kardeslik\/Developer\/netmera-sdk-swift\/NetmeraLocation\/NetmeraLocation\/Utils\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 486,
       "length": 1,
