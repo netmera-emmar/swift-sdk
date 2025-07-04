@@ -48,8 +48,9 @@ Pod::Spec.new do |s|
 
   s.requires_arc  = true
 
-  s.swift_version = '5.0' 
-  s.dependency 'Swinject', '2.8.4'
+  s.swift_version = '5.0'
+  s.dependency 'Swinject', :git => 'https://github.com/netmera-emmar/Swinject.git', :branch => '2.8.4-lib-dist'
+
 
   s.vendored_frameworks = 'Frameworks/NetmeraCore.xcframework'
 

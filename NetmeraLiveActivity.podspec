@@ -46,7 +46,7 @@ Pod::Spec.new do |s|
   s.requires_arc  = true
 
   s.swift_version = '5.0' 
-  s.dependency 'NetmeraSwiftCore', s.version.to_s
+  s.dependency 'NetmeraSwiftCore', :git => 'https://github.com/netmera-emmar/swift-sdk.git', :branch => 'main'
 
   s.vendored_frameworks = 'Frameworks/NetmeraLiveActivity.xcframework'
 
